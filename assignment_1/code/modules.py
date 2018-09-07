@@ -163,6 +163,7 @@ class SoftMaxModule(object):
     x = np.exp(x - b)
     sums = np.sum(x, axis=1).reshape(-1, 1)
     out = x / sums
+    self.softmaxes = out
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -185,7 +186,12 @@ class SoftMaxModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
+    
+    eye3d = 0
+    product3d = 0
+    
     raise NotImplementedError
+    
     ########################
     # END OF YOUR CODE    #
     #######################

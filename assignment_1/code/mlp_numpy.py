@@ -97,7 +97,13 @@ class MLP(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    
+    dout = self.softmax.backward(dout)
+    dout = self.linears[-1].backward(dout)
+    for i in range(1, self.n_layers):
+        dout = self.relus[-i].forward(dout)
+        dout = self.linears[-i].forward(dout)
+    
     ########################
     # END OF YOUR CODE    #
     #######################

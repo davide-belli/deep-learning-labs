@@ -47,7 +47,10 @@ def accuracy(predictions, targets):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    idx_p = np.amax(predictions)
+    idx_t = np.amax(targets)
+    correct = [(1 if idx_p[i] == idx_t[p] else 0) for i in range(len(idx_p))]
+    accuracy = sum(correct)
     ########################
     # END OF YOUR CODE    #
     #######################
