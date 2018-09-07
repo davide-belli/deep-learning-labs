@@ -36,7 +36,19 @@ class MLP(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    self.n_inputs = n_inputs
+    self.n_outputs = n_classes
+    self.n_layers = len(n_hidden)
+    self.size_layers = [n_inputs] + n_hidden
+    
+    self.linears = []
+    self.relus = []
+    for i in range(self.n_layers):
+        self.linears.append(LinearModule(self.size_layers[i], self.size_layers[i+1]))
+        self.relus.append(ReLUModule())
+    self.linears.append(LinearModule(self.size_layers[-1], self.n_outputs))
+    self.softmax = SoftMaxModule()
+    
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -58,7 +70,13 @@ class MLP(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    
+    for i in range(self.n_layers):
+        x = self.linears[i].forward(x)
+        x = self.relus[i].forward(x)
+    x = self.linears[-1].forward(x)
+    out = self.softmax.forward(x)
+    
     ########################
     # END OF YOUR CODE    #
     #######################

@@ -28,7 +28,8 @@ class LinearModule(object):
     #######################
     self.params = {'weight': None, 'bias': None}
     self.grads = {'weight': None, 'bias': None}
-    raise NotImplementedError
+    self.params['weight'] = np.random.normal(0, 0.0001, (out_features, in_features))
+    self.params['bias'] = np.zeros(out_features)
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -51,7 +52,9 @@ class LinearModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    
+    out = x @ self.params['weight'].T + self.params['bias'].reshape(1, -1)
+    
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -104,7 +107,7 @@ class ReLUModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    out = x.clip(min=0)
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -156,7 +159,10 @@ class SoftMaxModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    b = x.max(axis=1).reshape(-1, 1) # normalization term
+    x = np.exp(x - b)
+    sums = np.sum(x, axis=1).reshape(-1, 1)
+    out = x / sums
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -207,7 +213,7 @@ class CrossEntropyModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    out = - np.sum(x * y, axis=1)
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -231,7 +237,7 @@ class CrossEntropyModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    dx = - y / x
     ########################
     # END OF YOUR CODE    #
     #######################
