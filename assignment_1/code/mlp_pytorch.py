@@ -5,16 +5,20 @@ You should fill in code into indicated sections.
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 
 class MLP(nn.Module):
-  """
+    """
   This class implements a Multi-layer Perceptron in PyTorch.
   It handles the different layers and parameters of the model.
   Once initialized an MLP object can perform forward.
   """
-
-  def __init__(self, n_inputs, n_hidden, n_classes):
-    """
+    
+    def __init__(self, n_inputs, n_hidden, n_classes):
+        """
     Initializes MLP object. 
     
     Args:
@@ -30,22 +34,32 @@ class MLP(nn.Module):
     TODO:
     Implement initialization of the network.
     """
-
-    ########################
-    # PUT YOUR CODE HERE  #
-    #######################
-    self.n_inputs = n_inputs
-    self.n_outputs = n_classes
-    self.n_layers = len(n_hidden)
-    self.size_layers = [n_inputs] + n_hidden
+        
+        ########################
+        # PUT YOUR CODE HERE  #
+        #######################
+        super(MLP, self).__init__()
+        
+        
+        self.n_inputs = n_inputs
+        self.n_outputs = n_classes
+        self.n_layers = len(n_hidden)
+        self.size_layers = [n_inputs] + n_hidden
+        
+        self.layers = nn.Sequential()
+        for i in range(self.n_layers):
+            self.layers.add_module("Linear_" + str(i), nn.Linear(self.size_layers[i], self.size_layers[i + 1]))
+            self.layers.add_module("ReLU_" + str(i), nn.ReLU())
+        self.layers.add_module("Linear_" + str(i+1), nn.Linear(self.size_layers[-1], self.n_outputs))
+        self.layers.add_module("Softmax", nn.Softmax(dim=1))
+        
+        
+        ########################
+        # END OF YOUR CODE    #
+        #######################
     
-    
-    ########################
-    # END OF YOUR CODE    #
-    #######################
-
-  def forward(self, x):
-    """
+    def forward(self, x):
+        """
     Performs forward pass of the input. Here an input tensor x is transformed through 
     several layer transformations.
     
@@ -57,13 +71,15 @@ class MLP(nn.Module):
     TODO:
     Implement forward pass of the network.
     """
-
-    ########################
-    # PUT YOUR CODE HERE  #
-    #######################
-    raise NotImplementedError
-    ########################
-    # END OF YOUR CODE    #
-    #######################
-
-    return out
+        
+        ########################
+        # PUT YOUR CODE HERE  #
+        #######################
+        for layer in self.layers:
+            x = layer(x)
+        out = x
+        ########################
+        # END OF YOUR CODE    #
+        #######################
+        
+        return out
