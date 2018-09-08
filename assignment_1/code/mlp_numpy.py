@@ -41,13 +41,12 @@ class MLP(object):
     self.n_layers = len(n_hidden)
     self.size_layers = [n_inputs] + n_hidden
     
-    self.linears = []
-    self.relus = []
+    self.layers = []
     for i in range(self.n_layers):
-        self.linears.append(LinearModule(self.size_layers[i], self.size_layers[i+1]))
-        self.relus.append(ReLUModule())
-    self.linears.append(LinearModule(self.size_layers[-1], self.n_outputs))
-    self.softmax = SoftMaxModule()
+        self.layers.append(LinearModule(self.size_layers[i], self.size_layers[i+1]))
+        self.layers.append(ReLUModule())
+    self.layers.append(LinearModule(self.size_layers[-1], self.n_outputs))
+    self.layers.append(SoftMaxModule())
     
     ########################
     # END OF YOUR CODE    #
@@ -71,17 +70,14 @@ class MLP(object):
     # PUT YOUR CODE HERE  #
     #######################
     
-    for i in range(self.n_layers):
-        x = self.linears[i].forward(x)
-        x = self.relus[i].forward(x)
-    x = self.linears[-1].forward(x)
-    out = self.softmax.forward(x)
+    for layer in self.layers:
+        x = layer.forward(x)
     
     ########################
     # END OF YOUR CODE    #
     #######################
 
-    return out
+    return x
 
   def backward(self, dout):
     """
@@ -98,11 +94,9 @@ class MLP(object):
     # PUT YOUR CODE HERE  #
     #######################
     
-    dout = self.softmax.backward(dout)
-    dout = self.linears[-1].backward(dout)
-    for i in range(1, self.n_layers):
-        dout = self.relus[-i].forward(dout)
-        dout = self.linears[-i].forward(dout)
+    for layer in reversed(self.layers):
+        dout = layer.backward(dout)
+        # print(np.linalg.norm(dout))
     
     ########################
     # END OF YOUR CODE    #

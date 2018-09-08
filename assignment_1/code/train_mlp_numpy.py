@@ -13,12 +13,16 @@ from mlp_numpy import MLP
 from modules import CrossEntropyModule
 import cifar10_utils
 
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
 # Default constants
 DNN_HIDDEN_UNITS_DEFAULT = '100'
 LEARNING_RATE_DEFAULT = 2e-3
 MAX_STEPS_DEFAULT = 1500
 BATCH_SIZE_DEFAULT = 200
-EVAL_FREQ_DEFAULT = 100
+EVAL_FREQ_DEFAULT = 10  # 100
 
 # Directory in which cifar data is saved
 DATA_DIR_DEFAULT = './cifar10/cifar-10-batches-py'
@@ -47,10 +51,10 @@ def accuracy(predictions, targets):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    idx_p = np.amax(predictions)
-    idx_t = np.amax(targets)
-    correct = [(1 if idx_p[i] == idx_t[p] else 0) for i in range(len(idx_p))]
-    accuracy = sum(correct)
+    idx_p = np.argmax(predictions, axis=1)
+    idx_t = np.argmax(targets, axis=1)
+    correct = [(1 if idx_p[i] == idx_t[i] else 0) for i in range(len(idx_p))]
+    accuracy = sum(correct) / len(correct)
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -87,38 +91,80 @@ def train():
     input_size = img_size * img_size * 3
     batch_size = FLAGS.batch_size
     eval_freq = FLAGS.eval_freq
-    n_epochs = FLAGS.max_steps
+    n_iterations = FLAGS.max_steps
     lr_rate = FLAGS.learning_rate
+    
+    def test():
+        x_t = cifar10['test'].images
+        y_t = cifar10['test'].labels
+        x_t = x_t.reshape(-1, input_size)
+        output_t = net.forward(x_t)
+        
+        acc_t = accuracy(output_t, y_t)
+        
+        return acc_t
+    
+    def sgd_step():
+        for layer in net.layers:
+            if hasattr(layer, 'params') and hasattr(layer, 'grads'):
+                for key in layer.params.keys():
+                    name = type(layer).__name__
+                    step = layer.grads[key] * lr_rate
+                    layer.params[key] -= step
+        return
+    
+    def plot(iteration):
+        idx_test = list(range(0, iteration + 1, eval_freq))
+        idx = list(range(0, iteration + 1))
+
+        plt.figure(figsize=(10, 4))
+        plt.clf()
+        plt.subplot(1, 2, 1)
+        plt.plot(idx_test, test_accuracies, "k-", linewidth=1, label="test")
+        plt.plot(idx, accuracies, "r-", linewidth=0.5, label="train")
+        plt.xlabel('iteration')
+        plt.ylabel('accuracy')
+        plt.legend()
+
+        plt.subplot(1, 2, 2)
+        plt.plot(idx, losses, "r-", linewidth=0.5, label="train")
+        plt.xlabel('iteration')
+        plt.ylabel('loss')
+        plt.legend()
+        plt.savefig("plot.png", bbox_inches='tight')
+        return
     
     cifar10 = cifar10_utils.get_cifar10('cifar10/cifar-10-batches-py')
     net = MLP(input_size, dnn_hidden_units, n_classes)
-    
-    accuracies = []
-    losses = []
     loss = CrossEntropyModule()
     
-    for i in range(n_epochs):
+    losses = []
+    accuracies = []
+    test_accuracies = []
+    
+    for i in range(n_iterations):
         x, y = cifar10['train'].next_batch(batch_size)
         x = x.reshape(-1, input_size)
         output = net.forward(x)
+        preds = np.sum(output, axis=1)
         loss_value = loss.forward(output, y)
         loss_grad = loss.backward(output, y)
         net.backward(loss_grad)
+        sgd_step()
         
         losses.append(loss_value)
+        accuracies.append(accuracy(output, y))
         
-        if (i + 1) % eval_freq == 0:
-            acc = accuracy(output, y)
-            accuracies.append(acc)
-            print("[{}/{}] Accuracy: {} | Loss: {} |".format(
-                i, cifar10['train'].num_examples / batch_size, acc, loss_value
+        if i % eval_freq == 0:
+            test_accuracies.append(test())
+            print("[{}/{}] Test Accuracy: {} | Batch Accuracy: {} | Batch Loss: {} |".format(
+                i, n_iterations, test_accuracies[-1], accuracies[-1], loss_value
             ))
-        
-        
+            plot(i)
             
-    ########################
-    # END OF YOUR CODE    #
-    #######################
+            ########################
+            # END OF YOUR CODE    #
+            #######################
 
 
 def print_flags():

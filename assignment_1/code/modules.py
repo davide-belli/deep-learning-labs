@@ -26,10 +26,12 @@ class LinearModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    self.params = {'weight': None, 'bias': None}
-    self.grads = {'weight': None, 'bias': None}
-    self.params['weight'] = np.random.normal(0, 0.0001, (out_features, in_features))
-    self.params['bias'] = np.zeros(out_features)
+
+    self.params = {'weight': np.random.normal(0, 0.0001, (out_features, in_features)),
+                   'bias': np.zeros(out_features)}
+    self.grads = {'weight': np.zeros((out_features, in_features)),
+                  'bias': np.zeros(out_features)}
+    
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -55,6 +57,8 @@ class LinearModule(object):
     
     out = x @ self.params['weight'].T + self.params['bias'].reshape(1, -1)
     
+    self.x = x
+    
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -78,7 +82,13 @@ class LinearModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    dim_out, dim_in = self.params['weight'].shape
+    dim_batches = dout.shape[0]
+    
+    self.grads['bias'] = np.sum(dout, axis=0)
+    batch_gradients = dout.reshape(dim_batches, dim_out, 1) @ self.x.reshape(dim_batches, 1, dim_in)
+    self.grads['weight'] = np.sum(batch_gradients, axis=0)
+    dx = dout @ self.params['weight']
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -108,6 +118,8 @@ class ReLUModule(object):
     # PUT YOUR CODE HERE  #
     #######################
     out = x.clip(min=0)
+    
+    self.x = x
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -130,7 +142,8 @@ class ReLUModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    dx = dout * (self.x > 0)
+    
     ########################
     # END OF YOUR CODE    #
     #######################    
@@ -159,11 +172,14 @@ class SoftMaxModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    b = x.max(axis=1).reshape(-1, 1) # normalization term
+    
+    b = x.max(axis=1).reshape(-1, 1)  # normalization term
     x = np.exp(x - b)
     sums = np.sum(x, axis=1).reshape(-1, 1)
     out = x / sums
     self.softmaxes = out
+    
+    
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -186,11 +202,12 @@ class SoftMaxModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
+    d1, d2 = self.softmaxes.shape
     
-    eye3d = 0
-    product3d = 0
-    
-    raise NotImplementedError
+    diag3d = np.stack([np.diag(x) for x in self.softmaxes[:]])
+    product3d = self.softmaxes.reshape(d1, d2, 1) * self.softmaxes.reshape(d1, 1, d2)
+    dsoftmax = diag3d - product3d
+    dx = np.sum(dsoftmax * self.softmaxes.reshape(d1, d2, 1), axis=2).reshape(d1, d2)
     
     ########################
     # END OF YOUR CODE    #
@@ -219,7 +236,8 @@ class CrossEntropyModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    out = - np.sum(x * y, axis=1)
+    x = x + 1e-15  # Avoid x == 0
+    out = np.mean(- np.sum(np.log(x) * y, axis=1))
     ########################
     # END OF YOUR CODE    #
     #######################
@@ -243,7 +261,8 @@ class CrossEntropyModule(object):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    dx = - y / x
+    x = x + 1e-15  # Avoid x == 0
+    dx = - (y / x) / x.shape[0]
     ########################
     # END OF YOUR CODE    #
     #######################
