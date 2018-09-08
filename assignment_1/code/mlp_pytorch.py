@@ -34,7 +34,12 @@ class MLP(nn.Module):
     ########################
     # PUT YOUR CODE HERE  #
     #######################
-    raise NotImplementedError
+    self.n_inputs = n_inputs
+    self.n_outputs = n_classes
+    self.n_layers = len(n_hidden)
+    self.size_layers = [n_inputs] + n_hidden
+    
+    
     ########################
     # END OF YOUR CODE    #
     #######################

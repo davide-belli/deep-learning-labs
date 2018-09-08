@@ -22,7 +22,7 @@ DNN_HIDDEN_UNITS_DEFAULT = '100'
 LEARNING_RATE_DEFAULT = 2e-3
 MAX_STEPS_DEFAULT = 1500
 BATCH_SIZE_DEFAULT = 200
-EVAL_FREQ_DEFAULT = 10  # 100
+EVAL_FREQ_DEFAULT = 100
 
 # Directory in which cifar data is saved
 DATA_DIR_DEFAULT = './cifar10/cifar-10-batches-py'
@@ -99,10 +99,10 @@ def train():
         y_t = cifar10['test'].labels
         x_t = x_t.reshape(-1, input_size)
         output_t = net.forward(x_t)
-        
+        loss_t = loss.forward(output_t, y_t)
         acc_t = accuracy(output_t, y_t)
         
-        return acc_t
+        return acc_t, loss_t
     
     def sgd_step():
         for layer in net.layers:
@@ -119,19 +119,21 @@ def train():
 
         plt.figure(figsize=(10, 4))
         plt.clf()
+        plt.cla()
         plt.subplot(1, 2, 1)
         plt.plot(idx_test, test_accuracies, "k-", linewidth=1, label="test")
-        plt.plot(idx, accuracies, "r-", linewidth=0.5, label="train")
+        plt.plot(idx, accuracies, "r-", linewidth=0.5, alpha=0.5, label="train")
         plt.xlabel('iteration')
         plt.ylabel('accuracy')
         plt.legend()
 
         plt.subplot(1, 2, 2)
-        plt.plot(idx, losses, "r-", linewidth=0.5, label="train")
+        plt.plot(idx_test, test_losses, "k-", linewidth=1, label="test")
+        plt.plot(idx, losses, "r-", linewidth=0.5, alpha=0.5, label="train")
         plt.xlabel('iteration')
         plt.ylabel('loss')
         plt.legend()
-        plt.savefig("plot.png", bbox_inches='tight')
+        plt.savefig("plot_numpy.png", bbox_inches='tight')
         return
     
     cifar10 = cifar10_utils.get_cifar10('cifar10/cifar-10-batches-py')
@@ -141,12 +143,12 @@ def train():
     losses = []
     accuracies = []
     test_accuracies = []
+    test_losses = []
     
     for i in range(n_iterations):
         x, y = cifar10['train'].next_batch(batch_size)
         x = x.reshape(-1, input_size)
         output = net.forward(x)
-        preds = np.sum(output, axis=1)
         loss_value = loss.forward(output, y)
         loss_grad = loss.backward(output, y)
         net.backward(loss_grad)
@@ -156,15 +158,17 @@ def train():
         accuracies.append(accuracy(output, y))
         
         if i % eval_freq == 0:
-            test_accuracies.append(test())
+            acc_t, loss_t = test()
+            test_accuracies.append(acc_t)
+            test_losses.append(loss_t)
             print("[{}/{}] Test Accuracy: {} | Batch Accuracy: {} | Batch Loss: {} |".format(
                 i, n_iterations, test_accuracies[-1], accuracies[-1], loss_value
             ))
             plot(i)
             
-            ########################
-            # END OF YOUR CODE    #
-            #######################
+    ########################
+    # END OF YOUR CODE    #
+    #######################
 
 
 def print_flags():
