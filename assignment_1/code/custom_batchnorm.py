@@ -64,6 +64,17 @@ class CustomBatchNormAutograd(nn.Module):
         ########################
         # PUT YOUR CODE HERE  #
         #######################
+        
+        shape = input.size()
+        
+        if len(shape) == 1:
+            input.view(1, -1)
+            shape = input.size()
+        if len(shape) > 2:
+            raise ValueError('Expected 1-D or 2-D tensor (got {})'.format(str(shape)))
+        elif input.shape[1] != self.n_neurons:
+            raise ValueError('Expected _ x {} tensor (got {} x {})'.format(str(self.n_neurons), str(shape[0]), str(shape[1])))
+        
         x = input
         mu = x.mean(dim=0)
         std = x.std(dim=0)
