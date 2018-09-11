@@ -133,7 +133,16 @@ class CustomBatchNormManualFunction(torch.autograd.Function):
         ########################
         # PUT YOUR CODE HERE  #
         #######################
-        raise NotImplementedError
+        x = input
+        mu = x.mean(dim=0)
+        std = x.std(dim=0)
+        var = torch.sqrt(std * std + eps)
+        x_hat = (x - mu) / var
+        out = gamma * x_hat + beta
+        
+        ctx.save_for_backward(x)
+        ctx.save_for_backward(mu)
+        ctx.save_for_backward(std)
         ########################
         # END OF YOUR CODE    #
         #######################
@@ -156,11 +165,12 @@ class CustomBatchNormManualFunction(torch.autograd.Function):
           Compute gradients for inputs where ctx.needs_input_grad[idx] is True. Set gradients for other
           inputs to None. This should be decided dynamically.
         """
-        
         ########################
         # PUT YOUR CODE HERE  #
         #######################
-        raise NotImplementedError
+        grad_beta = grad_output.sum(0)
+        grad_gamma = (grad_output @ ctx.saved_tensors[0]).sum(0) # x as saved tensor
+        grad_input = grad_gamma
         ########################
         # END OF YOUR CODE    #
         #######################
