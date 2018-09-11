@@ -23,11 +23,34 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 # Default constants
+'''
 DNN_HIDDEN_UNITS_DEFAULT = '100'
 LEARNING_RATE_DEFAULT = 2e-3
 MAX_STEPS_DEFAULT = 1500
 BATCH_SIZE_DEFAULT = 200
 EVAL_FREQ_DEFAULT = 100
+'''
+
+# DNN_HIDDEN_UNITS_DEFAULT = '200, 100, 50'
+# LEARNING_RATE_DEFAULT = 2e-3
+# MAX_STEPS_DEFAULT = 20000
+# BATCH_SIZE_DEFAULT = 200
+# EVAL_FREQ_DEFAULT = 200
+
+
+# 0.523
+# DNN_HIDDEN_UNITS_DEFAULT = '200, 100, 50, 20'
+# LEARNING_RATE_DEFAULT = 2e-3
+# MAX_STEPS_DEFAULT = 40000
+# BATCH_SIZE_DEFAULT = 200
+# EVAL_FREQ_DEFAULT = 200
+
+DNN_HIDDEN_UNITS_DEFAULT = '500, 400, 300, 200, 100'
+LEARNING_RATE_DEFAULT = 2e-5
+MAX_STEPS_DEFAULT = 40000
+BATCH_SIZE_DEFAULT = 200
+EVAL_FREQ_DEFAULT = 200
+
 
 # Directory in which cifar data is saved
 DATA_DIR_DEFAULT = './cifar10/cifar-10-batches-py'
@@ -35,7 +58,7 @@ DATA_DIR_DEFAULT = './cifar10/cifar-10-batches-py'
 FLAGS = None
 
 
-def accuracy(predictions, idx_t):
+def accuracy(predictions, targets):
     """
   Computes the prediction accuracy, i.e. the average of correct predictions
   of the network.
@@ -57,6 +80,7 @@ def accuracy(predictions, idx_t):
     # PUT YOUR CODE HERE  #
     #######################
     _, idx_p = predictions.max(1)
+    _, idx_t = targets.max(1)
     correct = [(1 if idx_p[i] == idx_t[i] else 0) for i in range(len(idx_p))]
     accuracy = sum(correct) / len(correct)
     ########################
@@ -100,18 +124,15 @@ def train():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     device = "cpu"
     print("Device:", device)
-    
+
+    # fp = open('memory_profiler_basic_mean.log', 'w+')
+    # @profile(stream=fp)
     def test():
-        x_t = cifar10['test'].images
-        y_t = cifar10['test'].labels
-        x_t = torch.from_numpy(x_t.reshape(-1, input_size))
-        y_t = torch.from_numpy(y_t).type(torch.LongTensor)
-        y_t = to_label(y_t)
-        x_t, y_t = x_t.to(device), y_t.to(device)
+        net.eval()
         
         output_t = net(x_t)
         loss_t = criterion(output_t, y_t)
-        acc_t = accuracy(output_t, y_t)
+        acc_t = accuracy(output_t, y_t_onehot)
         
         return acc_t, loss_t
     
@@ -119,7 +140,6 @@ def train():
         idx_test = list(range(0, iteration + 1, eval_freq))
         idx = list(range(0, iteration + 1))
         
-        plt.figure(figsize=(10, 4))
         plt.clf()
         plt.cla()
         plt.subplot(1, 2, 1)
@@ -142,44 +162,67 @@ def train():
         _, tensor = tensor.max(1)
         return tensor
     
+    
+    
     cifar10 = cifar10_utils.get_cifar10('cifar10/cifar-10-batches-py')
     net = MLP(input_size, dnn_hidden_units, n_classes)
     net.to(device)
     params = list(net.named_parameters())
-    # net.to(device)
+    net.to(device)
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.SGD(net.parameters(), lr=lr_rate, momentum=0.9)
+    # optimizer = optim.SGD(net.parameters(), lr=lr_rate, momentum=0.8, nesterov=False)
+    optimizer = optim.Adam(net.parameters(), lr=lr_rate)
     
     losses = []
     accuracies = []
     test_accuracies = []
     test_losses = []
+    alpha = 0.0001
+
+    x_t = cifar10['test'].images
+    y_t = cifar10['test'].labels
+    x_t = torch.from_numpy(x_t.reshape(-1, input_size))
+    y_t_onehot = torch.from_numpy(y_t).type(torch.LongTensor)
+    y_t = to_label(y_t_onehot)
+    x_t, y_t = x_t.to(device), y_t.to(device)
+
+    plt.figure(figsize=(10, 4))
     
     for i in range(n_iterations):
+        
         x, y = cifar10['train'].next_batch(batch_size)
         x = torch.from_numpy(x.reshape(-1, input_size))
-        y = torch.from_numpy(y).type(torch.LongTensor)
-        y = to_label(y)
+        y_onehot = torch.from_numpy(y).type(torch.LongTensor)
+        y = to_label(y_onehot)
         x, y = x.to(device), y.to(device)
         
         optimizer.zero_grad()
         output = net(x)
-        # output = to_label(output)
-        loss = criterion(output, y)
+        train_loss = criterion(output, y)
+
+        reg_loss = 0
+        for param in net.parameters():
+            reg_loss += param.norm(2)
+            
+        loss = train_loss + alpha * reg_loss
         loss.backward()
         optimizer.step()
         
-        losses.append(loss)
-        accuracies.append(accuracy(output, y))
+        losses.append(loss.item())
+        accuracies.append(accuracy(output, y_onehot))
+        
+        del x, y
         
         if i % eval_freq == 0:
             acc_t, loss_t = test()
             test_accuracies.append(acc_t)
             test_losses.append(loss_t)
-            print("[{}/{}] Test Accuracy: {} | Batch Accuracy: {} | Batch Loss: {} |".format(
-                i, n_iterations, test_accuracies[-1], accuracies[-1], loss
+            print("[{}/{}] Test Accuracy: {} | Batch Accuracy: {} | Batch Loss: {} | Train/Reg: {}/{}".format(
+                i, n_iterations, test_accuracies[-1], accuracies[-1], loss, train_loss, reg_loss * alpha
             ))
             plot(i)
+            
+            net.train()
             
             
     ########################

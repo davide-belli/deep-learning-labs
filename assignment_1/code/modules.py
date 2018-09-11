@@ -208,7 +208,6 @@ class SoftMaxModule(object):
     product3d = self.softmaxes.reshape(d1, d2, 1) @ self.softmaxes.reshape(d1, 1, d2)
     dsoftmax = diag3d - product3d
     dx = (dsoftmax @ dout.reshape(d1, d2, 1)).reshape(d1, d2)
-    # dx = np.sum(dsoftmax * self.softmaxes.reshape(d1, d2, 1), axis=2).reshape(d1, d2)
     
     ########################
     # END OF YOUR CODE    #
