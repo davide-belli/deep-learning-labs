@@ -45,11 +45,15 @@ EVAL_FREQ_DEFAULT = 100
 # BATCH_SIZE_DEFAULT = 200
 # EVAL_FREQ_DEFAULT = 200
 
-DNN_HIDDEN_UNITS_DEFAULT = '500, 400, 300, 200, 100'
+# 0.5445
+DNN_HIDDEN_UNITS_DEFAULT = '1000, 800, 600, 400'
 LEARNING_RATE_DEFAULT = 2e-5
-MAX_STEPS_DEFAULT = 40000
+MAX_STEPS_DEFAULT = 20000
 BATCH_SIZE_DEFAULT = 200
 EVAL_FREQ_DEFAULT = 200
+
+# TODO remove
+SAVE = True
 
 
 # Directory in which cifar data is saved
@@ -122,7 +126,7 @@ def train():
     lr_rate = FLAGS.learning_rate
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    device = "cpu"
+    # device = "cpu"
     print("Device:", device)
 
     # fp = open('memory_profiler_basic_mean.log', 'w+')
@@ -155,7 +159,7 @@ def train():
         plt.xlabel('iteration')
         plt.ylabel('loss')
         plt.legend()
-        plt.savefig("plot_pytorch.png", bbox_inches='tight')
+        plt.savefig("./out/plot/plot_pytorch_" + str(batch_size) + "_" + str(lr_rate) + ".png", bbox_inches='tight')
         return
     
     def to_label(tensor):
@@ -185,6 +189,7 @@ def train():
     y_t_onehot = torch.from_numpy(y_t).type(torch.LongTensor)
     y_t = to_label(y_t_onehot)
     x_t, y_t = x_t.to(device), y_t.to(device)
+    y_t_onehot = y_t_onehot.to(device)
 
     plt.figure(figsize=(10, 4))
     
@@ -195,6 +200,7 @@ def train():
         y_onehot = torch.from_numpy(y).type(torch.LongTensor)
         y = to_label(y_onehot)
         x, y = x.to(device), y.to(device)
+        y_onehot = y_onehot.to(device)
         
         optimizer.zero_grad()
         output = net(x)
@@ -209,7 +215,7 @@ def train():
         optimizer.step()
         
         losses.append(loss.item())
-        accuracies.append(accuracy(output, y_onehot))
+        accuracies.append(accuracy(output.data, y_onehot))
         
         del x, y
         
@@ -217,10 +223,15 @@ def train():
             acc_t, loss_t = test()
             test_accuracies.append(acc_t)
             test_losses.append(loss_t)
-            print("[{}/{}] Test Accuracy: {} | Batch Accuracy: {} | Batch Loss: {} | Train/Reg: {}/{}".format(
+            log_string = "[{:5d}/{:5d}] Test Accuracy: {:.4f} | Batch Accuracy: {:.4f} | Batch Loss: {:.6f} | Train/Reg: {:.6f}/{:.6f}\n".format(
                 i, n_iterations, test_accuracies[-1], accuracies[-1], loss, train_loss, reg_loss * alpha
-            ))
+            )
+            print(log_string)
             plot(i)
+            
+            if SAVE:
+                with open("./out/log/pytorch_log_" + str(batch_size) + "_" + str(lr_rate) + ".txt", "a") as myfile:
+                    myfile.write(log_string)
             
             net.train()
             

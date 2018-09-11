@@ -55,7 +55,7 @@ class MLP(nn.Module):
             self.layers.add_module("Linear_" + str(i), linear)
             # self.layers.add_module("BatchNorm_" + str(i), nn.BatchNorm1d(self.size_layers[i+1]))
             self.layers.add_module("ReLU_" + str(i), nn.ReLU())
-            # self.layers.add_module("Dropout_" + str(i), nn.Dropout(p=0.1))
+            self.layers.add_module("Dropout_" + str(i), nn.Dropout(p=0.05))
         self.layers.add_module("Linear_" + str(i+1), nn.Linear(self.size_layers[-1], self.n_outputs))
         self.layers.add_module("Softmax", nn.Softmax(dim=1))
         
