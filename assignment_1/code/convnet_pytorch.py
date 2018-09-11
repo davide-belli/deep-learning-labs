@@ -32,52 +32,53 @@ class ConvNet(nn.Module):
         ########################
         # PUT YOUR CODE HERE  #
         #######################
+        super(ConvNet, self).__init__()
+        
         maxpool = nn.MaxPool2d(3, stride=2, padding=1)
-        batchnorm = nn.BatchNorm1d()
         relu = nn.ReLU()
         
         self.layers = nn.Sequential()
         
         self.layers.add_module("conv_1", nn.Conv2d(n_channels, 64, 3))
-        self.layers.add_module("batchnorm_1", batchnorm)
+        self.layers.add_module("batchnorm_1", nn.BatchNorm2d(64))
         self.layers.add_module("relu_1", relu)
 
         self.layers.add_module("maxpool_1", maxpool)
         
         self.layers.add_module("conv_2", nn.Conv2d(64, 128, 3))
-        self.layers.add_module("batchnorm_2", batchnorm)
+        self.layers.add_module("batchnorm_2", nn.BatchNorm2d(128))
         self.layers.add_module("relu_2", relu)
 
         self.layers.add_module("maxpool_2", maxpool)
         
         self.layers.add_module("conv_3_a", nn.Conv2d(128, 256, 3))
-        self.layers.add_module("batchnorm_3_a", batchnorm)
+        self.layers.add_module("batchnorm_3_a", nn.BatchNorm2d(256))
         self.layers.add_module("relu_3_a", relu)
         self.layers.add_module("conv_3_b", nn.Conv2d(256, 256, 3))
-        self.layers.add_module("batchnorm_3_b", batchnorm)
+        self.layers.add_module("batchnorm_3_b", nn.BatchNorm2d(256))
         self.layers.add_module("relu_3_b", relu)
 
         self.layers.add_module("maxpool_3", maxpool)
         
         self.layers.add_module("conv_4_a", nn.Conv2d(256, 512, 3))
-        self.layers.add_module("batchnorm_4_a", batchnorm)
+        self.layers.add_module("batchnorm_4_a", nn.BatchNorm2d(512))
         self.layers.add_module("relu_4_a", relu)
         self.layers.add_module("conv_4_b", nn.Conv2d(512, 512, 3))
-        self.layers.add_module("batchnorm_4_b", batchnorm)
+        self.layers.add_module("batchnorm_4_b", nn.BatchNorm2d(512))
         self.layers.add_module("relu_4_b", relu)
 
         self.layers.add_module("maxpool_4", maxpool)
         
         self.layers.add_module("conv_5_a", nn.Conv2d(512, 512, 3))
-        self.layers.add_module("batchnorm_5_a", batchnorm)
+        self.layers.add_module("batchnorm_5_a", nn.BatchNorm2d(512))
         self.layers.add_module("relu_5_a", relu)
         self.layers.add_module("conv_5_b", nn.Conv2d(512, 512, 3))
-        self.layers.add_module("batchnorm_5_b", batchnorm)
+        self.layers.add_module("batchnorm_5_b", nn.BatchNorm2d(512))
         self.layers.add_module("relu_5_b", relu)
         
         self.layers.add_module("maxpool_5", maxpool)
         
-        self.layers.add_module("avgpool", nn.AvgPool2d())
+        self.layers.add_module("avgpool", nn.AvgPool2d(1))
         
         self.layers.add_module("linear", nn.Linear(512, n_classes))
         self.layers.add_module("softmax", nn.Softmax(dim=1))

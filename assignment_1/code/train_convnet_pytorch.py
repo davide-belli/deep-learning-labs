@@ -27,6 +27,9 @@ MAX_STEPS_DEFAULT = 5000
 EVAL_FREQ_DEFAULT = 500
 OPTIMIZER_DEFAULT = 'ADAM'
 
+# TODO remove
+SAVE = True
+
 # Directory in which cifar data is saved
 DATA_DIR_DEFAULT = './cifar10/cifar-10-batches-py'
 
@@ -95,9 +98,9 @@ def train():
     
         output_t = net(x_t)
         loss_t = criterion(output_t, y_t)
-        acc_t = accuracy(output_t, y_t)
+        acc_t = accuracy(output_t.detach(), y_t_onehot.detach())
     
-        return acc_t, loss_t
+        return acc_t, loss_t.item()
 
     def plot(iteration):
         idx_test = list(range(0, iteration + 1, eval_freq))
@@ -143,9 +146,10 @@ def train():
     x_t = cifar10['test'].images
     y_t = cifar10['test'].labels
     x_t = torch.from_numpy(x_t.reshape(-1, input_size))
-    y_t = torch.from_numpy(y_t).type(torch.LongTensor)
-    y_t = to_label(y_t)
+    y_t_onehot = torch.from_numpy(y_t).type(torch.LongTensor)
+    y_t = to_label(y_t_onehot)
     x_t, y_t = x_t.to(device), y_t.to(device)
+    y_t_onehot = y_t_onehot.to(device)
 
     plt.figure(figsize=(10, 4))
 
@@ -156,6 +160,7 @@ def train():
         y_onehot = torch.from_numpy(y).type(torch.LongTensor)
         y = to_label(y_onehot)
         x, y = x.to(device), y.to(device)
+        y_onehot = y_onehot.to(device)
     
         optimizer.zero_grad()
         output = net(x)
@@ -170,7 +175,7 @@ def train():
         optimizer.step()
     
         losses.append(loss.item())
-        accuracies.append(accuracy(output, y))
+        accuracies.append(accuracy(output.detach(), y_onehot.detach()))
     
         del x, y
     
@@ -178,10 +183,15 @@ def train():
             acc_t, loss_t = test()
             test_accuracies.append(acc_t)
             test_losses.append(loss_t)
-            print("[{}/{}] Test Accuracy: {} | Batch Accuracy: {} | Batch Loss: {} | Train/Reg: {}/{}".format(
+            log_string = "[{}/{}] Test Accuracy: {:.4f} | Batch Accuracy: {:.4f} | Batch Loss: {:.6f} | Train/Reg: {:.6f}/{:.6f}\n".format(
                 i, n_iterations, test_accuracies[-1], accuracies[-1], loss, train_loss, reg_loss * alpha
-            ))
+            )
+            print(log_string)
             plot(i)
+
+            if SAVE:
+                with open("pytorch_log.txt", "a") as myfile:
+                    myfile.write(log_string)
         
             net.train()
 
