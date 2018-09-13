@@ -90,7 +90,7 @@ def train():
     n_iterations = FLAGS.max_steps
     lr_rate = FLAGS.learning_rate
 
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Device:", device)
 
     def test():
@@ -129,11 +129,14 @@ def train():
         return tensor
 
     cifar10 = cifar10_utils.get_cifar10('cifar10/cifar-10-batches-py')
+    
     net = ConvNet(3, 10)
     net.to(device)
-    params = list(net.named_parameters())
-    net.to(device)
+    print(net)
+    # params = list(net.named_parameters())
+    
     criterion = nn.CrossEntropyLoss()
+    
     # optimizer = optim.SGD(net.parameters(), lr=lr_rate, momentum=0.8, nesterov=False)
     optimizer = optim.Adam(net.parameters(), lr=lr_rate)
 
