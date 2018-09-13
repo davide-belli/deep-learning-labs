@@ -19,6 +19,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+# from memory_profiler import profile
+import math
 
 # Default constants
 LEARNING_RATE_DEFAULT = 1e-4
@@ -93,14 +95,32 @@ def train():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Device:", device)
 
+    # fp = open('memory_profiler_basic_mean.log', 'w+')
+    # @profile(stream=fp)
     def test():
         net.eval()
-    
-        output_t = net(x_t)
-        loss_t = criterion(output_t, y_t)
-        acc_t = accuracy(output_t.detach(), y_t_onehot.detach())
-    
-        return acc_t, loss_t.item()
+        testset = cifar10['test']
+        
+        acc_list = []
+        loss_list = []
+        
+        for i in range(math.ceil(testset._num_examples/batch_size)):
+            x_t, y_t = testset.next_batch(batch_size)
+            x_t = torch.from_numpy(x_t)
+            y_t_onehot = torch.from_numpy(y_t).type(torch.LongTensor)
+            y_t = to_label(y_t_onehot)
+            x_t, y_t = x_t.to(device), y_t.to(device)
+            y_t_onehot = y_onehot.to(device)
+            
+            output_t = net(x_t)
+            
+            loss_list.append(criterion(output_t, y_t).detach())
+            acc_list.append(accuracy(output_t.detach(), y_t_onehot.detach()))
+        
+        acc_t = sum(acc_list)/len(acc_list)
+        loss_t = sum(loss_list) / len(loss_list)
+        
+        return acc_t, loss_t
 
     def plot(iteration):
         idx_test = list(range(0, iteration + 1, eval_freq))
@@ -144,15 +164,14 @@ def train():
     accuracies = []
     test_accuracies = []
     test_losses = []
-    alpha = 0.0001
 
-    x_t = cifar10['test'].images
-    y_t = cifar10['test'].labels
-    x_t = torch.from_numpy(x_t.reshape(-1, input_size))
-    y_t_onehot = torch.from_numpy(y_t).type(torch.LongTensor)
-    y_t = to_label(y_t_onehot)
-    x_t, y_t = x_t.to(device), y_t.to(device)
-    y_t_onehot = y_t_onehot.to(device)
+    # x_t = cifar10['test'].images
+    # y_t = cifar10['test'].labels
+    # x_t = torch.from_numpy(x_t)
+    # y_t_onehot = torch.from_numpy(y_t).type(torch.LongTensor)
+    # y_t = to_label(y_t_onehot)
+    # x_t, y_t = x_t.to(device), y_t.to(device)
+    # y_t_onehot = y_t_onehot.to(device)
 
     plt.figure(figsize=(10, 4))
 
@@ -167,13 +186,8 @@ def train():
     
         optimizer.zero_grad()
         output = net(x)
-        train_loss = criterion(output, y)
+        loss = criterion(output, y)
     
-        reg_loss = 0
-        for param in net.parameters():
-            reg_loss += param.norm(2)
-    
-        loss = train_loss + alpha * reg_loss
         loss.backward()
         optimizer.step()
     
@@ -186,14 +200,14 @@ def train():
             acc_t, loss_t = test()
             test_accuracies.append(acc_t)
             test_losses.append(loss_t)
-            log_string = "[{}/{}] Test Accuracy: {:.4f} | Batch Accuracy: {:.4f} | Batch Loss: {:.6f} | Train/Reg: {:.6f}/{:.6f}\n".format(
-                i, n_iterations, test_accuracies[-1], accuracies[-1], loss, train_loss, reg_loss * alpha
+            log_string = "[{}/{}] Test Accuracy: {:.4f} | Batch Accuracy: {:.4f} | Batch Loss: {:.6f} |\n".format(
+                i, n_iterations, test_accuracies[-1], accuracies[-1], loss
             )
             print(log_string)
             plot(i)
 
             if SAVE:
-                with open("pytorch_log.txt", "a") as myfile:
+                with open("convnet_log.txt", "a") as myfile:
                     myfile.write(log_string)
         
             net.train()
