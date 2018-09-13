@@ -23,20 +23,11 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 # Default constants
-'''
-DNN_HIDDEN_UNITS_DEFAULT = '100'
-LEARNING_RATE_DEFAULT = 2e-3
-MAX_STEPS_DEFAULT = 1500
-BATCH_SIZE_DEFAULT = 200
-EVAL_FREQ_DEFAULT = 100
-'''
-
-# DNN_HIDDEN_UNITS_DEFAULT = '200, 100, 50'
+# DNN_HIDDEN_UNITS_DEFAULT = '100'
 # LEARNING_RATE_DEFAULT = 2e-3
-# MAX_STEPS_DEFAULT = 20000
+# MAX_STEPS_DEFAULT = 1500
 # BATCH_SIZE_DEFAULT = 200
-# EVAL_FREQ_DEFAULT = 200
-
+# EVAL_FREQ_DEFAULT = 100
 
 # 0.523
 # DNN_HIDDEN_UNITS_DEFAULT = '200, 100, 50, 20'
@@ -46,10 +37,24 @@ EVAL_FREQ_DEFAULT = 100
 # EVAL_FREQ_DEFAULT = 200
 
 # 0.5445
+# DNN_HIDDEN_UNITS_DEFAULT = '1000, 800, 600, 400'
+# LEARNING_RATE_DEFAULT = 2e-5
+# MAX_STEPS_DEFAULT = 20000
+# BATCH_SIZE_DEFAULT = 200
+# EVAL_FREQ_DEFAULT = 200
+
+# 0.5637
+# DNN_HIDDEN_UNITS_DEFAULT = '1000, 800, 600, 400'
+# LEARNING_RATE_DEFAULT = 1e-4
+# MAX_STEPS_DEFAULT = 20000
+# BATCH_SIZE_DEFAULT = 800
+# EVAL_FREQ_DEFAULT = 200
+
+# 0.5833
 DNN_HIDDEN_UNITS_DEFAULT = '1000, 800, 600, 400'
-LEARNING_RATE_DEFAULT = 2e-5
+LEARNING_RATE_DEFAULT = 1e-4
 MAX_STEPS_DEFAULT = 20000
-BATCH_SIZE_DEFAULT = 200
+BATCH_SIZE_DEFAULT = 3000
 EVAL_FREQ_DEFAULT = 200
 
 # TODO remove
@@ -125,7 +130,7 @@ def train():
     n_iterations = FLAGS.max_steps
     lr_rate = FLAGS.learning_rate
 
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # device = "cpu"
     print("Device:", device)
 
@@ -135,8 +140,8 @@ def train():
         net.eval()
         
         output_t = net(x_t)
-        loss_t = criterion(output_t, y_t)
-        acc_t = accuracy(output_t, y_t_onehot)
+        loss_t = criterion(output_t, y_t).detach()
+        acc_t = accuracy(output_t.detach(), y_t_onehot)
         
         return acc_t, loss_t
     
@@ -215,7 +220,7 @@ def train():
         optimizer.step()
         
         losses.append(loss.item())
-        accuracies.append(accuracy(output.data, y_onehot))
+        accuracies.append(accuracy(output.detach().data, y_onehot.detach()))
         
         del x, y
         
