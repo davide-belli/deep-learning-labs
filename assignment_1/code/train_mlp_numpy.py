@@ -94,6 +94,8 @@ def train():
     n_iterations = FLAGS.max_steps
     lr_rate = FLAGS.learning_rate
     
+    SAVE = True
+    
     def test():
         x_t = cifar10['test'].images
         y_t = cifar10['test'].labels
@@ -133,7 +135,7 @@ def train():
         plt.xlabel('iteration')
         plt.ylabel('loss')
         plt.legend()
-        plt.savefig("plot_numpy.png", bbox_inches='tight')
+        plt.savefig("out/plot/plot_numpy.png", bbox_inches='tight')
         return
     
     cifar10 = cifar10_utils.get_cifar10('cifar10/cifar-10-batches-py')
@@ -161,9 +163,15 @@ def train():
             acc_t, loss_t = test()
             test_accuracies.append(acc_t)
             test_losses.append(loss_t)
-            print("[{}/{}] Test Accuracy: {} | Batch Accuracy: {} | Batch Loss: {} |".format(
+            log_string = "[{}/{}] Test Accuracy: {} | Batch Accuracy: {} | Batch Loss: {} |".format(
                 i, n_iterations, test_accuracies[-1], accuracies[-1], loss_value
-            ))
+            )
+            print(log_string)
+            
+            if SAVE:
+                with open("./out/log/numpy_log_" + str(batch_size) + "_" + str(lr_rate) + ".txt", "a") as myfile:
+                    myfile.write(log_string)
+                    
             plot(i)
             
     ########################
