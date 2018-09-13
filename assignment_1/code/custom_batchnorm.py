@@ -135,14 +135,13 @@ class CustomBatchNormManualFunction(torch.autograd.Function):
         #######################
         x = input
         mu = x.mean(dim=0)
-        std = x.std(dim=0)
+        std = x.std(dim=0, unbiased=False)
         var = torch.sqrt(std * std + eps)
-        x_hat = (x - mu) / var
+        x_centered = x - mu
+        x_hat = x_centered / var
         out = gamma * x_hat + beta
         
-        ctx.save_for_backward(x)
-        ctx.save_for_backward(mu)
-        ctx.save_for_backward(std)
+        ctx.save_for_backward(x, mu, std, var, gamma)
         ########################
         # END OF YOUR CODE    #
         #######################
@@ -168,9 +167,25 @@ class CustomBatchNormManualFunction(torch.autograd.Function):
         ########################
         # PUT YOUR CODE HERE  #
         #######################
-        grad_beta = grad_output.sum(0)
-        grad_gamma = (grad_output @ ctx.saved_tensors[0]).sum(0) # x as saved tensor
-        grad_input = grad_gamma
+        # import pydevd
+        # pydevd.settrace(suspend=False, trace_only_current_thread=True)
+        
+        (x, mu, std, var, gamma) = ctx.saved_tensors
+        grad_input, grad_gamma, grad_beta = None, None, None
+        
+        x_hat = (x - mu) / var
+        
+        if ctx.needs_input_grad[2]:
+            grad_beta = grad_output.sum(0)
+
+        if ctx.needs_input_grad[1]:
+            grad_gamma = (grad_output * x_hat).sum(0)
+
+        if ctx.needs_input_grad[0]:
+            c1 = grad_output.mean(dim=0)
+            c2 = (grad_output * x_hat).mean(dim=0)
+            grad_input = (gamma / var) * (grad_output - c1 - x_hat * c2)
+            
         ########################
         # END OF YOUR CODE    #
         #######################
