@@ -222,7 +222,10 @@ class CustomBatchNormManualModule(nn.Module):
         ########################
         # PUT YOUR CODE HERE  #
         #######################
-        raise NotImplementedError
+        self.n_neurons = n_neurons
+        self.eps = eps
+        self.gammas = torch.nn.Parameter(torch.ones(n_neurons))
+        self.betas = torch.nn.Parameter(torch.zeros(n_neurons))
         ########################
         # END OF YOUR CODE    #
         #######################
@@ -245,7 +248,19 @@ class CustomBatchNormManualModule(nn.Module):
         ########################
         # PUT YOUR CODE HERE  #
         #######################
-        raise NotImplementedError
+        shape = input.size()
+        
+        if len(shape) == 1:
+            input.view(1, -1)
+            shape = input.size()
+        if len(shape) > 2:
+            raise ValueError('Expected 1-D or 2-D tensor (got {})'.format(str(shape)))
+        elif input.shape[1] != self.n_neurons:
+            raise ValueError(
+                'Expected _ x {} tensor (got {} x {})'.format(str(self.n_neurons), str(shape[0]), str(shape[1])))
+
+        fct = CustomBatchNormManualFunction()
+        out = fct.apply(input, self.gammas, self.betas, self.eps)
         ########################
         # END OF YOUR CODE    #
         #######################
