@@ -86,15 +86,18 @@ def train():
     # PUT YOUR CODE HERE  #
     #######################
     
+    SAVE_PLOTS = False  # Set to true to save plots to the working directory
+    SAVE_LOGS = False  # Set to true to save accuracy/loss logs in the working directory
+    
     img_size = 32
     n_classes = 10
     input_size = img_size * img_size * 3
+    
     batch_size = FLAGS.batch_size
     eval_freq = FLAGS.eval_freq
     n_iterations = FLAGS.max_steps
     lr_rate = FLAGS.learning_rate
     
-    SAVE = True
     
     def test():
         x_t = cifar10['test'].images
@@ -110,7 +113,7 @@ def train():
         for layer in net.layers:
             if hasattr(layer, 'params') and hasattr(layer, 'grads'):
                 for key in layer.params.keys():
-                    name = type(layer).__name__
+                    # name = type(layer).__name__
                     step = layer.grads[key] * lr_rate
                     layer.params[key] -= step
         return
@@ -144,15 +147,18 @@ def train():
     
     losses = []
     accuracies = []
-    test_accuracies = []
     test_losses = []
+    test_accuracies = []
     
     for i in range(n_iterations):
         x, y = cifar10['train'].next_batch(batch_size)
         x = x.reshape(-1, input_size)
+        
         output = net.forward(x)
+        
         loss_value = loss.forward(output, y)
         loss_grad = loss.backward(output, y)
+        
         net.backward(loss_grad)
         sgd_step()
         
@@ -168,11 +174,12 @@ def train():
             )
             print(log_string)
             
-            if SAVE:
+            if SAVE_LOGS:
                 with open("./out/log/numpy_log_" + str(batch_size) + "_" + str(lr_rate) + ".txt", "a") as myfile:
                     myfile.write(log_string)
                     
-            plot(i)
+            if SAVE_PLOTS:
+                plot(i)
             
     ########################
     # END OF YOUR CODE    #
