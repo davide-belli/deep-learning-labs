@@ -23,42 +23,18 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 # Default constants
-# DNN_HIDDEN_UNITS_DEFAULT = '100'
-# LEARNING_RATE_DEFAULT = 2e-3
-# MAX_STEPS_DEFAULT = 1500
-# BATCH_SIZE_DEFAULT = 200
-# EVAL_FREQ_DEFAULT = 100
+DNN_HIDDEN_UNITS_DEFAULT = '100'
+LEARNING_RATE_DEFAULT = 2e-3
+MAX_STEPS_DEFAULT = 1500
+BATCH_SIZE_DEFAULT = 200
+EVAL_FREQ_DEFAULT = 100
 
-# 0.523
-# DNN_HIDDEN_UNITS_DEFAULT = '200, 100, 50, 20'
-# LEARNING_RATE_DEFAULT = 2e-3
-# MAX_STEPS_DEFAULT = 40000
-# BATCH_SIZE_DEFAULT = 200
-# EVAL_FREQ_DEFAULT = 200
-
-# 0.5445
-# DNN_HIDDEN_UNITS_DEFAULT = '1000, 800, 600, 400'
-# LEARNING_RATE_DEFAULT = 2e-5
-# MAX_STEPS_DEFAULT = 20000
-# BATCH_SIZE_DEFAULT = 200
-# EVAL_FREQ_DEFAULT = 200
-
-# 0.5637
+# Best model, accuracy: 0.5833
 # DNN_HIDDEN_UNITS_DEFAULT = '1000, 800, 600, 400'
 # LEARNING_RATE_DEFAULT = 1e-4
 # MAX_STEPS_DEFAULT = 20000
-# BATCH_SIZE_DEFAULT = 800
+# BATCH_SIZE_DEFAULT = 3000
 # EVAL_FREQ_DEFAULT = 200
-
-# 0.5833
-DNN_HIDDEN_UNITS_DEFAULT = '1000, 800, 600, 400'
-LEARNING_RATE_DEFAULT = 1e-4
-MAX_STEPS_DEFAULT = 20000
-BATCH_SIZE_DEFAULT = 3000
-EVAL_FREQ_DEFAULT = 200
-
-# TODO remove
-SAVE = True
 
 
 # Directory in which cifar data is saved
@@ -122,6 +98,12 @@ def train():
     ########################
     # PUT YOUR CODE HERE  #
     #######################
+
+    ############################## VARIABLES ##############################
+    
+    SAVE_PLOTS = False
+    SAVE_LOGS = False
+    
     img_size = 32
     n_classes = 10
     input_size = img_size * img_size * 3
@@ -131,9 +113,10 @@ def train():
     lr_rate = FLAGS.learning_rate
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    # device = "cpu"
     print("Device:", device)
 
+    ############################## METHODS ##############################
+    
     # fp = open('memory_profiler_basic_mean.log', 'w+')
     # @profile(stream=fp)
     def test():
@@ -170,15 +153,16 @@ def train():
     def to_label(tensor):
         _, tensor = tensor.max(1)
         return tensor
-    
-    
+
+    ############################## MAIN ##############################
     
     cifar10 = cifar10_utils.get_cifar10('cifar10/cifar-10-batches-py')
+    
     net = MLP(input_size, dnn_hidden_units, n_classes)
     net.to(device)
-    params = list(net.named_parameters())
-    net.to(device)
+    
     criterion = nn.CrossEntropyLoss()
+    
     # optimizer = optim.SGD(net.parameters(), lr=lr_rate, momentum=0.8, nesterov=False)
     optimizer = optim.Adam(net.parameters(), lr=lr_rate)
     
@@ -228,16 +212,19 @@ def train():
             acc_t, loss_t = test()
             test_accuracies.append(acc_t)
             test_losses.append(loss_t)
+            
             log_string = "[{:5d}/{:5d}] Test Accuracy: {:.4f} | Batch Accuracy: {:.4f} | Batch Loss: {:.6f} | Train/Reg: {:.6f}/{:.6f}\n".format(
                 i, n_iterations, test_accuracies[-1], accuracies[-1], loss, train_loss, reg_loss * alpha
             )
             print(log_string)
-            plot(i)
             
-            if SAVE:
+            if SAVE_LOGS:
                 with open("./out/log/pytorch_log_" + str(batch_size) + "_" + str(lr_rate) + ".txt", "a") as myfile:
                     myfile.write(log_string)
-            
+
+            if SAVE_PLOTS:
+                plot(i)
+
             net.train()
             
             

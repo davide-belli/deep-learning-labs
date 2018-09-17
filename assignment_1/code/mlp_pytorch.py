@@ -57,7 +57,7 @@ class MLP(nn.Module):
             self.layers.add_module("ReLU_" + str(i), nn.ReLU())
             self.layers.add_module("Dropout_" + str(i), nn.Dropout(p=0.1))
         self.layers.add_module("Linear_" + str(i+1), nn.Linear(self.size_layers[-1], self.n_outputs))
-        self.layers.add_module("Softmax", nn.Softmax(dim=1))
+        # self.layers.add_module("Softmax", nn.Softmax(dim=1))
         
         self.sequential = nn.Sequential(*self.layers)
         ########################
@@ -81,9 +81,6 @@ class MLP(nn.Module):
         ########################
         # PUT YOUR CODE HERE  #
         #######################
-        # for layer in self.layers:
-        #     x = layer(x)
-        # out = x
         out = self.sequential(x)
         ########################
         # END OF YOUR CODE    #
