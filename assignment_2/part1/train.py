@@ -41,8 +41,8 @@ from tensorboardX import SummaryWriter
 def train(config):
     assert config.model_type in ('RNN', 'LSTM')
     
-    exp_name = 'runs/{}_batch{}_dim{}_len{}'.format(datetime.now().strftime("%Y-%m-%d %H:%M"), config.batch_size,
-                                             config.input_dim, config.input_length)
+    exp_name = 'runs/{}_batch{}_dim{}_len{}_{}'.format(config.model_type, config.batch_size,
+                                             config.input_dim, config.input_length, datetime.now().strftime("%Y-%m-%d %H:%M"))
     print(exp_name)
     print(config)
     
@@ -79,8 +79,13 @@ def train(config):
         model = VanillaRNN(config.input_length, config.input_dim, config.num_hidden,
                            config.num_classes, config.batch_size, device)
         model.to(device)
+    elif config.model_type == 'LSTM':
+        model = LSTM(config.input_length, config.input_dim, config.num_hidden,
+                           config.num_classes, config.batch_size, device)
+        model.to(device)
     else:
-        model = None
+        raise ValueError
+        
     
     # print(list(model.named_parameters()))
     
@@ -158,7 +163,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     
     # Model params
-    parser.add_argument('--model_type', type=str, default="RNN", help="Model type, should be 'RNN' or 'LSTM'")
+    parser.add_argument('--model_type', type=str, default="LSTM", help="Model type, should be 'RNN' or 'LSTM'")
     parser.add_argument('--input_length', type=int, default=10, help='Length of an input sequence')
     parser.add_argument('--input_dim', type=int, default=1, help='Dimensionality of input sequence')
     parser.add_argument('--num_classes', type=int, default=10, help='Dimensionality of output sequence')
