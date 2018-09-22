@@ -58,6 +58,9 @@ def train(config):
         for i in range(values.shape[0]):
             for j in range(values.shape[1]):
                 tensor.data[i, j, values[i, j]] = 1
+
+        # tensor = torch.zeros(values.shape[0], values.shape[1], config.num_classes, dtype=torch.float)
+        # tensor[values.type(torch.LongTensor)] = 1
         return tensor
     
     def get_accuracy(predictions, targets):
@@ -75,6 +78,7 @@ def train(config):
     if config.model_type == 'RNN':
         model = VanillaRNN(config.input_length, config.input_dim, config.num_hidden,
                            config.num_classes, config.batch_size, device)
+        model.to(device)
     else:
         model = None
     
@@ -128,7 +132,7 @@ def train(config):
         t2 = time.time()
         examples_per_second = config.batch_size / float(t2 - t1)
         
-        if step % 100 == 0:
+        if step % 10 == 0:
             print("[{}] Train Step {:04d}/{:04d}, Batch Size = {}, Examples/Sec = {:.2f}, "
                   "Accuracy = {:.2f}, Loss = {:.3f}".format(
                 datetime.now().strftime("%Y-%m-%d %H:%M"), step,
@@ -155,8 +159,8 @@ if __name__ == "__main__":
     
     # Model params
     parser.add_argument('--model_type', type=str, default="RNN", help="Model type, should be 'RNN' or 'LSTM'")
-    parser.add_argument('--input_length', type=int, default=6, help='Length of an input sequence')
-    parser.add_argument('--input_dim', type=int, default=10, help='Dimensionality of input sequence')
+    parser.add_argument('--input_length', type=int, default=10, help='Length of an input sequence')
+    parser.add_argument('--input_dim', type=int, default=1, help='Dimensionality of input sequence')
     parser.add_argument('--num_classes', type=int, default=10, help='Dimensionality of output sequence')
     parser.add_argument('--num_hidden', type=int, default=64, help='Number of hidden units in the model')
     parser.add_argument('--batch_size', type=int, default=128, help='Number of examples to process in a batch')

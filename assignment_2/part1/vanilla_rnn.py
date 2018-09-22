@@ -37,12 +37,12 @@ class VanillaRNN(nn.Module):
         self.batch_size = batch_size
         self.device = device
         
-        self.b_h = torch.nn.Parameter(torch.Tensor(self.num_hidden, 1).zero_().to(self.device))
-        self.W_hh = torch.nn.Parameter(torch.nn.init.orthogonal_(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001)).to(self.device))
-        self.W_hx = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.input_dim).normal_(mean=0, std=0.0001).to(self.device))
+        self.b_h = torch.nn.Parameter(torch.Tensor(1, self.num_hidden).zero_())
+        self.W_hh = torch.nn.Parameter(torch.nn.init.orthogonal_(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001)))
+        self.W_hx = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.input_dim).normal_(mean=0, std=0.0001))
         
-        self.b_p = torch.nn.Parameter(torch.Tensor(self.num_classes, 1).zero_().to(self.device))
-        self.W_ph = torch.nn.Parameter(torch.Tensor(self.num_classes, self.num_hidden).normal_(mean=0, std=0.0001).to(self.device))
+        self.b_p = torch.nn.Parameter(torch.Tensor(1, self.num_classes).zero_())
+        self.W_ph = torch.nn.Parameter(torch.Tensor(self.num_classes, self.num_hidden).normal_(mean=0, std=0.0001))
         
         self.tanh = torch.nn.Tanh()
         # self.softmax = torch.nn.Softmax(dim=0)
@@ -52,24 +52,29 @@ class VanillaRNN(nn.Module):
         
         p = None
             
-        h = torch.zeros(self.num_hidden, self.batch_size).to(self.device)
+        h = torch.zeros(self.batch_size, self.num_hidden).to(self.device)
+
+        # for i in range(self.seq_len):
+        #     a1 = self.W_hx
+        #     a2 = x[:, i].transpose(0, 1)  # Deals with input of any dimensionality
+        #     a = a1 @ a2
+        #     b1 = self.W_hh
+        #     b2 = h
+        #     b = b1 @ b2
+        #     c = self.b_h
+        #     h_hat = a + b + c
+        #     h = self.tanh(h_hat)
+        #
+        # r = self.W_ph @ h
+        # s = self.b_p
+        # # p = self.softmax(r + s)
+        # p = r + s
 
         for i in range(self.seq_len):
-            a1 = self.W_hx
-            a2 = x[:, i].reshape(self.input_dim, -1)  # Deals with input of any dimensionality
-            a = a1 @ a2
-            b1 = self.W_hh
-            b2 = h
-            b = b1 @ b2
-            c = self.b_h
-            h_hat = a + b + c
+            h_hat = x[:, i].view(self.batch_size, -1) @ self.W_hx.t() + h @ self.W_hh.t() + self.b_h
             h = self.tanh(h_hat)
-            
-        r = self.W_ph @ h
-        s = self.b_p
-        # p = self.softmax(r + s)
-        p = r + s
+            p = h @ self.W_ph.t() + self.b_p
         
-        return p.reshape(self.batch_size, -1)
+        return p
         
         pass
