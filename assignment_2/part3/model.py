@@ -18,6 +18,7 @@ from __future__ import division
 from __future__ import print_function
 
 import torch.nn as nn
+import torch
 
 
 class TextGenerationModel(nn.Module):
@@ -26,8 +27,35 @@ class TextGenerationModel(nn.Module):
                  lstm_num_hidden=256, lstm_num_layers=2, device='cuda:0'):
 
         super(TextGenerationModel, self).__init__()
-        # Initialization here...
+        self.lstm = nn.LSTM(1, lstm_num_hidden, num_layers=lstm_num_layers, dropout=0.3)
+        self.linear = nn.Linear(lstm_num_hidden, vocabulary_size)
+        self.h_0 = torch.zeros(lstm_num_layers, seq_length, lstm_num_hidden).to(device)
+        self.c_0 = torch.zeros(lstm_num_layers, seq_length, lstm_num_hidden).to(device)
+        self.eval_h_0 = torch.zeros(lstm_num_layers, 1, lstm_num_hidden).to(device)
+        self.eval_c_0 = torch.zeros(lstm_num_layers, 1, lstm_num_hidden).to(device)
+        self.eval_h = None
+        self.eval_c = None
 
-    def forward(self, x):
+    def forward(self, x, train=True):
+        
+        # Handle hidden layer for evaluation
+        if train:
+            # print("train")
+            h, c = self.h_0, self.c_0
+            self.eval_c = None
+        else:
+            # print("eval")
+            if self.eval_c is None:
+                h, c = self.eval_h_0, self.eval_c_0
+            else:
+                h, c = self.eval_h, self.eval_c
+                
         # Implementation here...
-        pass
+        out, (h, c) = self.lstm(x, (h, c))
+        out = self.linear(out)
+        
+        if not train:
+            self.eval_h, self.eval_c = h, c
+        
+        
+        return out
