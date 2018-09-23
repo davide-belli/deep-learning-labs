@@ -27,35 +27,27 @@ class TextGenerationModel(nn.Module):
                  lstm_num_hidden=256, lstm_num_layers=2, device='cuda:0'):
 
         super(TextGenerationModel, self).__init__()
-        self.lstm = nn.LSTM(1, lstm_num_hidden, num_layers=lstm_num_layers, dropout=0.3)
-        self.linear = nn.Linear(lstm_num_hidden, vocabulary_size)
-        self.h_0 = torch.zeros(lstm_num_layers, seq_length, lstm_num_hidden).to(device)
-        self.c_0 = torch.zeros(lstm_num_layers, seq_length, lstm_num_hidden).to(device)
-        self.eval_h_0 = torch.zeros(lstm_num_layers, 1, lstm_num_hidden).to(device)
-        self.eval_c_0 = torch.zeros(lstm_num_layers, 1, lstm_num_hidden).to(device)
-        self.eval_h = None
-        self.eval_c = None
-
-    def forward(self, x, train=True):
         
-        # Handle hidden layer for evaluation
-        if train:
-            # print("train")
-            h, c = self.h_0, self.c_0
-            self.eval_c = None
-        else:
-            # print("eval")
-            if self.eval_c is None:
-                h, c = self.eval_h_0, self.eval_c_0
-            else:
-                h, c = self.eval_h, self.eval_c
+        self.device = device
+        self.emb = nn.Embedding(batch_size * seq_length, 64)
+        self.lstm = nn.LSTM(64, lstm_num_hidden, num_layers=lstm_num_layers, dropout=0.3)
+        self.linear = nn.Linear(lstm_num_hidden, vocabulary_size)
+        self.h = None
+
+    def forward(self, x):
+        
+        # Reset hidden layer for Training
+        if self.training:
+            self.h = None
                 
         # Implementation here...
-        out, (h, c) = self.lstm(x, (h, c))
+        x = self.emb(x.squeeze(-1).type(torch.LongTensor).to(self.device))
+        out, h = self.lstm(x, self.h)
         out = self.linear(out)
-        
-        if not train:
-            self.eval_h, self.eval_c = h, c
+
+        # Handle hidden layer for Inference
+        if not self.training:
+            self.h = h
         
         
         return out

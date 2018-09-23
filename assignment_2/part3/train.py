@@ -41,6 +41,8 @@ def train(config):
     
     config.train_steps = int(config.train_steps)
     
+    softmax = torch.nn.Softmax(dim=0)
+    
     def to_label(tensor):
         _, tensor = tensor.max(-1)
         return tensor
@@ -60,6 +62,22 @@ def train(config):
                 tensor.data[i, j, values[i, j]] = 1
                 
         return tensor
+    
+    def apply_temperature(tensor):
+        tensor = softmax(tensor)
+        tensor = tensor**(1./config.temp)
+        tot = tensor.sum().item()
+        return tensor/tot
+    
+    def sample(tensor):
+        tot = tensor.sum().item()
+        x = torch.rand(1).item() * tot
+        tot = 0
+        for i in range(tensor.shape[0]):
+            tot += tensor[i]
+            if x < tot:
+                return i-1
+        return tensor.shape[0]
 
     # Initialize the dataset and data loader (note the +1)
     dataset = TextDataset(config.txt_file, config.seq_length)  # fixme
@@ -76,69 +94,88 @@ def train(config):
 
     criterion = torch.nn.CrossEntropyLoss()
     optimizer = torch.optim.RMSprop(model.parameters(), config.learning_rate)
+    
 
-    for step, (batch_inputs, batch_targets) in enumerate(data_loader):
-
-        # Only for time measurement of step through network
-        t1 = time.time()
-        #######################################################
-        # Add more code here ...
-        #######################################################
-
-        model.train()
-        optimizer.zero_grad()
-
-        batch_targets = torch.stack(batch_targets).t().unsqueeze(-1).to(device)
-        # batch_onehot = to_one_hot(torch.stack(batch_inputs).t()).type(torch.FloatTensor).to(device)
-        batch_inputs = torch.stack(batch_inputs).t().unsqueeze(-1).type(torch.FloatTensor).to(device)
+    def iterate():
         
-        batch_outputs = model(batch_inputs)
-
-        loss = criterion(batch_outputs.transpose(1, 2), batch_targets.squeeze(-1))
-        accuracy = get_accuracy(batch_outputs, batch_targets)
-
-        loss.backward()
-        torch.nn.utils.clip_grad_norm(model.parameters(), max_norm=config.max_norm)
-
-        optimizer.step()
-
-        # Just for time measurement
-        t2 = time.time()
-        examples_per_second = config.batch_size/float(t2-t1)
-
-        if step % config.print_every == 0:
+        for step, (batch_inputs, batch_targets) in enumerate(data_loader):
+    
+            # Only for time measurement of step through network
+            t1 = time.time()
+            #######################################################
+            # Add more code here ...
+            #######################################################
+    
+            model.train()
+            optimizer.zero_grad()
+    
+            batch_targets = torch.stack(batch_targets).t().unsqueeze(-1).to(device)
+            # batch_onehot = to_one_hot(torch.stack(batch_inputs).t()).type(torch.FloatTensor).to(device)
+            batch_inputs = torch.stack(batch_inputs).t().unsqueeze(-1).type(torch.FloatTensor).to(device)
             
-            print("[{}] Train Step {:04d}/{:04d}, Batch Size = {}, Examples/Sec = {:.2f}, "
-                  "Accuracy = {:.2f}, Loss = {:.3f}".format(
-                    datetime.now().strftime("%Y-%m-%d %H:%M"), step,
-                    config.train_steps, config.batch_size, examples_per_second,
-                    accuracy, loss
-            ))
+            batch_outputs = model(batch_inputs)
+    
+            loss = criterion(batch_outputs.transpose(1, 2), batch_targets.squeeze(-1))
+            accuracy = get_accuracy(batch_outputs, batch_targets)
+    
+            loss.backward()
+            torch.nn.utils.clip_grad_norm(model.parameters(), max_norm=config.max_norm)
+    
+            optimizer.step()
+    
+            # Just for time measurement
+            t2 = time.time()
+            examples_per_second = config.batch_size/float(t2-t1)
+    
+            if step % config.print_every == 0:
+                
+                print("[{}] Train Step {:04d}/{:04d}, Batch Size = {}, Examples/Sec = {:.2f}, "
+                      "Accuracy = {:.2f}, Loss = {:.3f}".format(
+                        datetime.now().strftime("%Y-%m-%d %H:%M"), step,
+                        config.train_steps, config.batch_size, examples_per_second,
+                        accuracy, loss
+                ))
+    
+            if step % config.sample_every == 0:
+                # Generate some sentences by sampling from the model
+                model.eval()
+                with torch.no_grad():
+                    c = torch.randint(0, dataset.vocab_size, (1, 1, 1)).type(torch.FloatTensor).to(device)
+                    sentence = [int(c[0, 0, 0])]
+                    for i in range(config.seq_length):
+                        out = model(c).reshape(-1)
+                        if config.temp == 0:
+                            c = int(to_label(out))
+                        else:
+                            prob = apply_temperature(out)
+                            c = sample(prob)
+                        sentence.append(c)
+                        c = torch.FloatTensor([c]).reshape(1, 1, 1).to(device)
+                print(dataset.convert_to_string(sentence))
+    
+            if step == config.train_steps:
+                # If you receive a PyTorch data-loader error, check this bug report:
+                # https://github.com/pytorch/pytorch/pull/9655
 
-        if step % config.sample_every == 0:
-            # Generate some sentences by sampling from the model
-            model.eval()
-            with torch.no_grad():
-                c = torch.randint(0, dataset.vocab_size, (1, 1, 1)).type(torch.FloatTensor).to(device)
-                sentence = [int(c[0, 0, 0])]
-                for i in range(config.seq_length):
-                    out = model(c, train=False)
-                    c = int(to_label(out.reshape(-1)))
-                    sentence.append(c)
-                    c = torch.FloatTensor([c]).reshape(1, 1, 1).to(device)
-            print(dataset.convert_to_string(sentence))
+                print('Done training.')
+                break
+                
+            if step and step % 10000 == 0:
+                with open("model.pickle", 'wb') as pickle_file:
+                    pickle.dump(model, pickle_file)
 
-        if step == config.train_steps:
-            # If you receive a PyTorch data-loader error, check this bug report:
-            # https://github.com/pytorch/pytorch/pull/9655
-            break
-            
-        if step and step % 10000 == 0:
-            with open("model.pickle", 'wb') as pickle_file:
-                pickle.dump(model, pickle_file)
-            
+        
+    epoch = 0
+    try:
+        while True:
+            epoch += 1
+            iterate()
+            print("Epoch {} completed".format(epoch))
+    except KeyboardInterrupt:
+        print('-' * 89)
+        print('Exiting from training early during epoch {}'.format(epoch))
+        
 
-    print('Done training.')
 
 
  ################################################################################
@@ -172,6 +209,7 @@ if __name__ == "__main__":
     parser.add_argument('--print_every', type=int, default=5, help='How often to print training progress')
     parser.add_argument('--sample_every', type=int, default=100, help='How often to sample from the model')
     parser.add_argument('--device', type=str, default="cuda:0", help="Training device 'cpu' or 'cuda:0'")
+    parser.add_argument('--temp', type=float, default="0", help="Temperature for sampling")
     
     config = parser.parse_args()
 
