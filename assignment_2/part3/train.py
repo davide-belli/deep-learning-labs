@@ -28,8 +28,10 @@ import torch
 import torch.optim as optim
 from torch.utils.data import DataLoader
 
-from part3.dataset import TextDataset
-from part3.model import TextGenerationModel
+# from part3.dataset import TextDataset
+from dataset import TextDataset
+# from part3.model import TextGenerationModel
+from model import TextGenerationModel
 import pickle
 
 ################################################################################
@@ -86,8 +88,8 @@ def train(config):
     print("Vocab size", dataset.vocab_size)
     
     # Initialize the model that we are going to use
-    model = torch.nn.DataParallel(TextGenerationModel(config.batch_size, config.seq_length, dataset.vocab_size,
-                                config.lstm_num_hidden, config.lstm_num_layers, config.device))  # fixme
+    model = TextGenerationModel(config.batch_size, config.seq_length, dataset.vocab_size,
+                                config.lstm_num_hidden, config.lstm_num_layers, config.device)  # fixme
     model.to(device)
     
     # Setup the loss and optimizer
