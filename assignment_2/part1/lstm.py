@@ -37,19 +37,19 @@ class LSTM(nn.Module):
         self.device = device
 
         self.b_g = torch.nn.Parameter(torch.Tensor(1, self.num_hidden).zero_())
-        self.W_gh = torch.nn.Parameter(torch.nn.init.orthogonal_(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001)))
+        self.W_gh = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001))
         self.W_gx = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.input_dim).normal_(mean=0, std=0.0001))
 
         self.b_i = torch.nn.Parameter(torch.Tensor(1, self.num_hidden).zero_())
-        self.W_ih = torch.nn.Parameter(torch.nn.init.orthogonal_(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001)))
+        self.W_ih = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001))
         self.W_ix = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.input_dim).normal_(mean=0, std=0.0001))
 
         self.b_f = torch.nn.Parameter(torch.Tensor(1, self.num_hidden).zero_())
-        self.W_fh = torch.nn.Parameter(torch.nn.init.orthogonal_(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001)))
+        self.W_fh = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001))
         self.W_fx = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.input_dim).normal_(mean=0, std=0.0001))
 
         self.b_o = torch.nn.Parameter(torch.Tensor(1, self.num_hidden).zero_())
-        self.W_oh = torch.nn.Parameter(torch.nn.init.orthogonal_(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001)))
+        self.W_oh = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001))
         self.W_ox = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.input_dim).normal_(mean=0, std=0.0001))
         
         self.b_p = torch.nn.Parameter(torch.Tensor(1, self.num_classes).zero_())

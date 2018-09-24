@@ -38,7 +38,7 @@ class VanillaRNN(nn.Module):
         self.device = device
         
         self.b_h = torch.nn.Parameter(torch.Tensor(1, self.num_hidden).zero_())
-        self.W_hh = torch.nn.Parameter(torch.nn.init.orthogonal_(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001)))
+        self.W_hh = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.num_hidden).normal_(mean=0, std=0.0001))
         self.W_hx = torch.nn.Parameter(torch.Tensor(self.num_hidden, self.input_dim).normal_(mean=0, std=0.0001))
         
         self.b_p = torch.nn.Parameter(torch.Tensor(1, self.num_classes).zero_())
