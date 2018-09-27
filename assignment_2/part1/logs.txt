@@ -1,21 +1,104 @@
-runs/RNN_batch128_dim1_len30_2018-09-23 21:49   Accuracy: 0.234375
-runs/RNN_batch128_dim1_len20_2018-09-23 21:52   Accuracy: 0.0546875
-runs/RNN_batch128_dim1_len15_2018-09-23 21:54   Accuracy: 0.21875
-runs/RNN_batch128_dim1_len10_2018-09-23 21:57   Accuracy: 0.5703125
-runs/RNN_batch128_dim1_len5_2018-09-23 21:58   Accuracy: 1.0
-runs/LSTM_batch128_dim1_len30_2018-09-23 22:00   Accuracy: 0.1328125
-runs/LSTM_batch128_dim1_len20_2018-09-23 22:08   Accuracy: 0.1640625
-runs/LSTM_batch128_dim1_len15_2018-09-23 22:13   Accuracy: 0.0859375
-runs/LSTM_batch128_dim1_len10_2018-09-23 22:18   Accuracy: 0.0703125
-runs/LSTM_batch128_dim1_len5_2018-09-23 22:22   Accuracy: 1.0
+# RNN run 01
+runs/RNN_batch128_dim1_len5_2018-09-25 15:24   Accuracy: 1.0
+runs/RNN_batch128_dim1_len6_2018-09-25 15:25   Accuracy: 1.0
+runs/RNN_batch128_dim1_len7_2018-09-25 15:27   Accuracy: 1.0
+runs/RNN_batch128_dim1_len8_2018-09-25 15:29   Accuracy: 1.0
+runs/RNN_batch128_dim1_len9_2018-09-25 15:30   Accuracy: 1.0
+runs/RNN_batch128_dim1_len10_2018-09-25 15:22   Accuracy: 0.834375
+runs/RNN_batch128_dim1_len11_2018-09-25 15:32   Accuracy: 0.7734375
+runs/RNN_batch128_dim1_len12_2018-09-25 15:35   Accuracy: 0.6484375
+runs/RNN_batch128_dim1_len13_2018-09-25 15:37   Accuracy: 0.0390625
+runs/RNN_batch128_dim1_len14_2018-09-25 15:40   Accuracy: 0.203125
+runs/RNN_batch128_dim1_len15_2018-09-25 15:19   Accuracy: 0.3046875
+runs/RNN_batch128_dim1_len20_2018-09-25 15:16   Accuracy: 0.1015625
+runs/RNN_batch128_dim1_len30_2018-09-25 15:11   Accuracy: 0.1171875
+runs/RNN_batch128_dim1_len40_2018-09-25 15:05   Accuracy: 0.3828125
+runs/RNN_batch128_dim1_len50_2018-09-25 14:58   Accuracy: 0.0859375
 
-runs/RNN_batch512_dim1_len30_2018-09-23 22:24   Accuracy: 0.123046875
-runs/RNN_batch512_dim1_len20_2018-09-23 22:29   Accuracy: 0.27734375
-runs/RNN_batch512_dim1_len15_2018-09-23 22:34   Accuracy: 0.47265625
-runs/RNN_batch512_dim1_len10_2018-09-23 22:38   Accuracy: 1.0
-runs/RNN_batch512_dim1_len5_2018-09-23 22:42   Accuracy: 1.0
-runs/LSTM_batch512_dim1_len30_2018-09-23 22:46   Accuracy: 0.109375
-runs/LSTM_batch512_dim1_len20_2018-09-23 22:57   Accuracy: 0.09375
-runs/LSTM_batch512_dim1_len15_2018-09-23 23:06   Accuracy: 0.10546875
-runs/LSTM_batch512_dim1_len10_2018-09-23 23:13   Accuracy: 0.095703125
-runs/LSTM_batch512_dim1_len5_2018-09-23 23:19   Accuracy: 1.0
+# RNN run 02
+runs/RNN_batch128_dim1_len5_2018-09-26 18:08   Accuracy: 1.0
+runs/RNN_batch128_dim1_len6_2018-09-26 18:09   Accuracy: 1.0
+runs/RNN_batch128_dim1_len7_2018-09-26 18:11   Accuracy: 1.0
+runs/RNN_batch128_dim1_len8_2018-09-26 18:13   Accuracy: 1.0
+runs/RNN_batch128_dim1_len9_2018-09-26 18:15   Accuracy: 1.0
+runs/RNN_batch128_dim1_len10_2018-09-26 18:06   Accuracy: 0.9296875
+runs/RNN_batch128_dim1_len11_2018-09-26 18:17   Accuracy: 0.890625
+runs/RNN_batch128_dim1_len12_2018-09-26 18:19   Accuracy: 0.828125
+runs/RNN_batch128_dim1_len13_2018-09-26 18:21   Accuracy: 0.2109375
+runs/RNN_batch128_dim1_len14_2018-09-26 18:24   Accuracy: 0.21875
+runs/RNN_batch128_dim1_len15_2018-09-26 18:03   Accuracy: 0.1171875
+runs/RNN_batch128_dim1_len20_2018-09-26 18:00   Accuracy: 0.1484375
+runs/RNN_batch128_dim1_len30_2018-09-26 17:55   Accuracy: 0.3359375
+runs/RNN_batch128_dim1_len40_2018-09-26 17:49   Accuracy: 0.1875
+runs/RNN_batch128_dim1_len50_2018-09-26 17:42   Accuracy: 0.28125
+
+# LSTM
+# l_rate 0.001
+runs/LSTM_batch128_dim1_len50_2018-09-25 15:45   Accuracy: 0.1484375
+runs/LSTM_batch128_dim1_len40_2018-09-25 16:07   Accuracy: 0.0546875
+runs/LSTM_batch128_dim1_len30_2018-09-25 16:25   Accuracy: 0.09375
+runs/LSTM_batch128_dim1_len20_2018-09-25 16:39   Accuracy: 0.09375
+runs/LSTM_batch128_dim1_len5_2018-09-25 17:05   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len6_2018-09-25 17:09   Accuracy: 0.890625
+runs/LSTM_batch128_dim1_len7_2018-09-25 17:14   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len8_2018-09-25 17:19   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len9_2018-09-25 17:24   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len10_2018-09-25 16:58   Accuracy: 0.0703125
+runs/LSTM_batch128_dim1_len11_2018-09-25 17:31   Accuracy: 0.1015625
+runs/LSTM_batch128_dim1_len12_2018-09-25 17:38   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len13_2018-09-25 17:45   Accuracy: 0.1171875
+runs/LSTM_batch128_dim1_len14_2018-09-25 17:53   Accuracy: 0.0625
+runs/LSTM_batch128_dim1_len15_2018-09-25 16:50   Accuracy: 0.0703125
+
+# l_rate 0.01
+runs/LSTM_batch128_dim1_len50_2018-09-26 13:49   Accuracy: 0.125
+runs/LSTM_batch128_dim1_len40_2018-09-26 14:11   Accuracy: 0.140625
+runs/LSTM_batch128_dim1_len30_2018-09-26 14:29   Accuracy: 0.140625
+runs/LSTM_batch128_dim1_len20_2018-09-26 14:43   Accuracy: 0.09375
+runs/LSTM_batch128_dim1_len5_2018-09-26 15:09   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len6_2018-09-26 15:13   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len7_2018-09-26 15:18   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len8_2018-09-26 15:23   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len9_2018-09-26 15:29   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len10_2018-09-26 15:03   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len11_2018-09-26 15:35   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len12_2018-09-26 15:42   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len13_2018-09-26 15:49   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len14_2018-09-26 15:57   Accuracy: 1.0
+runs/LSTM_batch128_dim1_len15_2018-09-26 14:54   Accuracy: 1.0
+
+########### Input Dim = 10
+
+# RNN
+runs/RNN_batch128_dim10_len50_2018-09-26 18:06   Accuracy: 0.3203125
+runs/RNN_batch128_dim10_len40_2018-09-26 18:13   Accuracy: 0.3046875
+runs/RNN_batch128_dim10_len30_2018-09-26 18:19   Accuracy: 0.3515625
+runs/RNN_batch128_dim10_len20_2018-09-26 18:24   Accuracy: 0.2421875
+runs/RNN_batch128_dim10_len10_2018-09-26 18:30   Accuracy: 1.0
+runs/RNN_batch128_dim10_len5_2018-09-26 18:32   Accuracy: 1.0
+runs/RNN_batch128_dim10_len6_2018-09-26 18:33   Accuracy: 1.0
+runs/RNN_batch128_dim10_len7_2018-09-26 18:35   Accuracy: 1.0
+runs/RNN_batch128_dim10_len8_2018-09-26 18:37   Accuracy: 1.0
+runs/RNN_batch128_dim10_len9_2018-09-26 18:39   Accuracy: 1.0
+runs/RNN_batch128_dim10_len11_2018-09-26 18:41   Accuracy: 0.5546875
+runs/RNN_batch128_dim10_len12_2018-09-26 18:43   Accuracy: 0.7109375
+runs/RNN_batch128_dim10_len13_2018-09-26 18:45   Accuracy: 1.0
+runs/RNN_batch128_dim10_len14_2018-09-26 18:48   Accuracy: 1.0
+runs/RNN_batch128_dim10_len15_2018-09-26 18:50   Accuracy: 0.4140625
+
+# LSTM
+runs/LSTM_batch128_dim10_len50_2018-09-26 18:53   Accuracy: 0.09375
+runs/LSTM_batch128_dim10_len40_2018-09-26 19:14   Accuracy: 0.1015625
+runs/LSTM_batch128_dim10_len30_2018-09-26 19:33   Accuracy: 0.1171875
+runs/LSTM_batch128_dim10_len20_2018-09-26 19:46   Accuracy: 0.1015625
+runs/LSTM_batch128_dim10_len10_2018-09-26 20:06   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len5_2018-09-26 20:12   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len6_2018-09-26 20:16   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len7_2018-09-26 20:21   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len8_2018-09-26 20:26   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len9_2018-09-26 20:32   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len11_2018-09-26 20:38   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len12_2018-09-26 20:44   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len13_2018-09-26 20:52   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len14_2018-09-26 20:59   Accuracy: 1.0
+runs/LSTM_batch128_dim10_len15_2018-09-26 21:08   Accuracy: 1.0
