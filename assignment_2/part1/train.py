@@ -55,15 +55,6 @@ def train(config):
         _, tensor = tensor.max(-1)
         return tensor
     
-    # Actually not used in this code
-    def to_one_hot(values):
-        values = values.view(values.shape[0], -1)
-        tensor = torch.zeros(values.shape[0], values.shape[1], config.num_classes)
-        for i in range(values.shape[0]):
-            for j in range(values.shape[1]):
-                tensor.data[i, j, values[i, j]] = 1
-        return tensor
-    
     # Output accuracy given predictions and targets
     def get_accuracy(predictions, targets):
         idx_p = to_label(predictions)

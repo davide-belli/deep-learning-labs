@@ -51,24 +51,7 @@ class VanillaRNN(nn.Module):
         # Implementation here ...
         
         p = None
-            
         h = torch.zeros(self.batch_size, self.num_hidden).to(self.device)
-
-        # for i in range(self.seq_len):
-        #     a1 = self.W_hx
-        #     a2 = x[:, i].transpose(0, 1)  # Deals with input of any dimensionality
-        #     a = a1 @ a2
-        #     b1 = self.W_hh
-        #     b2 = h
-        #     b = b1 @ b2
-        #     c = self.b_h
-        #     h_hat = a + b + c
-        #     h = self.tanh(h_hat)
-        #
-        # r = self.W_ph @ h
-        # s = self.b_p
-        # # p = self.softmax(r + s)
-        # p = r + s
 
         for i in range(self.seq_len):
             h_hat = x[:, i].view(self.batch_size, -1) @ self.W_hx.t() + h @ self.W_hh.t() + self.b_h
