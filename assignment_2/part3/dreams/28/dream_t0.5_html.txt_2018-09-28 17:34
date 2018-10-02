@@ -1,0 +1,3330 @@
+100 | <p><font size=1A8><fnto
+  ont="">>aolesione ste = itr>   ane enn le eolootaoreese  neot ioon  blt /nre  oolt=""0"><fonntesens  svan hf aee innndeatepze="">>osnoee in  ifep soot n it   fnt> 
+eedtseleasthinee  l   t>
+200 | <p><font size="6">&lt;SSCFE&gt; &lt;UTTORQ&gt; &nt; 
+hhe bonthans aruthat the tore cher the urerior on the mererithe antathant antrorentase the wid  onthe the the uage th the the seresiog re fancemes arat on the in
+300 | <p><font size="2">&lt;TCOKEN&gt;110032329177
+					&lt;TNNTRRS&gt;</font></b> </td>
+    <td width="1"><font size="2">&lt;ACRSUD&gt;</font></b></td>
+    <td width="368"><font size="2">&lt;BANCTGES&gt;</font></b></td>
+400 | <p><font size="2">&gt;</b></ont></td>
+    <td width="366"><i><font size="2">&lt;RSID&gt;</font></td>
+    <td width="366"><font size="2">The recorns and the server sent requests on respontes of the sicust the the th
+500 | <p><font size="1">&lt;PTINRID&gt;
+			&lt;ADE&gt;
+		&lt;CINOD&gt; &lt;!-  change cordent ate servers avererifal server procimes of the vilient and of are with For and simker allow servers ase server trencill with a 
+600 | <p><font size="1">&lt;CRENFTRNRQ&gt;</font></b></td>
+    <td width="180"><font size="2">Wime specification ang passate sension the server in thes in the suchionars Open Financial Exchange to the of the states of a 
+700 | <p><font size="2">Description</font></i> </td>
+    <td width="356">&nbsp;</td>
+    <td width="366"><font size="2">The specific the mation a server signor decuritity (</font> </p>
+
+<p><font size="2">The provide sage
+800 | <p><font size="1">&lt;/<b><i>XXX</i>URRQ&gt; is the encounts is a server in the clients to the requests in a servers to mage to the client user aroweld and can application</font> </td>
+  </tr>
+  <tr>
+    <td width=
+900 | <p><font size="132"><b><font size="1">&lt;/<b><i>XXXX</i>MERS&gt;</font></b> </td>
+    <td width="162"><font size="1">&lt;/<b><font size="1">&lt;MAGSES&gt;</font></b> </td>
+    <td width="366"><font size="2">The da
+1000 | <p><font size="2">Filancial Exchange server of the account information accounts are of the client of the example, the server the server the client message set and the formation a mistome the user in the responses a
+1100 | <p><font size="1">&lt;/MAILRQ&gt;</font></b></td>
+    <td width="366"><font size="2">A transactions are support the requests and the formation in the generation of an any within a text provides the &lt;SONRQ&gt;</f
+1200 | <p><font size="366"><font size="2">Message set as the client a synchronization aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/BANKACCTFROM&gt;</font></b></td>
+    <td width="366">&
+1300 | <p><font size="2">One message set of a reaction dita allows a requests and responses to a single accounts in it should include an a user in a signon and server message set to in the new requests. The server the it 
+1400 | <p><font size="2">Description</font></i> </td>
+    <td bgcolor="#000000" width="180"><i><font size="2">Communicate</i></font> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;<i>XXXMSTSTH&gt;</font> <
+1500 | <p><font size="132"><b><font size="1">&lt;FITID&gt; that the client and the specific to and a texthen and a server synchronization requests and require activation is a sends the entire and the client connections th
+1600 | <p><font size="132"><b><font size="1">&lt;USERID&gt;</font></b> </td>
+    <td width="354"><font size="2">Accounts in a server for the client can payment requests and response. </font></p>
+
+<p><font size="2">The &lt
+1700 | <p><font size="Arial">Examples</font></a> </li>
+</ol>
+
+<p><font size="2">Account-information requests and a message vels that the order
+in the server give to use the client some experate a server use the synchroniz
+1800 | <p><font size="1">&lt;/PINCHRQ&gt;</font></b> </td>
+    <td width="366"><font size="2">Model of the server to support the request. Othere statement defines the response with the message set in the account informati
+1900 | <p><font size="366"><font size="2">Invest allows and allows of the application request in the company of the server should be included aggregates allow description for history server can cancel for common request t
+2000 | <p><font size="1">&lt;/</font></b><font size="2">The server can use the models the server should be the server can send the client or server lend and payment requests in indicate the HTTP password change with image
+2100 | <p><font size="1">&lt;/MAILSYNCRS&gt;</font></b> </td>
+    <td width="318"><font size="2">Clients can request in the server synchronization requests and a server can account
+information requests and the server sync
+2200 | <p><font size="366"><font size="2">Message set cases, and an a client specific in the new commen to the common message set and with a synchronization request. </font></p>
+
+<p><font size="2">If the client server to 
+2300 | <p><font size="2" face="Arial">&lt;RECURRINFO&gt;</font> </td>
+    <td width="318"><font size="2">Only on the signon request can also transactions are available the signon request and response and the server in res
+2400 | <p><font size="162"><b><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt;</b></font></b> </td>
+    <td bgcolor="#000000" width="162"><i><font size="2">The model and the client can request is a server account information r
+2500 | <p><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt;</font></b> </td>
+    <td width="366"><font size="2">Core can access than a contents should need to responses in an FI can bach this conserver to return the request in 
+2600 | <p><font size="2">The other channel be can account information 200. Open Financial Exchange servers that can be account, and the server can change is a statement download, investment statement download, or aggregat
+2700 | <p><font size="#000000" width="366"><i><font size="2">Some or more information without a mank only in a messages server is only in the message sets and the server is the response the server a synchronization reques
+2800 | <p><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt;</b></font></b> </td>
+    <td width="336"><font size="2">End of the server both the service should signon response
+
+    of the server can requests can use the server to
+2900 | <p><font size="318"><font size="2">Investment convention, and the following changes and enrollment can rean formatting of the server can return any server error the FI is no server sends the server should be change
+3000 | <p><font size="2">For might information aggregates. For example, the server should include information. </font></p>
+
+<p><font size="2">Some service service information aggregate</font> </td>
+  </tr>
+  <tr>
+    <td 
+3100 | <p><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt;</b></font></b> </td>
+    <td width="318"><font size="2">Account</font></b><font size="2"> - Open Financial Exchange hande appropriate the change bease to insure could 
+3200 | <p><font size="2">Service-specific account information on additional information aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;STATUS&gt;</font></b> </td>
+    <td width="336"><font
+3300 | <p><font size="2">The server can change and the same as all of the same responses are allowed as there are supported and the server. If a user ID and one some cases are processes that channel-level security on ther
+3400 | <p><font size="1">&lt;SIGNONMSGSRQV1&gt;</font></b> </td>
+    <td width="366"><font size="2">User ID and servers can requests. Servers to see security in the following transaction requests
+for the model and the ser
+3500 | <p><font size="2">These aggregate to a different with a service activation requests. Servers are information and the server can purposes. This change in the response aggregate</font> </td>
+  </tr>
+  <tr>
+    <td wi
+3600 | <p><font size="300"><font size="2">Account Information aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><font size="1">&lt;/SIGNONRSLL&gt;</font></b> </td>
+    <td width="354"><font size="2">Includesting a
+3700 | <p><font size="1">&lt;DTACCTUP&gt;</font></b> </td>
+    <td width="366"><font size="2">Description</font></i> </td>
+    <td bgcolor="#000000" width="162"><i><font size="1">Tag</font></td>
+    <td width="318"><font 
+3800 | <p><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font> </td>
+    <td width="336"><font size="2">Date and password characters.</font> </p>
+
+<p><font size="2"><b>Format:</b> <i>A-265</i></font> </td>
+  </tr>
+  <tr>
+    <t
+3900 | <p><font size="1">&lt;SVC&gt;</font></b></td>
+    <td width="318"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;USERID&gt;</font></b></td>
+    <td width="336">&
+4000 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="300"><font size="2">Common and the application to ask a services. However, the server provides a server to return the existing formats with indi
+4100 | <p><font size="318"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<b><i>XXX</i>TRNRS&gt;</b></font></b> </td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody>
+4200 | <p><font size="2">Open Financial Exchange
+requests. A server can request aggregate, such as account information in a single request and
+responses:</font> 
+
+</p><ul>
+  <li><font size="2">Open Financial Exchange requ
+4300 | <p><font size="1">&lt;FI&gt;</font></b></td>
+    <td width="318"><font size="2">Servers should send the message set support a wider a server can both clients and servers to start a server information about the clie
+4400 | <p><font size="1">&lt;/MAILSYNCRS&gt;</font></b> </td>
+    <td width="300"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt;</b></font></b>
+4500 | <p><font size="2">The server cancolories to a change information requests. Servers are in use of provide server sends interest on the enrollment requests and responses with the client will be code from ISO/DIS-3166
+4600 | <p><font size="2">The server can relute a responses that all requests and responses to contain a response for the format:</font> </p>
+
+<p><font size="2">The signon reasons. This order the diagram belanted for the r
+4700 | <p><font size="2">The request or a response file, and a single response file sent on the server will send the server will send
+    request and responses to the responses to the server will not have to support the a
+4800 | <p><font size="2">The response to the user ID and password in the request:</font> </p>
+
+<pre><font size="1">&lt;MAILTRNRS&gt;
+	&lt;TRNUID&gt;12345
+	&lt;LASTRATS&gt; and the signon message set aggregate</font></td>
+
+4900 | <p><font size="2">Checking 2 - held a message set can contect. This is the server should requests and responses to the data control context and time is client data set or more that allows implementation wreport the
+5000 | <p><font size="1">&lt;SEVERITY&gt;</font></b> </td>
+    <td width="318"><font size="2">The client was on a regular can access the same aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;US
+5100 | <p><font size="1">&lt;<b><i>XXXMSGSETVn</i>&gt;</b></font></b> </td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493357"><font size="4" face="Arial">Balance 132.4.1 Message 
+5200 | <p><font size="2"><i><b>NOTE:</b> Open Financial Exchange header
+synchronization requests in the following and telephone number of response will need to be unique only within the specific request and response aggre
+5300 | <p><font size="1">&lt;/GETMIMERS&gt;</font></b></td>
+    <td width="366"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;SIGNONMSGSRQV1&gt;</font></b></td>
+    <t
+5400 | <p><font size="1">&lt;/<i>ACTION&gt;</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;<i>ACCTTO&gt;</i></font></b></td>
+    <td width="366"><font size="2">Signon realm information on a 
+5500 | <p><font size="2">A typical provided by no way to provide some seaders and the server will not require a user's pending requests in the following example, a balance wand Uniform Versanns</font></a> </li>
+</ol>
+
+<p>
+5600 | <p><font size="1">&lt;CLIENTROFUSGEEMAGEE&gt; (using the information on the request to access the client can request to the server to return the client will not save the client makes allow currency identification a
+5700 | <p><font size="1">&lt;/SVCADD&gt;	
+		&lt;SVCADD&gt;	
+		&lt;SVC&gt;BPSVC
+	&lt;/ACCTRS&gt;
+		&lt;SVCDEL&gt;
+			&lt;BANKID&gt;55543218"><font size="2" face="Arial">Determining Security 378.4 Date
+Special Leximuting an
+5800 | <p><font size="2">Common message set.</font> </p>
+
+<p><font size="2">A server should save the client or server to return the server processor or decide if the following section currency for the server to return the
+5900 | <p><font size="2">Allow FIs can use the server does not real defines a rinfor each transaction allows the client whenever the server to accept all of the response is the server would processory of the information a
+6000 | <p><font size="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/<b><i>XXXMSGSETVn</i>&gt;</b></font></b> </td>
+    <td width="354">&nbsp;</td>
+  </tr>
+</tbo
+6100 | <p><font size="2">YYYYMMDDHHMMSS.XXX[-0500:EST]: Fully qualified using e-mail messages to identify the specification will send the URL to identify the client. At the client will not provides a server sends informat
+6200 | <p><font size="1">&lt;/MSGSETLIST&gt;</font></b></td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/MSGSETLIST&gt;</font></b> </td>
+    <t
+6300 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="132"><i><font size="1">Tag</font></i> </td>
+    <td width="318"><font size="2">Common message set. In the status code (that request in the ser
+6400 | <p><font size="2">Client can decimal notation.</font> 
+
+</p><ol>
+  <li><a name="_Toc380493332"><font size="5" face="Arial">Examples</font></a> </li>
+</ol>
+
+<p><font size="2">The scope of the message set and respons
+6500 | <p><font size="1">&lt;/STATUS&gt;</font></b></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;SIGNONINFOLIST&gt;</font></b> </td>
+    <td width="366"><font size="2">URL 
+6600 | <p><font size="2">Beginn a password change servers to start with the server sends in the following those ronuls on the server supports for the FI for each country codes only that the server should send a response, 
+6700 | <p><font size="_Toc380493296"><font size="4" face="Arial">Activation 5.2.4 It is possible aggregate specific message set. The client can have record in each country code from ISO/DIS-3166</font> </td>
+  </tr>
+  <tr
+6800 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="162"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="162"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000
+6900 | <p><font size="2">Core</font></i> </td>
+    <td bgcolor="#000000" width="132"><i><font size="2">Tag</font></i> </td>
+    <td bgcolor="#000000" width="336"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <t
+7000 | <p><font size="1">&lt;SIGNONMSGSRSV1&gt; aggregate for each user in each communication of the recurring transactions. It supports provide the requested to the Open Financial Exchange requests in the following secti
+7100 | <p><font size="2">The describes the response that requires a previous or it sait. Servers can request that the models it is usually the same simply not have a service with the server should include the server to re
+7200 | <p><font size="132"><b><font size="1">&lt;/SVCDEL&gt;</font></b></td>
+    <td width="336"><font size="2">Clients use these tags is languages and to support the response file. Extensions at work payment or direcify 
+7300 | <p><font size="_Toc380493321"><font size="4" face="Arial">Enrollment Request and Response</font></a> </li>
+</ol>
+
+<p><font size="2">Open Financial Exchange is a client and server update</font> </td>
+  </tr>
+  <tr>
+
+11100 | <p><font size="1" face="Arial">&lt;CSGNUE&gt;</font></b> </td>
+    <td width="318"><font size="2">User identification purposes of to the server will not save the security level for this transactions. If an orightsh
+11200 | <p><font size="2">The server can applications (Open Financial Exchange headers always sending the password access to one section telect the service provider must allow FIs to start endleal additional information ag
+11300 | <p><font size="1">&lt;/SVCCHG&gt;</font></b></td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;ADDR2&gt;</font></b> </td>
+    <td width="354"><font size="2">Ser
+11400 | <p><font size="1">13501 --&gt; other also cancels any added, modified, or current requires a unique type of response
+    in Open Financial Exchange data. A future versions message set details, the current files. Th
+11500 | <p><font size="1">&lt;ACCTRQ&gt;</font></a> </li>
+</ol>
+
+<p><font size="2">The response to this message set. </font></p>
+
+<p><font size="2">The client can request the &lt;MEMO&gt; 253.2.2 Using Allowed &lt;TRNAMT&g
+11600 | <p><font size="1">&lt;PINCHRQ&gt;</font></b></td>
+    <td width="300"><font size="2">Common message set information on accounts are created and the specified out of the client when the client
+dif the telephone numb
+11700 | <p><font size="180"><font size="1" face="Arial">&lt;CURRATE&gt;</font></b> </td>
+    <td width="366"><font size="2">Data complete examples that it has account
+not in the response to the response to the server suppo
+11800 | <p><font size="2">Security Support</font></b><font size="1" face="Courier New">&lt;ACCTINFORQ&gt; &lt;SIGNONMSGSRQV1&gt; &lt;SONRQ&gt; &lt;!-- Signon message set includes a transaction response for the record.</fon
+11900 | <p><font size="2">Open Financial Exchange requests and
+responses. The token for a request to a model. The actual between the signon message set and responses. This allows a client can request and responses. The fol
+12000 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="354"><font size="2">General error (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;<b><i>XXX</i>TRNRS&gt;</b></font
+12100 | <p><font size="2">General error (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;<i>ACCTFROM&gt;</i></font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132">
+12200 | <p><font size="2">Open Financial Exchange requires the server should response.</font> </p>
+
+<table border="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="366"><i><font size="2">Description</font></i> </td>
+  </
+12300 | <p><font size="2">Common message sets are subject to synchronization request, and so formatted as the following additional information to create a user has a server or transfers. If a user wants the server does not
+12400 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="366"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/MAILRS&gt;</font></b></td>
+    <
+12500 | <p><font size="1">&lt;/CHGUSERINFORQ&gt;</font></b> </td>
+    <td width="318"><font size="2">Service a message set to a synchronization requests that contain a client can request that the client can request file co
+12600 | <p><font size="132"><b><font size="1">&lt;FID&gt;</font></b></td>
+    <td width="366"><font size="2">URL to be uperthe another context on the connection desired financial services with responses that its use the st
+12700 | <p><font size="1">&lt;URL&gt;</font></b></td>
+    <td width="366"><font size="2">Signon (see Chapter 7), <i>datetime</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;<b><i>XXXMSGSET</i>&gt
+12800 | <p><font size="366"><font size="2">Service activation request. In the common security lost synchronization, might have occurred.</font> </p>
+
+<p><font size="2">The description, Accounts are the client that the spec
+12900 | <p><font size="2">Core e-mail aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/PROFMSGSETV1&gt;</font></b> </td>
+    <td width="354"><font size="2">Because there is a server can rely 
+13000 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="366"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/SONRS&gt;</font></b></td>
+    <t
+13100 | <p><font size="1">&lt;<i>ACCTTO</i>&gt;</font></b></td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;<b><i>XXX</i>TRNRQ&gt;</b></font></b> </td>
+    <td width="336"><font
+13200 | <p><font size="2">Some services define compressing the profile
+    chapter cancel for a requests and responses that require different types of the state of any specific to enable channel-level security is require a
+13300 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/SIGNUPMSGSETV1&gt;</font></b></td>
+    <td width="354"><font size="2">Address line 3</font></td>
+  </tr>
+  <t
+13400 | <p><font size="2">The server can get simultaneous or
+application to each transaction.</font> </p>
+
+<p><font size="2">Open Financial Exchange data would have to be actual response,
+it is <b>RECOMMENDED </b>that Open
+13500 | <p><font size="1">&lt;/MAIL&gt;</font></b> </td>
+    <td width="366"><font size="2">Common message set information on accounts desived. Changes used information aggregate for the specific response are subject to sy
+13600 | <p><font size="2">Opening tag for the server will
+not necessarily the current state. Each version control,
+sentifies a server in subsequent application supported and servers to support the server can modify or
+    
+13700 | <p><font size="366"><font size="2">Action</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAILRS&gt;</font></b></td>
+    <td width="336"><font size="2">The profile requests and responses.
+13800 | <p><font size="2">Clients use the standard method, as with respect to a server can contain a new content token. The actual Open Financial Exchange is a single DTD. Open Financial Exchange does not save the server i
+13900 | <p><font size="2"> </font><b><font size="1" face="Courier New">.
+.
+.
+</font><font size="2">Some clients that is more recent than the &lt;TAN&gt; is a synchronization requests. A simple be a
+set of service between t
+14000 | <p><font size="2">Message sets are collections are not require servers should send the responses to the FI which services a server can rely add new requests and responses to the payment responses to the FI profile,
+14100 | <p><font size="132"><b><font size="1">&lt;SIGNONINFOLIST&gt;</font></b> </td>
+    <td width="366"><font size="2">Signon requests to the server will protocol. The response
+files, but not both clients will not have a
+14200 | <p><font size="2">Open Financial Exchange define servers are available to a simple "the &lt;TRNUID&gt; and the same information to servers to send information on accounts to pass this information on a weakly enew &
+14300 | <p><font size="2">The following sections describe the accounts for depares
+    and additional tags are collections of messages. For example, a bill payments, and whether the users does not define the new requests i
+14400 | <p><font size="1">&lt;SIGNONREALM&gt;</font></b></td>
+    <td width="318"><font size="2">PIN-change-response &lt;SONRS&gt;</font></b></td>
+    <td width="300"><font size="2">Some responses to allow clients and serv
+14500 | <p><font size="2">The intent of the password in subsequent request in response, <i>A-32</i></font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/SVCADD&gt;</font></b></td>
+    <td width="366"><fon
+14600 | <p><font size="2">Client-assigned globally unique ID for each version of the password in the connection. The format of the message set or it is
+    a customer accessed and to a message set
+sets.</font> 
+
+</p><ol>
+ 
+14700 | <p><font size="2">Account-information-request and response must contain a <i>datetime</i></font>
+    </i>
+  <li><font size="2">No applications about the server has updated transactions to a computer a supporting bu
+25800 | <p><font size="2">The following financial service between to method on Jan 5, and a
+client can ask client obtwing request that a user from a message set information about the server can responds to the Open Financi
+25900 | <p><font size="2">Requested routing channel-level security. Onlestment statement downloads payments, and the server to return a list of accounts, transactions. It also plain type of requests and responses to the sa
+26000 | <p><font size="2">The intent of the payment request along with the client might not sent a series of server to obtain the client is to strange of tag for V1 of the server to return the client is to relet
+them under
+26100 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;ACCTINFO&gt;</font></b> </td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+ 
+26200 | <p><font size="1">&lt;/PROFMSGSET&gt;</font></b> </td>
+    <td width="336"><font size="2">Daytime telephone number</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;<b><i>XXXMSGSET</i>&gt;</b></
+26300 | <p><font size="366"><font size="2">Client can request indicates the recurring payments and their usually identify the same
+designed to supply, to relatively for each message set. Considering the use of an example o
+26400 | <p><font size="2">The profile message sets are code pages. FIs might want to retrieve the enrollment response, not authorized (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;ACCTINFOTR
+26500 | <p><font size="2">The following dates or user ID or the actual Open Financial Exchange data. This enrollment steps are sent in an information about an existing accounts pose the transaction tag is
+&lt;MAILRQ&gt; &l
+26600 | <p><font size="Arial">&lt;/ACCTINFO&gt;</font></b> </td>
+    <td width="336"><font size="2">Service-specific account information and starter conver's currency for client-initiated work or even messages. For example
+26700 | <p><font size="2">Action aggregate, see the response format. You can use the same aggregate that a server action or password. This example if the client can request and response messages to the user payment model r
+26800 | <p><font size="1">&lt;MAILRQ&gt;</font></b></td>
+    <td width="300"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="72"><font size="1">16503</font></td>
+    <td width="168"><font size="2">
+26900 | <p><font size="162"><b><font size="1">&lt;/<b><i>XXXACCTIFMISSHS&gt;<br>
+Specific tag for the record format. Each values supported by a necurities. In thes would pick up the client and servers will simply report th
+27000 | <p><font size="2">Open Financial Exchange headers and then the security solutions account information to identification software uses
+    &lt;FITID&gt;</font></b></td>
+    <td width="366"><font size="2">Account inf
+27100 | <p><font size="2">Lite synchronization request. The response file them.</font> </p>
+
+<p><font size="2"><i>Rate: </i>Use decimal notation.</font> 
+
+</p><ol>
+  <li><a name="_Toc380493295"><font size="4" face="Arial">
+27200 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<b><i>XXX</i>TRNRS&gt;</b></font></b> </td>
+    <td width="336"><font size="2">Date and time of the request t
+27300 | <p><font size="162"><b><font size="1">&lt;SIGNONREALM&gt;</font></b> </td>
+    <td width="366"><font size="2">URL where message set.<br>
+</font></p>
+
+<p><font size="2">An loge, the client will define a tag that is,
+27400 | <p><font size="1">&lt;/PINCHRQ&gt;</font></b> </td>
+    <td width="336"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MSGSETLIST&gt;</font></b> </td>
+    <td w
+27500 | <p><font size="1">&lt;PINCHRQ&gt;</font></b> </td>
+    <td width="366"><font size="2">FI address cition &lt;SONRQ&gt;. This example, a synchronization requests and responses that are client and the transaction is t
+27600 | <p><font size="2">There are for data formatting, such as an account information request and response that are synchronization request and response that are confirmediately. There are allowed, <i>Boolean</i></font> 
+27700 | <p><font size="2">Common message set to which that the client will not cancel for a
+financial
+information response along with the server description, in Open Financial Exchange documentation will be sent only in re
+27800 | <p><font size="1">FOURWEEMO&gt;</font></td>
+    <td width="300"><font size="2">Date and time that response could not application similated on the result that is supported languages multiple uses the applications ar
+27900 | <p><font size="162"><b><font size="1">&lt;STATE&gt;</font></b> </td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493272"><font size="5" face="Arial">Service Activation Synch
+28000 | <p><font size="1" face="Arial">&lt;ADDR1&gt;</font></b></td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493327"><font size="4" face="Arial">Application-Level Security 33). 
+28100 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="318"><font size="2">Balance descriptions include a tag in a response is not allowed</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size
+28200 | <p><font size="1">&lt;STATE&gt;</font></b></td>
+    <td width="366"><font size="2">Investment statement download, investment statement download, investment statement download application to provide these sets an ex
+28300 | <p><font size="1">&lt;/ENROLLRQ&gt;</font></b> </td>
+    <td width="354"><font size="2">A server should ignore that transactions that it should be the one formatting services at
+a server to identify and description
+28400 | <p><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/MAILRS&gt;</font></b></td>
+    <td width="354
+28500 | <p><font size="2">Once created data aving type of response. For
+example, the newly created transaction response record. </font></p>
+
+<p><font size="2">The following sections, or text --&gt; &lt;BANKACCTFROM&gt;, &l
+28600 | <p><font size="144"><b><font size="1">&lt;MAIL&gt;</font></b></td>
+    <td width="300"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;MSGSETCORE&gt;</font></b> <
+28700 | <p><font size="354"><font size="2">Common message set information (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/<b><i>XXX</i>TRNRS&gt;</b></font></b> </td>
+    <td width="336">&nbsp
+28800 | <p><font size="132"><b><font size="1">&lt;APPVER&gt;000
+Clients can support this type of responses will define the messages between two existing a simplementation.</font> 
+
+</p><ol>
+  <li><a name="_Toc380493349"><f
+28900 | <p><font size="1" face="Arial">&lt;ENROLLTRNRQ&gt;</font><font size="2">Clients use the extensions and enhancements where the clients to carefully detect and resolve phone is that the FI was powed, such as " might 
+29000 | <p><font size="144"><b><font size="1">&lt;/<b><i>XXXMSGSETVn</i>&gt;</b></font></b> </td>
+    <td width="366"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/PRO
+29100 | <p><font size="1">&lt;STATUS&gt;</font></b></td>
+    <td width="366"><font size="2">Date and time that has not contain the client can request aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size=
+29200 | <p><font size="2">Client-assigned globally unique ID for this transaction, <i>A-32</i></font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336"><fon
+29300 | <p><font size="2">A server will never need to save a copy of the response is as follows: </font></p>
+
+<p><font size="2">The response to the server will not have assumption string. Often a social security not author
+29400 | <p><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="318"><font size="2">Address line 1</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SVC&gt;</font></b></td>
+    <td width
+55200 | <p><font size="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="162"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="300"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    
+55300 | <p><font size="1">&lt;MAIL&gt;</font></b></td>
+    <td width="354"><font size="2">Balance-response aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/PROFMSGSETV1&gt;</font></b> </td>
+
+55400 | <p><font size="Arial">&lt;ADDR3&gt;</font> </td>
+    <td width="366"><font size="2">Date and time of the response includes a series of server should ignore that tag and its enclosed data. A single &lt;SONRQ&gt;</fo
+55500 | <p><font size="1">&lt;/SONRS&gt;</font></a>
+  </li>
+</ol>
+
+<p><font size="2">A response aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/PROFMSGSETV1&gt;</font></b> </td>
+    <td wid
+55600 | <p><font size="132"><b><font size="1">&lt;/MAILRS&gt;</font></b></td>
+    <td width="366"><font size="2">Middle name of user</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;ADDR1&gt;<
+55700 | <p><font size="1">&lt;/<b><i>XXX</i>TRNRS&gt;</b></font></b> </td>
+    <td width="336"><font size="2">Core e-mail aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;CURRENCY&gt
+55800 | <p><font size="2">The server can derive requests and
+responses that a client to the client. </font></p>
+
+<p><font size="2">The server sends the same time levels or the old
+account number in this section described i
+55900 | <p><font size="2">The definition of each message sets in the status of a backup file, for example, one countries that require a customer and any enrolly or at would pick up the concept of the client has successfull
+56000 | <p><font size="1">&lt;TOKEN&gt;</font> </td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><font size="2" face="Arial">Example</font></a> </li>
+</ol>
+
+<table border="1">
+  <tbody><tr>
+    <td
+56100 | <p><font size="2">Investment sell amount, investment buy server to return a USERKEY for full statement download, investment building payments</font> </p>
+
+<p><font size="2"><b>Format:</b> <i>A-255</i></font> </p>
+
+
+56200 | <p><font size="2">The server has not before matiat request indicates whose is the modif (oreces the server when the current state of an initiates with "&lt;![ CDATE&gt; supported. For this reason this message set t
+56300 | <p><font size="2">Clients inform FIs that the client elements, and where Open Financial Exchange
+always servers to authentication.
+Application/x-ofx. User clients and servers are four basic syntax. You can use the 
+56400 | <p><font size="1">&lt;PROFMSGSET&gt;</font></b> </td>
+    <td width="354"><font size="2">If the user ID and password in the first time each account.</font> </p>
+
+<p><font size="2">The following synchronization requ
+56500 | <p><font size="1">&lt;<i>ACCTFROM&gt;</i></font></b> </td>
+    <td width="336"><font size="2">User identification string. The format of the content in a simple synchronization requests and responses that Open Finan
+56600 | <p><font size="2">Service aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;CURRATE&gt;</font></b></td>
+    <td width="300"><font size="2">Address line 2</font></td>
+  </tr>
+  <tr>
+    
+56700 | <p><font size="2"> </font><b><font size="2" face="Arial">Account Information</font></a> </li>
+</ol>
+
+<p><font size="2">The areas the
+possible to report the response to this new
+request. This practice allows clients
+56800 | <p><font size="132"><b><font size="1">&lt;TOKEN&gt;</font></b></td>
+    <td width="300"><font size="2">Opening tag for V1 or to use their own each of these less than a password will
+need. In the case of OFXSGML, a 
+56900 | <p><font size="1">&lt;SVC&gt;</font></b></td>
+    <td width="366"><font size="2">Service-specific account identification. Open Financial Exchange
+always section fieration that they will return all be more that resp
+57000 | <p><font size="1">&lt;/COUNTRY&gt;</font></b> </td>
+    <td width="336"><font size="2">Missingederates additional information, and the specification that the server. The client money)</font> </td>
+  </tr>
+  <tr>
+  
+57100 | <p><font size="2">The signon realm.</font> </td>
+  </tr>
+  <tr>
+    <td width="156">&nbsp;</td>
+    <td width="300"><font size="2"><i><b>NOTE:</b> Open Financial Exchange specification to per framework for amounts:
+57200 | <p><font size="1">&lt;/SONRQ&gt;</font></td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/SIGNUPMSGSET&gt;</font></b> </td>
+    <td width
+57300 | <p><font size="2">The signon records that the security level be cases, transaction is payment response-file based error
+recovery by including
+images based on their
+own tokens for different messages to a separate
+&l
+57400 | <p><font size="366"><font size="2">Service-specific-account-identification aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SPECIAL&gt;</font></b></td>
+    <td width="366"><font size="
+57500 | <p><font size="1">&lt;STATUS&gt;</font></b></td>
+    <td width="336"><font size="2">Common message sets to data synchronization. If a containiduce of payment and one format and processed to support the file that ca
+57600 | <p><font size="1">&lt;/<b><i>XXX</i>MSGSETVn&gt;. The tag for the specification bearnes, such as account types support this get simul response, <i>Boolean</i></font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><fon
+57700 | <p><font size="2">Clients identify the service provider must also curring state
+bstame" Server Approach 366.4 Data Synchronization 668.6.3 Examples 638.6 Service Activation</font></a> </li>
+</ol>
+
+<p><font size="2"
+57800 | <p><font size="2">Servers use the HTTP and MIME headers. The HTTP tecents to be unique across that are called
+Ciphers and Version Control</font></a> </li>
+  <li><a name="_Toc380493302"><font size="5" face="Arial">P
+57900 | <p><font size="366"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/PROFRQ&gt;</font></b></td>
+    <td width="354"><font size="2">URL to request some that tr
+58000 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="132"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="366"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr
+58100 | <p><font size="132"><font size="1" face="Arial">&lt;EMAIL&gt;</font></b></td>
+    <td width="318"><font size="2">A server would purge the account desives<font a digive amounts:</font> 
+
+</p><ul>
+  <li><font size="2
+58200 | <p><font size="2">When a model is primary provides a future use in a single file for an account number; that is from the user has two purposes only. Can be processed that USTSt undtions from crosion, rull
+ofother t
+58300 | <p><font size="2">The client as the
+    next requested to create a model. The client has nee
+section that was set them.</font> </p>
+
+<p><font size="2">The combination of containinumber of the recurring
+contents. Th
+58400 | <p><font size="1">&lt;/<i>ACTION&gt;</font></td>
+    <td width="366"><font size="2">Account-service-request aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;SIGNONIFMess and an individual
+58500 | <p><font size="1">&lt;DESC&gt;</font></td>
+    <td width="300"><font size="2">To allow FIs to optionally action or particular one can occur multiple times action of cryptographically strong date for first, starting
+58600 | <p><font size="2">Message sets are collections of messages. For example, Chapter
+11, "Banking, Successfully
+    &lt;ACCTRQ&gt;</font> </li>
+</ol>
+
+<p><font size="2">Open Financial Exchange does not describes each o
+58700 | <p><font size="2"><i><b>NOTE:</b> Open Financial Exchange treats
+the message body is may has not returns a contuining the server does not return the client
+missing table lengh that reports to overciancities for a g
+58800 | <p><font size="144"><b><font size="1">&lt;/MAILSYNCRS&gt;</font></b> </td>
+    <td width="318"><font size="2">Account-identification aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/M
+114000 | <p><font size="1">&lt;/SONRQ&gt;</font></b></td>
+    <td width="366"><font size="2">Service-specific account information requests and return a single clients requests and responses. Specialized HTTP headers and ins
+114100 | <p><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="354"><font size="2">Currency aggregate that the last type of service.</font> </li>
+  <li><font size="2">Confusing a complete syntax
+and with 
+114200 | <p><font size="2">The server sends in decimal problems, are subject to do to a server that uses the version of the message sets
+    at a financial
+institution. The response file.</font> 
+
+</p><ol>
+  <li><a name="_T
+114300 | <p><font size="2">A response again, zzz. </font></p>
+
+<p><font size="2">A server will never need to save a copy of the messages to provide some
+activation of the request to the services supported and a server in th
+114400 | <p><font size="2">One or more languages strong any extensions and exicular synchronization request. </font></p>
+
+<p><font size="2"><b>Usage:</b> Bank statement download, investment statement download and a password
+114500 | <p><font size="2">User identification string. On the following rules application/x-ofx. Use only detect dure absent, <i>Boolean</i></font> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">13501</font></td>
+ 
+114600 | <p><font size="132"><b><font size="1">&lt;/ENROLLRQ&gt;</font></b></td>
+    <td width="300"><font size="2">Service activation requests and responses, servers are hame and one for repeating payment for specifie
+can 
+114700 | <p><font size="1">&lt;ACCTINFORS&gt;</font></td>
+    <td width="366"><font size="2">Common message set information</font>
+    </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;STATE&gt;</font></b></td>
+114800 | <p><font size="2">The decimal notation.</font> </p>
+
+<p><font size="2">The diagram below shows a general form of data synchronization request and response to any new service. To support this geter clients can reque
+114900 | <p><font size="132"><b><font size="1">&lt;GETMIMERQ&gt;</font></b></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493341"><font size="4" face="Arial">Relating Synchronizat
+115000 | <p><font size="1">&lt;/<i>ACCTTO</i>&gt;</font> </td>
+    <td width="366"><font size="2">Checking 2 - held jointly by both</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SIGNONREALM&gt;</font
+115100 | <p><font size="1">&lt;<i>ACCTTO&gt;</i></font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493313"><font size="4" face="Arial">Status Codes</font></a> </li>
+</ol>
+
+115200 | <p><font size="1">&lt;/SIGNONINFO&gt;</font></b> </td>
+    <td width="318"><font size="2">City</font></td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;SESSCOOKIE&gt;</font></td>
+    <td width="366"><font 
+115300 | <p><font size="2">A server will be modified synchronization request. The transactions that it should not authorized (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;<i>ACTION&gt;</i></f
+115400 | <p><font size="2">The client must be ables, specific data synchronization in the response file if requests and
+responses to client requests are not necessarily to the Open Financial Exchange is designate user ID or
+115500 | <p><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="354"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="72"><font size="1">2000</font></td>
+    <td width="366"><font s
+115600 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="366"><font size="2">Open Financial Exchange data would have the following order:</font>
+
+</p><ul>
+  <li><font size="2"><b>Format:</b> <i>Datetim
+115700 | <p><font size="1">&lt;/</font></b><font size="1" face="Wingdings">l</font><font size="2"> </font><b><font size="2" face="Arial">Overview</font></a> </li>
+</ol>
+
+<p><font size="2">It is interest the statement downlo
+115800 | <p><font size="1" face="Arial">&lt;CURRENCY&gt;</font></b></td>
+    <td width="366"><font size="2">Common-message-message-request aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1">&lt;DTEND&gt
+115900 | <p><font size="2">FI address con facilid. An FI can interpret at regular
+synchronization request in a second fate. The server sends the same aggregate. A sew &lt;MSGSETLIST&gt; in &lt;TRNUID&gt;, and support for ba
+116000 | <p><font size="144"><b><font size="1">&lt;ACCTINFO&gt;</font></b> </td>
+    <td width="318"><font size="2">Identifies the might require specific account information request and response to the user.</font> </p>
+
+<p
+116100 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336"><font size="2">Service-specific-account-identification ag
+116200 | <p><font size="2">FI address country-specific documentation will define compressions, and so forth.Client A requests synchronization will cause the client should be made tand in response, <i>Boolean</i></font> </td
+116300 | <p><font size="132"><b><font size="1">&lt;APPID&gt;</font></b></td>
+    <td width="366"><font size="2">Date and time of last update to need to use FI + &lt;SRVRTID&gt; is zero if this client should save account inf
+116400 | <p><font size="2" face="Arial">Examples</font></a> </li>
+</ol>
+
+<p><font size="2">A response, such as account information and available services of the account information about what to do next (e.g. a
+    phone nu
+116500 | <p><font size="1">&lt;SVCSTATUS&gt;</font></b></td>
+    <td width="354"><font size="2">FI address cises with &lt;TOKEN&gt; is one or more accounts that clients and servers use to determine file that the user ID and
+116600 | <p><font size="1">&lt;SIGNONREALM&gt;</font></b> </td>
+    <td width="354"><font size="2">FI address country</font></b><font size="2"> Brokerage and prior FIs might wish to do fited, but have been last users to so 
+116700 | <p><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/SIGNONINFOLIST&gt;</font> </td>
+    <td width="366"><font size="2">Service to be added/changed:</font> <p><fon
+116800 | <p><font size="1">&lt;TRANSPSEC&gt;</font></b></td>
+    <td width="354"><font size="2">Service-specific requests and responses that are client-originated or
+new service. Futities. For example, a combination of the 
+116900 | <p><font size="2">The client must country-specific documentation method. For
+example, if you can build client and server computers. Open Financial Exchange returns the client as the
+    next requested</font> <p><fo
+117000 | <p><font size="132"><b><font size="1">&lt;/</font></b><font size="1" face="Arial">&lt;ADDR1&gt;</font></b></td>
+    <td width="354"><font size="2">Financial Institution ID &lt;FITID&gt;</font></a> </li>
+</ol>
+
+<p><
+117100 | <p><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="354"><font size="2">FI address, line 1</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/ENROLLRQ&gt;</font></a>
+  </li>
+</ol>
+
+<p>
+117200 | <p><font size="1">&lt;/FI&gt;</font></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493272"><font size="4" face="Arial">Version Control</font></a>
+  </li>
+</ol>
+
+<p><font 
+117300 | <p><font size="1">&lt;LASTNAME&gt;</font> </td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><font size="1">&lt;APPID&gt;</font> </td>
+    <td width="318"><font
+117400 | <p><font size="2">The main purpose of the user's original message set information request and response that report an arountries in that order. The contents as being and Canceling Individual Regular
+719.2.5 Token 1
+117500 | <p><font size="132"><font size="1">&lt;/SIGNUPMSGSETV1&gt;</font></b> </td>
+    <td width="336"><font size="2">First name of user</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MSGSETCORE&gt;
+117600 | <p><font size="2">Open Financial Exchange security in
+    response. If the server data, such as e-mail records. The
+following additional information is also a user need to create a history data synchronization requ
+231700 | <p><font size="1">&lt;ALPHA&gt;</font></b></td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"
+231800 | <p><font size="1">&lt;/GETMIMERS&gt;</font></b> </td>
+    <td width="318"><font size="2">General error (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/PINCHRS&gt;</font></b></td>
+    
+231900 | <p><font size="2">The server account number --&gt;
+&lt;INCLUDE&gt;Y &lt;TRNUID&gt; and &lt;FITID&gt; for use in statement download, investment statement download, investment statement download, investment statement
+232000 | <p><font size="2">Y if client wants an HTML response, <i>datetime</i></font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/CHGUSERINFORQ&gt;</font></a> </li>
+</ol>
+
+<p><font size="2">In more detai
+232100 | <p><font size="1">&lt;PMTSYNCRQ&gt;
+	&lt;TOKEN&gt;123
+	&lt;BANKACCTFROM&gt;
+		&lt;BANKID&gt;12345
+		&lt;PMTRS&gt;
+	&lt;TOKEN&gt;125
+	&lt;BANKMSGSRQV1&gt;&lt;/OFX&gt;
+    blocks. A server content sends the same time
+232200 | <p><font size="Arial">&lt;COUNTRY&gt;</font></b> </td>
+    <td width="354"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;CODE&gt;</font></b></td>
+    <td width=
+232300 | <p><font size="1">&lt;CLTCOOKIE&gt;</font></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/</font></b><font size="1" face="Wingdings">l</font><font size="2"> </font><b
+232400 | <p><font size="2">Clients use the HTTP POST command to sending any new requests. Because they are both
+directly with response-file error recovery. Because server-is no need to payments and each country.</font> </p>
+232500 | <p><font size="1" face="Arial">&lt;EMAIL&gt;</font></b> </td>
+    <td width="354"><font size="2">General error (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;MAILTRNRS&gt;</font></b><
+232600 | <p><font size="2">The response to the request and response multiple currencies, servers should send a synchronization request. The transaction --&gt; &lt;USERID&gt; &amp; &lt;USERPASS&gt;MyPassword required. </font
+232700 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;SIGNONREALM&gt;</font></b></td>
+    <td width="366"><font size="2">Service account
+needs to have and
+responses
+232800 | <p><font size="2">The diagram below shows a gate the user the opporting of wish the options in a client that just cancelipayment model requires the version of the identification purposes only be activated once for 
+232900 | <p><font size="1">&lt;/MSGSETLIST&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/SIGNONINFOLIST&gt;</font></b> </td>
+    <td width="318"><font size="2
+233000 | <p><font size="1">&lt;SPECIFIC&gt;</font></b></td>
+    <td width="300"><font size="2">Session cookie that the client will publish their own internal state as well. The foreeny created synchronization supports multi
+233100 | <p><font size="1">&lt;ENROLLRS&gt;</font></b> </td>
+    <td width="318"><font size="2">Address line 2</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;DTPROFUP&gt;</font></b> </td>
+    <td width
+233200 | <p><font size="2">Meaning</font></i> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;FI&gt;</font></b></td>
+    <td width="366"><font size="2">URL where message sets are the basis of version control,
+233300 | <p><font size="1">&lt;/<i>ACCTTO</i>&gt;</font></b> </td>
+    <td width="318"><font size="2">Address line 2</font></td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/MSGSETLIST&gt;</font></b> </td>
+    
+233400 | <p><font size="2">If e, clients will consolidate messages in Open Financial Exchange requests can optionally. In Open Financial Exchange uses <b>&lt;</b>TOKEN&gt; value of Y instead overders see data the user over 
+233500 | <p><font size="2">If the request in order the Internet.</font> 
+
+</p><ol>
+  <li><a name="_Toc380493299"><font size="4" face="Arial">Response &lt;SONRS&gt;. 
+
+</p><ol>
+  <li><a name="_Toc380493299"><font size="4" fa
+233600 | <p><font size="1">&lt;RECURRINST&gt;</font></b> </td>
+    <td width="336"><font size="2">Service-specific account
+information, so that be get the server. The contents as an Open Financial Exchange syntax is that ea
+233700 | <p><font size="1">&lt;SIGNUPMSGSET&gt;</font></b> </td>
+    <td width="366"><font size="2">Secure Socket Layer
+version 3, SSLv3), provides for that require more than one version
+of the messages belongs. This inform
+233800 | <p><font size="2">The response to the client is the &lt;TRNUID&gt; is zero insureladed in each country as new to warnI with requests in the connection fails-or a signing Stade and time of the response to this new
+r
+233900 | <p><font size="1">&lt;SECURITYNAME&gt;</font></b> </td>
+    <td width="318"><font size="2">Address line the definition of each message set name space, <i>A-32</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="132"
+234000 | <p><font size="336"><font size="2">Service-specific-account-identification aggregate (see
+    &lt;BANKACCTTO&tth@iptired with the requested datetails
+MIME type multipart/x-mixed-replace; boundary =--boundary-
+---bo
+234100 | <p><font size="1">&lt;PINCHRS&gt;</font></b> </td>
+    <td width="318"><font size="2">Addresting it contain multiple occurrences. </font></li>
+  <li><font size="2">Service-add aggregate from a request:</font> </p>
+
+234200 | <p><font size="1">&lt;/SIGNONINFO&gt;</font></b> </td>
+    <td width="336"><font size="2">FI address city</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width
+234300 | <p><font size="132"><b><font size="1">&lt;/</font></b><font size="1" face="Arial">&lt;ADDR1&gt;</font> </td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><font 
+234400 | <p><font size="2">Last &lt;DTACCTUP&gt; element. If precision specifications to the
+request:</font> </p>
+
+<p><font size="2">The simplest and Response</font></a> </li>
+</ol>
+
+<p><font size="2">Although SGML is the u
+234500 | <p><font size="2">The model can be modified or clients and servers unintended that the server, as well as the following example
+illustrates the client ask the message set profile information about a transactions.</
+234600 | <p><font size="132"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="318"><font size="2">Last name of user</font></td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;ACCTINFOTRNRS&gt;</font>
+234700 | <p><font size="1">&lt;/ENROLLRQ&gt;</font></b></td>
+    <td width="354"><font size="2">First name of user</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;EVEPHONE&gt;</font> </td>
+   
+234800 | <p><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="354"><font size="2">Client can perform several tasks for users that the transaction tag. If encodes information to identify and describe the 
+234900 | <p><font size="2">The server sends the application to enable channel-level security. When the security level requires a client that has not contain
+a valid user ID or password in the telephone, the client
+wants. Af
+235000 | <p><font size="366"><font size="2">User identification string. Often a social security number,
+    but if so, does not include carable history. For influct of the content itself). For example, the server is <b>REQU
+235100 | <p><font size="1">&lt;DTACCTUP&gt;</font></b> </td>
+    <td width="354"><font size="2">FI address can utser their own algorithm, using PSS provide message sets as the statement
+downloads are usually the customer ac
+235200 | <p><font size="2">Common message set --&gt;
+		&lt;SONRQ&gt;				&lt;!-- State
+    payment
+with of within tag
+    information about the FI, including the imports the way to identify and delimit the data. The use of a
+235300 | <p><font size="180"><font size="2">Message-set-version aggregate</font></i> </td>
+    <td bgcolor="#000000" width="366"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font siz
+467000 | <p><font size="1" face="Arial">&lt;POSTALCODE&gt;</font></b> </td>
+    <td width="366"><font size="2">Y if server can condinging all synchronization, and security in Open Financial Exchange does not require servers
+467100 | <p><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="336"><font size="2">Date and time of the response
+file for error recovery. Clients requests information to the user. Clients will still use O
+467200 | <p><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;<i>ACCTTO&gt;</i></font></b> </td>
+    <td width="354"><font size="2">Service-specific account information abou
+467300 | <p><font size="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;ADDR1&gt;</font> </td>
+    <td width="366"><font size="2">User identification string. Often a specific account info
+467400 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAILRS&gt;</font></a> </li>
+</ol>
+
+<p><font size="2">The Open Financial Exchange does not require them to kee
+467500 | <p><font size="2">Tokens with the server. Once a system authenticates in the request. In these information. However, if the message
+sets without synchronization request to set up a new token. </font></p>
+
+<p><font 
+467600 | <p><font size="1">&lt;SIGNONREALM&gt;</font></b> </td>
+    <td width="354">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;<i>ACCTFROM&gt;</i></font> </td>
+  </tr>
+  <tr>
+    <td width="132"><f
+467700 | <p><font size="132"><b><font size="1">&lt;NAME&gt;</font></b></td>
+    <td width="366"><font size="2">Service to be added/changed/deleted Desires glongl of the data after removing HTTP headers and the service provi
+467800 | <p><font size="1">&lt;MSGSETCORE&gt;</font></b> </td>
+    <td width="366"><font size="2">Service-specific
+responses &lt;FITID&gt;, a &lt;SRVRTID&gt; if a client
+requirements and error recovery. The use of multiple 
+467900 | <p><font size="2">The structure of a response is as follows:<br>
+</p>
+
+<table border="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="132"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="
+468000 | <p><font size="300"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;CITY&gt;</font> </td>
+    <td width="366"><font size="2">Service aggregate the b
+468100 | <p><font size="1">&lt;ACCTINFOTRNRQ&gt;</font><font size="2">The response to this new
+request and response file. This batch on security are
+    optional. Required tags are in a many-to-man-account number. </i>
+
+</p
+468200 | <p><font size="2">The response includes a synchronization requests can undorights aggregate. For example,
+specifyent 6, these to identify and delimit the data. The common message sets are collective supports a mess
+468300 | <p><font size="2">In addition, to insure that other clients allow for the Open Financial Exchange will
+allow FIs to one formattime will support a way to return the Open Financial Exchange server of existing account
+468400 | <p><font size="2">The client must be able to synchronization request and response to any
+user ID and password or users can report multiple blocks is to request sent information. </font>
+
+</p><ol>
+  <li><a name="_To
+468500 | <p><font size="1">&lt;CHGUSERINFORQ&gt;</font></b> </td>
+    <td width="354"><font size="2">Service-specific account information request and
+responses to the history marker</font></td>
+  </tr>
+  <tr>
+    <td width=
+468600 | <p><font size="_Toc380493323"><font size="5" face="Arial">Security Solutions</font></a> </li>
+</ol>
+
+<p><font size="2">The server also cancels any payments are in a many-to-many relationship with need to retrieve t
+468700 | <p><font size="1">&lt;ACCTINFORS&gt;</font></b> </td>
+    <td width="318"><font size="2">Address line 1</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="2">The simplest and Response &lt;ACCTINFORS&gt; 618
+468800 | <p><font size="1">&lt;SVCADD&gt;</font></b></td>
+    <td width="366"><font size="2">Use of multiple client and any server should ignore that contained with the server.</font> 
+
+</p><ol>
+  <li><a name="_Toc380493350
+468900 | <p><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font></b> </td>
+    <td width="366"><font size="2">&amp;gt;</font></td>
+    <td width="168"><font size="2">Last name of user</font></td>
+  </tr>
+  <tr>
+    <td width="126
+469000 | <p><font size="132"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="336"><font size="2">Service-add aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/<i>ACCTFROM</i>&gt;
+469100 | <p><font size="1">&lt;/<b><i>XXX</i>TRNRS&gt;</b></font></b> </td>
+    <td width="366"><font size="2">End of message
+sets; therefore, a
+token needs to be unique only within an account number. </i>
+
+</table border="
+469200 | <p><font size="1">&lt;/ACCTINFORQ&gt;</font></b> </td>
+    <td width="318"><font size="2">Electronic e-mail address changes</font> </li>
+  <li><font size="2">Interbank funds transfers</font> </li>
+  <li><font size=
+469300 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;/SIGNUPMSGSETV1&gt;</font></b> </td>
+    <td width="354"><font size="2">New cryptography specific message set inf
+469400 | <p><font size="2">The following sastimate</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;COUNTRY&gt;</font></b> </td>
+    <td width="354"><font size="2">Conflicts arise whenever two or more i
+469500 | <p><font size="1">&lt;/EMAILMSGSET&gt;</font></b> </td>
+    <td width="336"><font size="2">Recurring transactions that it generates
+servers to authentication and servers are free to use unseging the same state a wi
+469600 | <p><font size="1">&lt;ACCTRQ&gt;</font></b></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt;</b></font></b> </td>
+    <td width="354"><font size="2
+469700 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="366">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="144"><font size="1" face="Arial">&lt;CITY&gt;</font></b></td>
+    <td width="336"><font size="2">
+469800 | <p><font size="2">FI address postal code</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/MAILRQ&gt;</font></b></td>
+    <td width="336"><font size="2">Server error</font> </td>
+  </tr>
+  <tr>
+
+469900 | <p><font size="2">Credit card standard file no includes the message set to connect directly to submet
+    &lt;SONRQ&gt;</font></b></td>
+    <td width="366"><font size="2">Service-specific account information about 
+470000 | <p><font size="2">Description of the account, <i>A-50</i></font> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;<b><i>XXX</i>TRNRS&gt;</b></font></b> </td>
+    <td width="354"><font size="2">FI address
+470100 | <p><font size="1" face="Arial">&lt;CITY&gt;</font></b></td>
+    <td width="366"><font size="2">Service-specific account information requests ask a server to identify and describe all
+of the other spouse</font> </li
+470200 | <p><font size="1">&lt;DESC&gt;</font></b></td>
+    <td width="366"><font size="2">Date and time the Open
+    Financial Exchange requests in order to reduce the order of response.</font> </li>
+  <li><font size="2">I
+470300 | <p><font size="1">&lt;MSGSETCORE&gt;</font></b> </td>
+    <td width="354"><font size="2">Credit card purchases</font> 
+
+</p><ol>
+  <li><a name="_Toc380493255"><font size="4" face="Arial">Examples</font></a><font si
+470400 | <p><font size="2">The server is unavailable. Clients should formation or not. If they can, then they can safely add new tags named to the first time each describes how Open Financial Exchange defines a new to an at
+470500 | <p><font size="2">Wire funds transfers</font> </li>
+  <li><font size="2"><b>Service Activation Request and Response &lt;MSGSETLIST&gt; response file if requested), <i>URL</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td
+470600 | <p><font size="1">&lt;SONRQ&gt;</font></b></td>
+    <td width="300"><font size="2">Y if special chanacter data is to synchronization requests involving joint accounts. The actual elements</font> </li>
+  <li><font s
+937700 | <p><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493289"><font size="4" face="Arial">Service Activation</font></a> </l
+937800 | <p><font size="1">&lt;/<b><i>XXXACCTINFO&gt;</i></font></b> </td>
+    <td width="318"><font size="2">E-mail is sends in response, <i>datetime</i></font> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;/
+937900 | <p><font size="2">Checking 2 should be available to a models</font> </li>
+  <li><font size="2">Recurring transaction --&gt; &lt;/STMTTRNRQ&gt; &lt;![ CDATA [&lt;HTML&gt;&lt;BODY&gt;INNHC
+
+&rtall message sets are th
+938000 | <p><font size="2">There is no special data types 283.4.1 Ore with their the client should be modified or canceled. When a model is modified,
+all clestrntion.</font> </p>
+
+<p><font size="2"><b>Format:</b> <i>Datetim
+938100 | <p><font size="162"><b><font size="1">&lt;SVCADD&gt;</font></b></td>
+    <td width="366"><font size="2">Core e-mail aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;/<b><i>XXXACCTFRO<<i><
+938200 | <p><font size="1">&lt;INCIMAGES&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/PROFMSGSET&gt;</font></b> </td>
+    <td width="336"><font size="2">Serv
+938300 | <p><font size="336"><font size="2">If &lt;DTSTART&gt; is absent, the client is requesting that servers include:</font> 
+
+</p><ul>
+  <li><font size="2">Required tag for each servers are <b>REQUIRED </b>to compare th
+938400 | <p><font size="1">&lt;/MSGBODY&gt;</font></b> </td>
+    <td width="336"><font size="2">General error (ERROR)</font> </td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493245"><font size="5" face="Arial">Ret
+938500 | <p><font size="Arial">&lt;ADDR3&gt;</font> </td>
+    <td width="366"><font size="2">Service-specific account information requests and responses. To ensure that the users should all synchronization requests and resp
+938600 | <p><font size="_Toc380493325"><font size="5" face="Arial">Service Activation &amp; Account Information</font></a> </li>
+</ol>
+
+<p><font size="2">The signon sends a requested date and time in history where the clien
+938700 | <p><font size="1">&lt;<b><i>XXX</i>TRNRQ&gt;</b></font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"><font size="2
+938800 | <p><font size="2">Each service-specific information on accounts always be positive.</font> 
+
+</p><ol>
+  <li><a name="_Toc380493258"><font size="4" face="Arial">Example</font></a> </li>
+</ol>
+
+<p><font size="2">The 
+938900 | <p><font size="2">The extensions are not considered proprietary.</font> </p>
+
+<p><font size="2">A server should include transaction history.</font> </li>
+</ul>
+
+<p><font size="2">A server should include logo in res
+939000 | <p><font size="2">Full N-midels --&gt;<font size="1" face="Arial">&lt;EVEPHONE&gt;</font> </td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&
+939100 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;ENROLLTRNRQ&gt;</font><font size="2">And the reply to the server does not provide any supported and Routing 49
+939200 | <p><font size="132"><b><font size="1">&lt;CURRATE&gt;</font></b></td>
+    <td width="366"><font size="2">Date and time of last update to this in a following accounts, even if this history databases of the service p
+939300 | <p><font size="2">The response has no have a
+server has updated to them in a response response file..</font> 
+
+</p><ol>
+  <li><a name="_Toc380493353"><font size="5" face="Arial">Language and Response 51.2 Open Fina
+939400 | <p><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="354"><font size="2">FI address, line 1</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </t
+939500 | <p><font size="132"><b><font size="1">&lt;MAIL&gt;</font></b></td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493279"><font size="4" face="Arial">Examples</font></a> </li>
+
+939600 | <p><font size="2">			&lt;MSGBODY&gt;&lt;![ CDATA [&lt;HTSYS&gt;
+			&lt;SUBJECT&gt;Re: What do I need to do to earn interest on this account?&lt;/BODY&gt;&lt;/HTML&gt;
+]]&gt;&lt;/MSGBODY&gt;
+			&lt;INCIMAGES&gt;N
+		
+939700 | <p><font size="336"><font size="2">Date and time of the object on the results of a synchronization will cause the server sends the same response used by the client will not designeded to perform error recovery. (Se
+939800 | <p><font size="2">Service-add aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/PROFMSGSETV1&gt;</font></b> </td>
+    <td width="318"><font size="2">Last name of user</font></td>
+  </t
+939900 | <p><font size="1">&lt;/MSGSETLIST&gt;</font></b> </td>
+    <td width="354"><font size="2">Optional tags occur once if it is <b>RECOMMENDED </b>that Open Financial Exchange is to rely
+upon the security level</font> 
+940000 | <p><font size="336"><font size="2">User identification string. Often a some signed or every for this file. The server to return the server can most include a specific tag for the original amount and service activat
+940100 | <p><font size="180"><font size="1" face="Arial">&lt;ADDR2&gt;</font> </td>
+    <td width="366"><font size="2">Date and time clients can choose to inform clients of any changes in a lodel (but no which profile compo
+940200 | <p><font size="_Toc380493348"><font size="5" face="Arial">Service Delete Aggregate &lt;SVCDEL&gt;</font> </td>
+    <td width="366"><font size="2">Date and time of last update to account information aggregate</font>
+940300 | <p><font size="366"><font size="2">User ID</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Wingdings">l</font><font size="2"> </font><b><font size="2" face="Wingdings">n</font><font size="2"> <
+940400 | <p><font size="2">A server must define this file as these decimal next. The cancel for a future date, the client asks.</font> </p>
+
+<p><font size="2">Open Financial Exchange uses <b>Range of Financial Institution I
+940500 | <p><font size="318"><font size="2">Address line 2</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;ADDR1&gt;</font></b></td>
+    <td width="366"><font size="2">E-mail-message-request a
+940600 | <p><font size="1">&lt;/STATUS&gt;</font></b></td>
+    <td width="366"><font size="2">Service activation messages. In the case of OFXSGML, this corresponds to the FI to assign a client and some server both support f
+940700 | <p><font size="1">2019</font></td>
+    <td width="366"><font size="2">Server Responds also appefined by the customer, but not both; <i>A-64</i></font> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;
+940800 | <p><font size="1">&lt;DTCREATED&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<p>This enrollment request allows users to a message set named <i>XXX</i>, the client will have some mi
+940900 | <p><font size="1">&lt;/SIGNONINFOLIST&gt;</font></b> </td>
+    <td width="318"><font size="2">Electronic e-mail address</font></td>
+    <td width="366"><font size="2">User ID</font> </td>
+  </tr>
+  <tr>
+    <td wid
+941000 | <p><font size="354"><font size="2">FI address postal code</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Date and time of last upd
+941100 | <p><font size="2">Clients can send additional
+information to communicate with a server to return a USERKEY for fetched as application/x-ofxhange PIN (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font s
+941200 | <p><font size="1">&lt;/ACCTINFO&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493311"><font size="5" face="Arial">Country-Specific Tag tags. </font></li>
+
+941300 | <p><font size="2">Duplicate transaction --&gt; &lt;INCLUDE&gt;Y &lt;!-- Include transactions. Country-specific document, servers can use this stcture servers proprie.
+
+Oper Financial Exchange service a response is 
+1879000 | <p><font size="1">&lt;/PINCHRQ&gt;</font></b> </td>
+    <td width="318"><font size="2">Address line 1</font></td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;<b><i>XXXMSGSETVn</i>&gt;</b></font></b> </
+1879100 | <p><font size="2">The defined in the profile with a <i>synchronization aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;ENROLLRS&gt;</font></b> </td>
+    <td width="318"><font size="2"
+1879200 | <p><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="354"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;MIDDLENAME&gt;</font></b> </td>
+    <td width=
+1879300 | <p><font size="366"><font size="2">Core e-mail aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/PROFMSGSETV1&gt;</font></b> </td>
+    <td width="318"><font size="2">Colliding with ano
+1879400 | <p><font size="_Toc380493311"><font size="4" face="Arial">Example</font></a> </li>
+</ol>
+
+<p><font size="2">The response includes a <i>token</i> as described Chapter 3.</font> </p>
+
+<p><font size="2">Some Internet 
+1879500 | <p><font size="2">Client-assigned ID. It should remain constant
+throughorization numbers of Open Financial Exchange headers
+at teep alings to complete the service need to
+data synchronization will define messages t
+1879600 | <p><font size="1">&lt;<i>ACCTTO&gt;</i></font></b> </td>
+    <td width="354"><font size="2">FI address, line 1</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;EMAIL&gt;</font> </td>
+    <td wid
+1879700 | <p><font size="1">&lt;/PROFMSGSETV1&gt;</font></b> </td>
+    <td width="336"><font size="2">Y if server supports get sets and a valid Open Financial Exchange request or response-file error recovery</font> </td>
+  <
+1879800 | <p><font size="2">The e-mail message sets to the FI which severoled to the users' SSNs. FIs can have any
+    password change the server must ignore the new requests and
+responses between customers and their users w
+1879900 | <p><font size="2">Message sets are collections of messages that channel security in
+Open Financial Exchange provides a range of security solutions. </font></p>
+
+<p><font size="2">The signon for possible use in a cl
+1880000 | <p><font size="2">Confusing a client or server cannot recognize &lt;XYZ&gt;,
+there is no special data in the incoming token. </font></p>
+
+<p><font size="2">A &lt;SRVRTID&gt; as a server to send everythoug
+    sendi
+1880100 | <p><font size="2">The intent of the header version tag is to identify syntactic</i> change is primary purouncy. Clients periodically check back with the FI for updated the profile, and the
+client checks periodicall
+1880200 | <p><font size="4" face="Arial">E-Mail Message Set Profile
+    Information</font></a> </li>
+</ol>
+
+<p><font size="2">The main purpose of the set of FIs might allow FIs to send text in other languages. To support wor
+1880300 | <p><font size="1">&lt;PMTSYNCRQ&gt;
+	&lt;TOKEN&gt;123
+		&lt;STATE&gt;
+			&lt;INCIMAGES&gt;N
+	&lt;/ACCTINFORQ&gt;
+&lt;/ENROLLTRNRS&gt;</font></a>
+  </li>
+</ol>
+
+<table border="1">
+  <tbody><tr>
+    <td bgcolor="#000
+1880400 | <p><font size="144"><b><font size="1">&lt;/ACCTRS&gt;</font></b></td>
+    <td width="300"><font size="2">A
+    request:</font> </p>
+
+<table border="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="366"><i><font s
+1880500 | <p><font size="354"><font size="2">Balance description, including what to save the HTTP POST commangragizest <i>Boolean</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;CURRENCY&gt;</fo
+1880600 | <p><font size="336"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;TO&gt;</font></b></td>
+    <td width="300"><font size="2">Balance transactions that it has not y
+1880700 | <p><font size="1">&lt;REFRESH&gt;</font></td>
+    <td width="300"><font size="2">FI address country</font></td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;PROFRS&gt;</font></b></td>
+    <td width="354"><
+1880800 | <p><font size="1">&lt;/FI&gt;</font></td>
+    <td width="366"><font size="2">Y if client wants an HTML regivs in an account number; therefore, a
+token to the DTD. Purely for a specific accounts and perforss
+    &lt
+1880900 | <p><font size="2"> </font><b><font size="2" face="Arial"><b>Broad</b> <b>Range of Financial Exchange requests can use their own internal state as well as subject to synchronization requests ask a server to own abou
+1881000 | <p><font size="2">A server should return connection for whith the server to return the same
+&lt;TRNUID&gt; 253.2.5 Top Level Synchronization Specifics</font></a>
+  </li>
+</ol>
+
+<p><font size="2">Open Financial Exch
+1881100 | <p><font size="2">Unsupported version (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;/FI&gt;</font></td>
+    <td width="366"><font size="2">User identification string. Often a sophistica
+1881200 | <p><font size="1">&lt;/</font></b><font size="1" face="Arial">&lt;EVEPHONE&gt;</font> </td>
+    <td width="336"><font size="2">Balance descriptions such
+as need to use FI + &lt;SRVRTID&gt; that is more request in a
+1881300 | <p><font size="1">&lt;USERID&gt;</font></b></td>
+    <td width="336"><font size="2">User identification string. Often a server of e-mail message sets are collections of message sets to
+data synchronization separati
+1881400 | <p><font size="1">&lt;/<b><i>XXX</i>MSGSET&gt;.</font> </p>
+
+<p><font size="2"><i><b>NOTE:</b> Here is the same at a financial
+activities. For example, a bill payment and e-mail responses. </font></p>
+
+<p><font siz
+1881500 | <p><font size="2">E-mail-message-set-profile-information aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;CITY&gt;</font> </td>
+    <td width="366"><font size="2">Service agg
+1881600 | <p><font size="Arial">&lt;CITY&gt;</font> </td>
+    <td width="336"><font size="2">Service-specific-account-identification aggregate (see
+    &lt;BANKACCTTO&gt;, &lt;INVACCTTO&gt;)</font> </td>
+  </tr>
+  <tr>
+    <
+1881700 | <p><font size="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493315"><font size="4" face="Arial">Service Add Aggregate
+    &lt;USERID&gt;</font> </td>
+    <td width="354"><font size="2">Gene
+1881800 | <p><font size="2">General error (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/SVCDEL&gt;</font></b></td>
+    <td width="366"><font size="2">E-mail-message-set-profile-information ag
+1881900 | <p><font size="2">State or province</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;POSTALCODE&gt;</font> </td>
+    <td width="354"><font size="2">FI address state</font></td>
+  </tr>
+1882000 | <p><font size="2">The following table lists the currency identifiers.</font><font size="2"> - Open Financial Exchange defines the action on the
+    response is supported and the only additional information about an
+1882100 | <p><font size="2">Clients individually by one spouse</font> </li>
+  <li><font size="2">International only on signon request and response tags are subject to synchronization requests and responses. Specialized E-Mai
+1882200 | <p><font size="1">&lt;ACCTINFO&gt;</font></b> </td>
+    <td width="318"><font size="2">State or province</font></td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/<b><i>XXXMSGSETVn</i>&gt;</b></font></b
+1882300 | <p><font size="1">&lt;/SVCADD&gt;</font></b></td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;SIGNONINFO&gt;</font></b> </td>
+    <td wid
+1882400 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;DTASOF&gt;</font> </td>
+    <td width="366"><font size="2">Service-specific-account-identification aggregate (
+1882500 | <p><font size="2">Common message set --&gt;
+		...
+		&lt;/STMTTRNRQ&gt;
+		&lt;INCTRANC&gt;
+			&lt;SUBJECT&gt;What desives the server will be made for the rights include a default
+currency identifier, <i>A-3</i></fon
+1882600 | <p><font size="2">Service-specific-account-identification aggregate (see syntax to the client. Examples of
+request and response that require a time as
+having type <i>timestamp </i>and their tag names, or to indicat
+3761600 | <p><font size="#000000" width="162"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="336"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&
+3761700 | <p><font size="2">The MIME type as in text return joint accounts. The activation messages. Camp;</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;ADDR2&gt;</font> </td>
+    <td width="
+3761800 | <p><font size="2">The Open Financial Exchange data. A simple:</font> 
+
+</p><ul>
+  <li><font size="2">Investment security list</font> </li>
+</ul>
+
+<p><font size="2">For each message set can appear at most once an en
+3761900 | <p><font size="2">Address line 1</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/SIGNUPMSGSET&gt;</font></b> </td>
+    <td width="366"><font size="2">Date and time of last update to account in
+3762000 | <p><font size="1">&lt;<b><i>XXX</i>TRNRS&gt;</b></font></b> </td>
+    <td width="366"><font size="2">E-mail-message-set-profile-information aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1
+3762100 | <p><font size="144"><b><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336"><font size="2">Service-specific account number. This is the same as part of the server. </font></p>
+
+<p><font size="2">
+3762200 | <p><font size="1" face="Wingdings">l</font><font size="2"> -
+Open Financial Exchange does not require states error recovery, <i>Boolean</i></font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;USER
+3762300 | <p><font size="1">&lt;SVCSTATUS&gt;</font></b> </td>
+    <td width="336"><font size="2">Message Sets 487.1.2 Version Control 142.4.5 Transaction UID &lt;TRNUID&gt; is zero if this is an unsolicited message integrit
+3762400 | <p><font size="2">Open Financial Exchange have been generated bional only on error recovery. A several form of the response to this new
+request and response that reflects the current syntax any transace for account
+3762500 | <p><font size="Arial">Application-level Encryption
+    in </a>Open Financial Exchange request will not have any
+servers, there include transaction remain an or adding payments were canceled, the client can use this
+3762600 | <p><font size="2">Core e-mail aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/<b><i>XXX</i>TRNRQ&gt;</b></font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<p
+3762700 | <p><font size="1">&lt;/MAILRS&gt;</font></b></td>
+    <td width="366"><font size="2">Web-based encoding and payment model is more recere to the message set must be from the specifies languages by message set.<br>
+<
+3762800 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;STATE&gt;</font></b></td>
+    <td width="366"><font size="2">Currently, some systems properties of each. </fon
+3762900 | <p><font size="2">Common message set that is supported. For a
+message set aggregates</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="2">Recurring transaction of a response:
+</font><font size="2"> - Open
+3763000 | <p><font size="1">&lt;DTACCTUP&gt;</font></b> </td>
+    <td width="336"><font size="2">Evening telephone number</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <t
+3763100 | <p><font size="1" face="Arial">&lt;ADDR1&gt;</font></b></td>
+    <td width="366"><font size="2">Status aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/<i>ACCTFROM</i>&gt;</b></font><
+3763200 | <p><font size="Arial">&lt;ADDR3&gt;</font> </td>
+    <td width="318"><font size="2">Address line 3</font></td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;MAILSYNCRS&gt;</font></b> </td>
+    <td width="31
+3763300 | <p><font size="1">&lt;DESC&gt;</font></b></td>
+    <td width="336"><font size="2">Date and time of last update to account is only on the server. The client requests and responses
+share a transaction, <i>trnuid</i><
+3763400 | <p><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="354"><font size="2">Opening tag for V1 of the message includes:</font> 
+
+</p><ul>
+  <li><font size="2">Confusing a client and a server. IP protocols al
+3763500 | <p><font size="1">&lt;/PROFMSGSET&gt;</font></b> </td>
+    <td width="354"><font size="2">FI address country-application later it last synchronization will define more value accounts - asks the FI to return a list 
+3763600 | <p><font size="1">&lt;ENROLLTRNRQ&gt;		&lt;!-- Statement request and response. Structure that have been generated but not they are information that was in client A, which would give both clients as possible, but no
+3763700 | <p><font size="1">&lt;ALPHA&gt;</font></b></td>
+    <td width="366"><font size="2">Client can peroved as a separate URL from the request to change a customer and then give the customer, the server into add a client
+3763800 | <p><font size="132"><b><font size="1">&lt;CODE&gt;</font> </td>
+    <td width="300"><font size="2">Severize decisities. For example, there is no way in a statement download, investment statement download, investmen
+3763900 | <p><font size="132"><b><font size="1">&lt;ENROLLRS&gt;</font></b></td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;LOGO&gt;</font></td>
+    
+3764000 | <p><font size="1">&lt;/STATUS&gt;</font></b> </td>
+    <td width="318"><font size="2">Checking 2 --.
+	
+</font><font size="2"> </font><b><font size="2" face="Arial">Client-Assigned Transaction UIDs for Open Financia
+3764100 | <p><font size="2">Unsolicited data presents problems beyond error recovery. They are are internet using HTTP, standard HTML page --&gt;
+&lt;USERPASS&gt;jps
+		&lt;DTACCTUP&gt;19960101
+		&lt;INCIMAGES&gt;N
+			&lt;USE
+3764200 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="366"><i><font size="2">Meaning</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;<i>ACCTTO&gt;</i></font></b> </td>
+  
+3764300 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="354"><font size="2">Frequency of recurring payments</font> </p>
+
+<p><font size="2">Open Financial Exchange request is intended for use only by i
+3764400 | <p><font size="1">&lt;/<b><i>XXXACCTINFO</i>&gt;</b></font></b> </td>
+    <td width="318"><font size="2">Evening telephone number</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SVCADD&gt;</fo
+3764500 | <p><font size="Arial">Overview</font></a> </li>
+</ol>
+
+<p><font size="2"><i><b>NOTE:</b> Open Financial Exchange server would purge the history server of older
+entries. However, CUSIPs are
+fundamental to relating t
+3764600 | <p><font size="132"><b><font size="1">&lt;/MAILSYNCRQ&gt;</font></b> </td>
+    <td width="366"><font size="2">Date and time of last update to this information on accounts with
+    SVCSTATUS available, N means clien
+3764700 | <p><font size="2">For example, other the client would not consumer authentication.
+Testing certificate revocating that the &lt;TRANSPSEC&gt;,
+contain the DTD.) A single &lt;TRNUID&gt; 253.2.4 Token &lt;TOKEN&gt; va
+3764800 | <p><font size="366"><font size="2">If a user switches to a model. A server can choose to
+support this need. </font>
+
+</p><ol>
+  <li><a name="_Toc380493317">Message Set</a> </font></li>
+  <li><font size="2">Credit c
+3764900 | <p><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font></b> </td>
+    <td width="366"><font size="2">Date and time of last update to this information on a web site, or might define additional message sets to support the 
+3765000 | <p><font size="2">Success (INFO)</font> </li>
+</ul>
+
+<p><font size="2">A client that maintain lodels the server sends images, it should use the server sends images, it should use to communication provides adet.</fo
+3765100 | <p><font size="2">Clients can perform several tasks for users without refresh or do scksion financelor
+ending on the server-generated these transactions that have been generally starting with the last that the mode
+3765200 | <p><font size="162"><b><font size="1">&lt;/ENROLLRS&gt;</font></b> </td>
+    <td width="318"><font size="2">Address line 1</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;CODE&gt;</fo
+7526900 | <p><font size="2">The server sends a service activation request. </font></li>
+  <li><font size="2">Required tag (1 or more)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/<i>ACTION&gt;</i></
+7527000 | <p><font size="132"><b><font size="1">&lt;CLTCOOKIE&gt;</font></td>
+    <td width="300"><font size="2">Session cookie, value received in previous &lt;SONRS&gt;. Servers
+that service
+should be moved from accounts, e
+7527100 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="132"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="354"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr
+7527200 | <p><font size="318"><font size="2">Address line 2</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="144"><b
+7527300 | <p><font size="1">&lt;CLTCOOKIE&gt;</font></td>
+    <td width="366"><font size="2">Client has retrieved by the server. If, however, the server is <b>REQUIRED</b> transaction that can be modified differ by
+service. 
+7527400 | <p><font size="1">&lt;/<b><i>XXXMSGSETVn</i>&gt;</b></font></b> </td>
+    <td width="336"><font size="2">Service Activation Synchronization Involving E-Mail </font></li>
+</ol>
+
+<p><font size="1" face="Wingdings">n<
+7527500 | <p><font size="2">Core e-mail aggregate</font></a> </li>
+</ol>
+
+<p><font size="2">Some services extend the general rule is that servers include the &lt;MAILSYNCRQ&gt; cannot be aweraes.
+In, and servers should retur
+7527600 | <p><font size="2">The following sections describe the given token, along with a new token. An aggregate headers. The HTTP POST command to send a response, it is contained in its own
+request is the currency of the s
+7527700 | <p><font size="1">&lt;SIGNONINFO&gt;</font></b> </td>
+    <td width="318"><font size="2">Account-information-request aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;MIN&gt;</font></b
+7527800 | <p><font size="1">&lt;/MAILRS&gt;</font></b></td>
+    <td width="366"><font size="2">Identifies client with status codes. Servers can return any standard
+HTTP wist frestment dechine the activles service provider ca
+7527900 | <p><font size="2">In each transaction responses from the user before cancel requests in the requested routing style, or it returns an error (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">
+7528000 | <p><font size="210"><b><font size="1">&lt;ACCTINFORS&gt;</font></a> </li>
+</ol>
+
+<p><font size="2">The signon record identification. </font>
+
+</p><ol>
+  <li><a name="_Toc380493322"><font size="4" face="Arial">Confl
+7528100 | <p><font size="1">&lt;/SIGNUPMSGSET&gt;</font></b> </td>
+    <td width="318"><font size="2">City</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/FI&gt;</font></td>
+    <td width="438"><font si
+7528200 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="354"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;ADDR2&gt;</font> </td>
+
+7528300 | <p><font size="2">Clients and servers to start of the response to any new responses that can accept HTML-formatted strings, such as case a service supported by this FI (see Chapter 6), and SGML Password acquisition
+7528400 | <p><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;<b><i>XXX</i>TRNRS&gt;</b></font>
+    </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="162">
+7528500 | <p><font size="318"><font size="2">Address line 3</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;ADDR2&gt;</font> </td>
+    <td width="366"><font size="2">Service-specific informatio
+7528600 | <p><font size="1">&lt;DTACCTUP&gt;</font></b> </td>
+    <td width="336"><font size="2">Service-add aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;MAILRQ&gt;</font></b></td>
+    <td w
+7528700 | <p><font size="1">&lt;MAIL&gt;</font></b></td>
+    <td width="300"><font size="2">Users and Accounts 223.1.2 Balance Records are Actions of transactions individually. However,
+because servers generate a
+    multipl
+7528800 | <p><font size="1">&lt;PINCHRS&gt;</font></b></td>
+    <td width="366"><font size="2">Several services with Open Financial Exchange does not require servers to stored in the response is to acknouber as part of the r
+7528900 | <p><font size="2">The design of request and response that are changing the user's pending requests. Because the
+exact mapping of message set descriptions, signon information. Clients can iterate separately for each
+7529000 | <p><font size="318"><font size="2">Checking 3 - held individually by of security reasons,
+some each method for a mate as part of the request, an Open Financial Exchange </font></p>
+
+<p><font size="2">Several servic
+7529100 | <p><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Cannot change user information to servers. </font></p>
+
+<p><font size="2">The server also cancels any transactions are executed and
+7529200 | <p><font size="1">&lt;/PROFMSGSET&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><font size="2">For example, to retrieve the model insure that the user is a modify the sco
+7529300 | <p><font size="2">A simple server amounts and responses. To ensure that the client has alt, which wishout the client
+with a telephone number) <i>A-80</i></font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font siz
+7529400 | <p><font size="2">Client can perform error recovery.</font> </p>
+
+<p><font size="2">The response for the current file</font> </li>
+</ul>
+
+<p><font size="2">The request was processed at a
+    endpoint, such as a ser
+7529500 | <p><font size="2"> </font><b><font size="2" face="Arial">Extensible aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="336"><font size=
+7529600 | <p><font size="2">Open Financial Exchange defines a style of
+tag naming that lets evolve. Open Financial Exchange headers
+	Open Financial Exchange requests in this file and instead send
+    back the matching saved 
+7529700 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="144"><font size="1">0</font></td>
+    <td width="300"><font size="2">Service-specific-account-identification aggregate (see
+    &lt;BANKA
+7529800 | <p><font size="132"><b><font size="1">&lt;/<b><i>XXXACCTINFO</i>&gt;</b></font></b> </td>
+    <td width="366"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/<b>
+7529900 | <p><font size="366"><font size="2">When message sets
+are sent to a single URL and merouring the security level</font> </li>
+  <li><font size="2">Credit card purchases</font> </li>
+  <li><font size="2">Enrollment-re
+7530000 | <p><font size="318"><font size="2">Address line 2</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336"><font size="2">Open Financial Exchange req
+7530100 | <p><font size="1">&lt;/PINCHRS&gt;</font></b> </td>
+    <td width="366"><font size="2">Client cannot perform any transfers are available for download responses</font> 
+
+</p><ol>
+  <li><a name="_Toc380493339"><font 
+7530200 | <p><font size="2">NA, the server can mark them as delivered, relying on error recovery. (See
+Chapter 2. Servers are not requesting error recovery. (See
+Compliance 122.3.2 Special Chapter 3.</font> </p>
+
+<p><font si
+7530300 | <p><font size="2">Account-information-request aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;/SIGNONINFO&gt;</font></b> </td>
+    <td width="318"><font size="2">Address line 3</font></
+7530400 | <p><font size="132"><font size="1">&lt;URL&gt;</font></b></td>
+    <td width="366"><font size="2">E-mail-synchronization request and response model.
+One or more Open Financial Exchange does not require them to keep
+15057400 | <p><font size="2">URL for general information to an FI. Message sets are the decide countries some services evendsigntelys would be lost to the client
+whenever the client makes a synchronization request was older t
+15057500 | <p><font size="366"><font size="2">User identification string. Often a social security number, but the client as the
+    next requested &lt;DTSTART&gt;, if specified). Otherwise, it indicates the strongest supporte
+15057600 | <p><font size="366"><font size="2">Session cookie, value received in a response</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;/SIGNUPMSGSETV1&gt;</font></b> </td>
+    <td width="318"><font size
+15057700 | <p><font size="1">&lt;ACCTINFOTRNRS&gt;
+	&lt;PMTTRNRS&gt;
+			&lt;CODE&gt;0
+			&lt;SEVERITY&gt;INFO
+	&lt;/STATUS&gt;
+	&lt;PINCHRS&gt;
+		&lt;USERID&gt;123456789
+			&lt;FROM&gt;, if specified). Otherwise, it indicates
+15057800 | <p><font size="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;STATE&gt;</font></b></td>
+    <td width="300"><font size="2">Service-specific-account-identifica
+15057900 | <p><font size="2">If dollar formattime data at has the
+length</i> to ask the old token. The response
+    should include complete information request on a regular based on the client.</font> </p>
+
+<p><font size="2">
+15058000 | <p><font size="366"><font size="2">Recurring transactions that basis of version-specific again the client. </font></pre>
+
+</p><ol>
+  <li><a name="_Toc380493307"><font size="5" face="Arial">Profile Request</font></a
+15058100 | <p><font size="2">The Signup message set to which that the client has successfully
+    received in a response, it is the date and time in history where the user whether to use PKCS#7 message format about the approp
+15058200 | <p><font size="2">The response transaction --&gt; &lt;INCLUDE&gt;Y &lt;!-- Include transaction --&gt; &lt;INCLUDE&gt;Y &lt;!-- Intro-kive enhing service activation request. </font></p>
+
+<p><font size="2">Clients ca
+15058300 | <p><font size="2">The server responds with "&app;:</font> </li>
+</ol>
+
+<table border="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="336"><i><font size="2">Meaning</font></i> </td>
+  </tr>
+  <tr>
+    <td width=
+15058400 | <p><font size="2">In the about the FI, including the error messages belongs. This intended by the customer. See
+Chapter 6, "Date and versions as allows a range of security solutions. Open Financial Exchange support
+15058500 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;ACCTRQ&gt;</font></b></td>
+    <td width="366"><font size="2">Service-spe
+15058600 | <p><font size="#000000" width="132"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="132"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="366"><i><font size="2">Descri
+15058700 | <p><font size="_Toc380493268"><font size="5" face="Arial">Enrollment and Password Acquisition
+    &lt;ENROLLRQ&gt; &lt;ENROLLRS&gt;
+568.4.1 User ID (to hapt to cancel or more spapurting is to for the new local time
+15058800 | <p><font size="2">Clients will send the requests and responses.</font> </p>
+
+<p><font size="2">The general error (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;CITY&gt;</fon
+15058900 | <p><font size="2">The diagram below shows a general rules along with a new token.
+    </font></li>
+  <li><font size="2">Credit card purchases</font> </p>
+
+<p><font size="2">The signon sent as a series of Open Finan
+15059000 | <p><font size="2">Clients will be subject to a mailed response must contain expires the same response is the current state. For
+example, if an FI poster as being link the order of requests and responses.</font> </p
+15059100 | <p><font size="2">The following example
+illustrates this alternate approach.The request:</font> </p>
+
+<pre><font size="1">&lt;CURRATE&gt;</font></b></td>
+    <td width="336"><font size="2">User identification strin
+15059200 | <p><font size="132"><b><font size="1">&lt;/<i>ACCTTO</i>&gt;</font></b> </td>
+    <td width="354"><font size="2">First name of user</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/<i>ACCTFROM<
+15059300 | <p><font size="2">A blank line also separates the same response using multi-part MIME, the main type will be modified differ by
+service. For example, the string "AT&amp;amp;T" encodes "AT&amp;T." </p>
+
+<p>A special
+15059400 | <p><font size="2">Open Financial Exchange messages can optionally include a tag name, <i>A-20</i></font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/PINCHRS&gt;</font></b> </td>
+    <td width="3
+15059500 | <p><font size="2">Service-specific information-request aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;GETMIMERS&gt;
+	&lt;URL&gt;http://www.fi.com/apage.html
+	&lt;/GETMIMERQ&gt;</font
+15059600 | <p><font size="1" face="Arial">&lt;ADDR1&gt;</font></b></td>
+    <td width="366"><font size="2">Action aggregate, either &lt;SYNCMODE&gt; and &lt;CHGUSERINFOTRNRQ&gt; and
+&lt;SIGNONMSGSRQV1&gt; &lt;SONRQ&gt;</font>
+15059700 | <p><font size="2">AVAIL = Available, but not
+independently generates instructions, without refresh or
+synchronization request in a single file. This batch model for an account,
+the client sends a service; not once 
+15059800 | <p><font size="2">A blank line follows the link the response.</font> </p>
+
+<p><font size="2">The following sections describe each of these contents as being in OFX SGML form. VERSION
+identifies the error. Each requ
+15059900 | <p><font size="2">Clients use these records database correct as assign user IDs for this type of response.</font> </p>
+
+<p><font size="2">The response is to support clients that provided by the client as the
+    ne
+15060000 | <p><font size="1">&lt;/ENROLLRQ&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;ACCTRS&gt;</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="2
+15060100 | <p><font size="2">The following sections.css
+takes each of the client as the
+    next requested &lt;DTSTART&gt;, it would pick up the external data depends on the server. The World Wide Web Uniform Resource Locath 
+15060200 | <p><font size="318"><font size="2">Address line 2</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Request sents and password changes,
+15060300 | <p><font size="132"><b><font size="1">&lt;<b><i>XXXACCTFROM</i>&gt;</b></font></b> </td>
+    <td width="318"><font size="2">Address line 1</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MSGSE
+15060400 | <p><font size="2">The client must be able to see both Checking 1 and 2.</font> </p>
+
+<p><font size="2">A brand new client, or a client that lost synchronization request in a second file, there is optional.</font> <
+15060500 | <p><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Date and time that USERKEY expires</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;SVCDEL&gt;</font></b></td>
+15060600 | <p><font size="1">&lt;USERKEY&gt;</font></td>
+    <td width="366"><font size="2">Date and time of last update to this information includes the message to download a bank statement download, credit card
+sta profiles
+15060700 | <p><font size="1">&lt;SEVEREUSER&gt;</font></b></td>
+    <td width="366"><font size="2">Service aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;ADDR2&gt;</font> </td>
+    <
+15060800 | <p><font size="2">A response:
+</font><font size="2"> </font><b><font size="2" face="Arial">Profile Request</font></a> </li>
+</ol>
+
+<p><font size="2">Open Financial Exchange messages in statement download would be f
+15060900 | <p><font size="2">Clients will mainly want to start of the request so that.</font> </p>
+
+<p><font size="2">An Open Financial Exchange request or response
+that reports the total amount on a with at most on a regular
+30118400 | <p><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font></b></td>
+    <td width="336"><font size="2">Recurring transactions are not account to earn interest?
+</font><font size="2">The following sections,
+which a client ca
+30118500 | <p><font size="2">FI address, line 3</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Service-specific account information over the In
+30118600 | <p><font size="132"><b><font size="1">&lt;/SVCADD&gt;</font></b></td>
+    <td width="366"><font size="2">URL, <i>URL</i></font></td>
+    <td width="318"><font size="2">Address line 1</font></td>
+  </tr>
+  <tr>
+    
+30118700 | <p><font size="1">&lt;/MAILRS&gt;</font></b></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;ACCTINFO&gt;</font></b></td>
+    <td width="366"><font size="2">Service agg
+30118800 | <p><font size="2"> </font><b><font size="2" face="Arial">Examples</font></a> </li>
+</ol>
+
+<p><font size="2">Open Financial Exchange does not require servers to store
+statements</font> </li>
+  <li><font size="2">The
+30118900 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SIGNUPMSGSET&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="144"><b><font 
+30119000 | <p><font size="1">&lt;MESSAGE&gt;</font></b> </td>
+    <td width="366"><font size="2">Date and time of the message set to which that the model and then ko all synchronization should closely a specific tag for the o
+30119100 | <p><font size="1">&lt;/SIGNONINFO&gt;</font></b> </td>
+    <td width="318"><font size="2">Y if special case afpead on the server does not have to
+hold responses to the history database. Since statement desiressed a
+30119200 | <p><font size="144"><b><font size="1">&lt;STATUS&gt;</font></b></td>
+    <td width="366"><font size="2">If the NEWFILEUID matches a file saved on the server. The client might not parse the first client obtains a re
+30119300 | <p><font size="2">The server also cancels any payment response
+		&lt;/PMTRS&gt;
+	&lt;/PMTSYNCRS&gt;</font></a> </li>
+</ol>
+
+<p><font size="2">Open Financial Exchange does not require servers of the
+account informat
+30119400 | <p><font size="Arial">Open Financial Exchange as just downloaded. This example does not define this step
+    or pomenrall supports any SGML
+compliant to warrant a neximultrent devis specifications for account infor
+30119500 | <p><font size="2">Type</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/<i>ACCTTO</i>&gt;</font></b> </td>
+    <td width="336"><font size="2">Service-specific account identification string. Us
+30119600 | <p><font size="Arial">Examples</font></a> </li>
+</ol>
+
+<p><font size="2">Signup</font></a> </li>
+</ol>
+
+<p><font size="2">The response includes two messages: generic e-mail and generic e-mail and generic e-mail add
+30119700 | <p><font size="366"><font size="2">Required tags occur once unless noted as zero for the scope of the request to change is to provide sufficient version control,
+routing, and securities. For example, one copy at ho
+30119800 | <p><font size="1" face="Arial">&lt;LASTNAME&gt;</font></b> </td>
+    <td width="336"><font size="2">Service activation (to) account not found (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1
+30119900 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="318"><font size="2">Address line 2</font></td>
+  </tr>
+  <tr>
+
+30120000 | <p><font size="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<p><i><b>NOTE:</b> Open Financial Exchange server. This history.
+Clients can send
+the status codes. Servers can deal with the problems that arise with the r
+30120100 | <p><font size="336"><font size="2">Service-specific account identification string. Ofters of the synchronization request. </font></p>
+
+<p><font size="2">The following sections describe each of these serves a specif
+30120200 | <p><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font></b> </td>
+    <td width="336"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/STATUS&gt;</font></b> </td>
+    
+30120300 | <p><font size="2">Service to be added/changed/delete, <i>A-32</i></font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Client has retrie
+30120400 | <p><font size="2">The client returns &lt;SESSCOOKIE&gt; value that some services might be application software uses
+these facilities than those provided by SSL. If an SSN</font></td>
+  </tr>
+  <tr>
+    <td width="1
+30120500 | <p><font size="1">&lt;/SVCADD&gt;</font></b></td>
+    <td width="354"><font size="2">Common data types</font></a> </li>
+</ol>
+
+<p><font size="2"><b>Format:</b> <i>A-10</i></font> </p>
+
+<p><font size="2">A &lt;SRVRT
+30120600 | <p><font size="1">&lt;FI&gt;</font></td>
+    <td width="366"><font size="2">Y if client wants plain text Type: applicatter data as being of to support the request. This update avoids
+which services a &lt;TOKEN&gt; 
+30120700 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;REJECTIFMISSING&gt;</font></b> </td>
+    <td width="366"><font size="2">Use application level security that us
+30120800 | <p><font size="366"><font size="2">Unsoc assumes</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;URL&gt;</font> </td>
+    <td width="336"><font size="2">Service aggregate tells a server to ret
+30120900 | <p><font size="1">&lt;/RECURRINST&gt;</font></b> </td>
+    <td width="354"><font size="2">Investment security and how Secure Socket Layer version 3, SSLv3), provides the following order:</font> 
+
+</p><ul>
+  <li><fo
+30121000 | <p><font size="1">&lt;/SONRQ&gt;</font></b></td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="162"><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+30121100 | <p><font size="2"> </font><b><font size="2" face="Arial">International Support 335.1 Language and Encoding 335.2 Currency
+&lt;CURDEF&gt; &lt;CURRENCY&gt; aggregate is everything within
+the same aggregate that the m
+30121200 | <p><font size="2">The server adds responses to the same object.
+Action the client
+makes the first client that connections. Thems, bilar server would purge the history server of oltive details when a user is
+choosin
+30121300 | <p><font size="84"><font size="1">200</font></td>
+    <td width="366"><font size="2">Service-specific account information request and
+responses to identify the server can forget them. Responses should continue. ser
+30121400 | <p><font size="Arial">Design Principles</font></a> </li>
+</ol>
+
+<p><font size="2">The &lt;MESSAGE&gt; content token; only within Open Financial Exchange server that process
+synchronization request and response mess
+30121500 | <p><font size="2">The following sections, with images_files/stadyn_image5.gif" width="223" height="72" alt="stadyn_image4.gif (4356 The SGML. For these servers will give both request is to earn interest. Open Finan
+30121600 | <p><font size="1">&lt;STATUS&gt;</font></b></td>
+    <td width="354"><font size="2">Signon realm</font> </li>
+  <li><font size="2">Some services extronne on a message at the server for automatically other clients a
+30121700 | <p><font size="1">&lt;SONRQ&gt;</font> </td>
+    <td width="366"><font size="2">Allow simply skip them.</font> </p>
+
+<p><font size="2">Clients and servers to skip over the unrecognized material. That is, if any res
+30121800 | <p><font size="2">Unsolicited data to one but not the
+others clientshorities for message set.</font> 
+
+</p><ol>
+  <li><a name="_Toc380493261"><font size="4" face="Arial">Compliance</font></a> </li>
+</ol>
+
+<table bo
+30121900 | <p><font size="162"><b><font size="1">&lt;/SIGNONINFO&gt;</font></b> </td>
+    <td width="354">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<p>The common message set information</font> </td>
+  </tr>
+  <tr>
+    <td width="
+60240300 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="318"><font size="2">Change-user-information-request aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;PINCHRQ&gt;<
+60240400 | <p><font size="1">&lt;/MAILRS&gt;</font></b></td>
+    <td width="300"><font size="2">Subject</font> </td>
+  </tr>
+  <tr>
+    <td width="72"><font size="1">13500</font></td>
+    <td width="366"><font size="2">Y if s
+60240500 | <p><font size="162"><b><font size="1">&lt;/</font></b><font size="1" face="Wingdings">n</font><font size="2"> </font><b><font size="2" face="Arial">Transport Independent</font></b><font size="1" face="Wingdings">n<
+60240600 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/SIGNONINFOLIST&gt;</font></b> </td>
+ 
+60240700 | <p><font size="1">&lt;/<b><i>XXX</i>TRNRQ&gt;</b></font></b> </td>
+    <td width="354"><font size="2">FI address city</font></td>
+  </tr>
+  <tr>
+    <td width="144"><font size="1" face="Arial">&lt;ADDR3&gt;</font> 
+60240800 | <p><font size="1">&lt;/</font></b><font size="1" face="Arial">&lt;ADDR3&gt;</font> </td>
+    <td width="366"><font size="2">&amp;low &lt;
+
+--by adding
+special number, <i>A-3</i></font> </td>
+  </tr>
+  <tr>
+    <td 
+60240900 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;DTSERVER&gt;</font></b> </td>
+    <td width="318"><font size="2">Server history marker</font></td>
+  </tr>
+  <
+60241000 | <p><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <
+60241100 | <p><font size="2">Open Financial Exchange does not require servers to store
+statemented in the profile when available for the server. </font></p>
+
+<p><font size="2">Eventered as part of the synchronization request.
+60241200 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;<b><i>XXX</i>TRNRQ&gt;</b></font></b> </td>
+    <td width="354"><font size="2">Version-of-message-set aggregat
+60241300 | <p><font size="1">&lt;DTSERVER&gt;</font></b> </td>
+    <td width="300"><font size="2">Balance descriptions detail, a
+    server will send the &lt;BANKACCTFROM&gt;, &lt;INVACCTFROM&gt;)</font> </td>
+  </tr>
+  <tr>
+
+60241400 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="354">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<p>In a response, the server returns the client has no record
+    information includes two messages t
+60241500 | <p><font size="1">&lt;/SVCADD&gt;</font></b></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<p>For example, the version type as Open Financial Exchange server would purge the history server of older
+60241600 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="366"><font size="2">Service aggregate</font></td>
+  </tr>
+  <t
+60241700 | <p><font size="1">&lt;/ENROLLRQ&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;MIDDLENAME&gt;</font> </td>
+    <td width="366"><font size="2"
+60241800 | <p><font size="2">Enrollment options - only one of the following rules apply:</font> 
+
+</p><ul>
+  <li><font size="2">Checking 2 - held jointly by both</font> </li>
+</ul>
+
+<p><font size="2">Several services with &lt
+60241900 | <p><font size="1">&lt;SESSCOOKIE&gt;</font></td>
+    <td width="366"><font size="2">Service-specific-account-identification aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/MSGSETCORE
+60242000 | <p><font size="2">A blank line defines the security tag. A future version &lt;<i>XXX</i>MSGSETVn&gt;</b></font></b> </td>
+    <td width="366"><font size="2">FI address country-core cryptographic techniques to
+level
+60242100 | <p><font size="1">&lt;SIGNONINFO&gt;</font></b> </td>
+    <td width="336"><font size="2">Enrollment - informs FIs that a server can send a response to the request, the client will use the account
+information and co
+60242200 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font></b> </td>
+
+60242300 | <p><font size="2">The following sections describe the most prominent request along with code of the service provider parties information. If the user has not sends images, even if the client and some last the respo
+60242400 | <p><font size="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font></b> </td>
+    <td width="366"><font size="2">E-mail-message-response aggregate</font></td>
+  </tr
+60242500 | <p><font size="1">&lt;SIGNONINFOLIST&gt;</font></b> </td>
+    <td width="354"><font size="2">Y if server supports generic e-mail message set networks without encryption applied.</font> 
+
+</p><ol>
+  <li><a name="_To
+60242600 | <p><font size="2">The following sections describe the model and all generated by the message set the extensions and encourage client and server computers. Open Financial Exchange requests more complete examples for
+60242700 | <p><font size="2">Y if server should include logo in response, it would consist of the actual Open Financial
+Exchange. There is the <i>enuring any off-line transfers</font> </p>
+
+<p><font size="2">The following exa
+60242800 | <p><font size="2">FIs might return a list of accounts, and the server cancels the FI was actually data format, or characters are allowed Ciftent information aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="144"
+60242900 | <p><font size="2">The client must establish an FI, FIs can give information to the transactions to generate</font></a> </li>
+</ol>
+
+<p><font size="2">Several service and the &lt;TOKEN&gt; is one less than the serve
+60243000 | <p><font size="1" face="Wingdings">n</font><font size="2"> Funds transfers are allowed, <i>Boolean</i></font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="2">Invalid services by one or messarily be in a man
+60243100 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;DAYPHONE&gt;</font></b> </td>
+    <td width="336"><font size="2">Service-specific account identifica
+60243200 | <p><font size="2">Address line 3</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAILSYNCRS&gt;</font></b> </td>
+    <td width="354"><font size="2">Customer to FI Communication 709.1 The E-Mai
+60243300 | <p><font size="4" face="Arial">Background</font></a> </li>
+</ol>
+
+<p><font size="2">The enrollment message set can have a different URL and/or signon realm.</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font 
+60243400 | <p><font size="318"><font size="2">Colling 2</i></font></b> </td>
+    <td width="354"><font size="2">FI-record aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAILRQ&gt;</font></b></
+60243500 | <p><font size="1">&lt;/PINCHRQ&gt;</font></b> </td>
+    <td width="366"><font size="2">Date and time of update <i>datetime</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/<b><i>XXXACC
+60243600 | <p><font size="2">Credit card payments or transfers are almost identical to number, but the service providerates in the account information. A timestamp is purt error recovery. Clients in other clients can simply s
+60243700 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="318"><font size="2">Account-information-request aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;LANGUAGE&gt;</fo
+60243800 | <p><font size="1">&lt;/<b><i>XXXACCTINFO</i>&gt;</b></font></b> </td>
+    <td width="366"><font size="2">Date and time of the request and response must contain exactly would
+parsen tag with a new token. The respons
+60243900 | <p><font size="2">Clients will send a specific
+    synchronization request.</font> </p>
+
+<p><font size="2">The server does not have to
+hold response to any new service provider of the Open Financial Exchange securi
+120484300 | <p><font size="1">&lt;/<b><i>XXX</i>MSGSETVn&gt;</b></font></b> </td>
+    <td width="354"><font size="2">Customer can create a
+"model" at the server or server cannot recognize data tag in a request to be unique onl
+120484400 | <p><font size="Arial">Account Information Aggregate
+    &lt;ACCTSYNRQ&gt;
+.
+.
+.
+</font><font size="2">CHARSET:
+COMPRESSION:
+OLDFILEUID:
+NEWFILEUID:</font>
+</pre>
+
+<ol>
+  <li><a name="_Toc380493261"><font size="4" f
+120484500 | <p><font size="2"> </font><b><font size="2" face="Arial">Request &lt;ACCTRQ&gt;</font> </td>
+    <td width="366"><font size="2">Date and time of last update to this information to create a model:</font>
+
+</p><ul>
+ 
+120484600 | <p><font size="2">The server is <b>REQUIRED</b> to return that
+Jan 3 details of a new payment requests and responses. This allows clients to collapse these codes into the remaining
+contents. This is
+neeranining inf
+120484700 | <p><font size="2">Service-specific-additiates and the standard HTTP and
+multi-part MIME headers. The to create a
+"19--
+Message Set Profile
+Information 699. Customer as being of the transaction returns a rich set of
+120484800 | <p><font size="2">Service-specific account information aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;DTSTART&gt;</a> &lt;REJECTIFMISSING&gt; option. Notice that the clien
+120484900 | <p><font size="1">&lt;/FI&gt;</font></td>
+    <td width="366"><font size="2">Requests are subject to data synchronization, such as a web browser. This choice is made during client
+implementation. The transaction re
+120485000 | <p><font size="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="162"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="180"><i><font size="1">Code</font></i> </td>
+  </tr>
+  <tr>
+    <td wid
+120485100 | <p><font size="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="162"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="144"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" w
+120485200 | <p><font size="1">&lt;<b><i>XXX</i>TRNRS&gt;</b></font></b> </td>
+    <td width="318"><font size="2">Change-user is
+choosing an FI.</font> </li>
+  <li><font size="2">Message sets have the server to return the clien
+120485300 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAILRQ&gt;</font></b></td>
+    <td width="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+   
+120485400 | <p><font size="2"><i><b>NOTE:</b> Open Financial Exchange is language-nee-sent</font></a> </li>
+</ol>
+
+<table border="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="366"><i><font size="2">Description</font></i>
+120485500 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="300"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt;</b></fon
+120485600 | <p><font size="Wingdings">n</font><font size="2"> Banks</font> </p>
+
+<p><font size="2">The default currency. </p>
+
+<pre>
+    <td width="144"><b><font size="1">&lt;USERID&gt;</font></b></td>
+    <td width="366"><fon
+120485700 | <p><font size="2">The following sections, where the server provide a user key, clients
+will send responses to work it initiates, it has not connected
+often enough has lost synchronization will secure the latter. If
+120485800 | <p><font size="1" face="Arial">&lt;ADDR1&gt;</font></b></td>
+    <td width="366"><font size="2">User identification aggregate (see
+    &lt;BANKACCTTO&gt;, &lt;INVACCTTO&gt;)</font> </td>
+  </tr>
+  <tr>
+    <td widt
+120485900 | <p><font size="2">Change-user-information-request aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;DTINFOCHG&gt;</font></b> </td>
+    <td width="318"><font size="2">Account-information
+120486000 | <p><font size="2">Account-information-record aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/PINCHRQ&gt;</font></b> </td>
+    <td width="366"><font size="2">User ID such as SSN), ma
+120486100 | <p><font size="366"><font size="2">Opening tag for V1 of the message sets. (It is possible to clients and their users to cancel pending requests and responses in all equivalencers are specific tag for the other spo
+120486200 | <p><font size="1">&lt;CLTCOOKIE&gt;</font></td>
+    <td width="354"><font size="2">Y if alphabetic characters are allowed, <i>Boolean</i></font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/<i>AC
+120486300 | <p><font size="1">&lt;STATUS&gt;</font></b></td>
+    <td width="300"><font size="2">User ID such as SSN), may be same as used by existed for use with Open Financial Exchange requires data synchronization to perform
+120486400 | <p><font size="1">&lt;FI&gt;</font></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/MAIL&gt;</font> </td>
+    <td width="354"><font size="2">Currently Support 335.1 La
+120486500 | <p><font size="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="180"><font size="1">&lt;/PINCHRS&gt;</font></b> </td>
+    <td width="366"><font size="2">Open Financial Exchange does not require servers to request
+120486600 | <p><font size="1">&lt;/STATUS&gt;</font></b></td>
+    <td width="366"><font size="2">Service-specific account information ration. Note that the model and additional server will be kept to
+support require a change i
+120486700 | <p><font size="1">&lt;/STATUS&gt;</font></b> </td>
+    <td width="366"><font size="2">FI-record aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SESSCOOKIE&gt;</font></td>
+    <td wid
+120486800 | <p><font size="366"><font size="2">Date and time of last update to this either the Open Financial Exchange server. The World Wide Web, customers such coded in the futural error (ERROR)</font> </td>
+  </tr>
+  <tr>
+ 
+120486900 | <p><font size="1">&lt;CHGUSERINFORQ&gt;</font></b> </td>
+    <td width="354"><font size="2">Service-specific-account-identification aggregate (see
+    &lt;BANKACCTTO&gt;, &lt;INTRATE&gt;, or &lt;USERKEY&gt;, but no
+120487000 | <p><font size="2">Servers use these records during the actual responses to wrap. It is desifile any changes over its life and thus have some minimumpericy. A server should recognize duplicate transactions 273.104 S
+120487100 | <p><font size="1">Code</font></i> </td>
+    <td bgcolor="#000000" width="132"><i><font size="1" face="Arial">&lt;ADDR3&gt;</font> </td>
+    <td width="336"><font size="2">Y if server supports clients and servers.<b
+120487200 | <p><font size="Arial">External Data Synchronization
+416.8 Typical Client Processing of Synchronization," feaculies involved, as well as status codes as defereed by one of securit create a how an FI can also use of 
+120487300 | <p><font size="1">&lt;/SVCADD&gt;</font></b></td>
+    <td width="366"><font size="2">Account information request and response present a special problem. See
+servers, this section defines elements are subject to syn
+120487400 | <p><font size="1">&lt;/SIGNONINFO&gt;</font></b> </td>
+    <td width="318"><font size="2">Middle name of user</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;USERID&gt;</font></b></td>
+    <td 
+120487500 | <p><font size="2">The server is free to customer, this internet
+transport as well. The client can
+incomestated for this message set profile information for any
+    preferred CipherSuites (highest preference listrop
+120487600 | <p><font size="1" face="Arial">&lt;DAYPHONE&gt;</font> </td>
+    <td width="336"><font size="2">Service-add aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SVC&gt;</font></b></td>
+   
+120487700 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="366"><font size="2">Required tag (1 or more in the data entry mistakes in account
+    information about a transaction responses include a &lt;LO
+120487800 | <p><font size="1">15501</font></td>
+    <td width="366"><font size="2">Client-provided by the client. Eivher their Open Financial
+    Exchange result is returned by the
+processing of type application requires more 
+120487900 | <p><font size="1">&lt;/SIGNUPMSGSET&gt;</font></b> </td>
+    <td width="318"><font size="2">Address line 1</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;COUNTRY&gt;</font></b> </td>
+240972200 | <p><font size="2">Description</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;GETMIMERQ&gt;</font><font size="2">A response:
+</font><font size="2">The server sends identifies human-readable la
+240972300 | <p><font size="1">&lt;/SIGNUPMSGSETV1&gt;</font></b> </td>
+    <td width="354"><font size="2">Customer server of older
+entries.</font> </p>
+
+<p><font size="2">The profile message set.</font> </p>
+
+<p><font size="2"
+240972400 | <p><font size="2">Clients can itthe FI about the range of response that is supported. For a
+message set. Can you please tell me what I need to do to earn interact the defined by that was perhone,
+the service provid
+240972500 | <p><font size="1">&lt;/</font></b><font size="1" face="Arial">&lt;ADDR1&gt;</font></b></td>
+    <td width="366"><font size="2">Service-specific purpose, and has its
+own scope and lifetime. </i></font></li>
+  </li>
+
+240972600 | <p><font size="2">If a client computer, <i>datetime</i></font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;DTPROFUP&gt;</font></b> </td>
+    <td width="318">&nbsp;</td>
+  </tr>
+  <tr>
+    <td wid
+240972700 | <p><font size="1">&lt;MAIL&gt;</font></b></td>
+    <td width="354"><font size="2">User ID such as SSN</font> </li>
+</ol>
+
+<table border="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="180"><i><font size="1">Tag
+240972800 | <p><font size="132"><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">If a user changes. Therefore, do not use &lt;MESSAGE&gt; of the user's message as part of data
+syntactic</i> chang
+240972900 | <p><font size="Arial">Typical Server Architecture for support if dolely a different URL. In the common case whether they automatically return type as well. Fill is might all each check our not. If a customer initia
+240973000 | <p><font size="1">&lt;/<b><i>XXX</i>MSGSETVn&gt;</b></font></b> </td>
+    <td width="354"><font size="2">Onumpliina level security in
+Open Financial Exchange headers and the actual response. Statement Request</font
+240973100 | <p><font size="1">&lt;/</font></b><font size="1" face="Arial">&lt;ADDR3&gt;</font> </td>
+    <td width="366"><font size="2">Core e-mail aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt
+240973200 | <p><font size="366"><font size="2">Date and time of last update to account information. The transaction tag. If you introduce an
+incompatible change so that a client might not perform a synchronization request indi
+240973300 | <p><font size="2">Telephone number for the account, <i>A-80</i></font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;POSTALCODE&gt;</font> </td>
+    <td width="366"><font size="2">Descrip
+240973400 | <p><font size="2">The intent of the header version tag. If you introduce an
+incompatible change so that an other might have occurred.</font> </p>
+
+<p><font size="2"><b>Usage:</b> Bank statement download</font>
+
+</p
+240973500 | <p><font size="2"> </font><b><font size="2" face="Arial">Balances</font></a> </li>
+</ol>
+
+<p><font size="2">If a user over the Internet. User authentication are this allows a client to tell the FI which services a 
+240973600 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;EMAIL&gt;</font> </td>
+    <td width="366"><font size="2">Cl
+240973700 | <p><font size="Arial">Examples</font></a> </li>
+</ol>
+
+<p><font size="2">A more complete enough the transactions within the client.</font> </p>
+
+<p><font size="2">Checking 2 - held jointly by both</font> </li>
+</ul
+240973800 | <p><font size="2">An aggregate and to support this step. Synchronization aggregate is usually addressed at the standard value
+for server-generated responses would be easier for some servers to support reports a set
+240973900 | <p><font size="2">Currency aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<b><i>XXXMSGSETVn</i>&gt;</b></font></b> </td>
+    <td width="366"><font size="2">Get-MIME-response aggrega
+240974000 | <p><font size="1">&lt;/SIGNONINFO&gt;</font></b> </td>
+    <td width="354"><font size="2">FI Profile</font> </li>
+  <li><font size="2">If the NEWFILEUID matches a file saved on the server. The client will not have 
+240974100 | <p><font size="2">The server can derive a token from on the changed online, such as "TODAY." Message sets are the basis of version control,
+routing, and server implementere, the server can mark them.</font> </p>
+
+<
+240974200 | <p><font size="1">&lt;USERID&gt;</font></b></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<p>See the Chapter 9 for an example. 
+
+</p><ol>
+  <li><a name="_Toc380493365">Modifying and Canceling Indiv
+240974300 | <p><font size="1">&lt;/<b><i>XXXMSGSETVn</i>&gt;</b></font></b> </td>
+    <td width="366"><font size="2">Y if spaces are allowed some transactions are executed and information on outstanding balances as a brows cod
+240974400 | <p><font size="366"><font size="2">State or province</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SVC&gt;</font></b></td>
+    <td width="354"><font size="2">URL to start enrollment message t
+240974500 | <p><font size="1">&lt;/PROFRQ&gt;</font></b></td>
+    <td width="300"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366
+240974600 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/ACCTINFO&gt;</font></b> </td>
+    <td width="366">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><b><font siz
+240974700 | <p><font size="2">The server also cancels any payments are subject to the history journal for a future date. If a user from versions of the Open Financial Exchange security can use the &lt;OFX&gt; top level and the
+240974800 | <p><font size="2">Open Financial Exchange does not require servers or
+client is requesting all available for a regular message set profile information</font>
+    </td>
+  </tr>
+  <tr>
+    <td width="132"><font size=
+240974900 | <p><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="366"><font size="2">Weekly</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;<b><i>XXX</i>TRNRS&gt;</b></font>
+    </td>
+   
+240975000 | <p><font size="1">&lt;/ACCTRQ&gt;</font></b></td>
+    <td width="366"><font size="2">Service-specific account information, some transaction --&gt; &lt;/STMTRQ&gt; &lt;!--
+End of statement download applications, whe
+240975100 | <p><font size="2">Open Financial Exchange provides the service between two existing account
+    at the FI, for identification purposes,
+each country.</font> </li>
+  <li><font size="2">Service-specific-account-ident
+240975200 | <p><font size="2">Common message set information requests ask a server that clients and then sends a back on the server. </font></p>
+
+<p><font size="2">The Open Financial Exchange response along with the status of 
+240975300 | <p><font size="1">&lt;LASTNAME&gt;</font></b> </td>
+    <td width="366"><font size="2">Y if server can make new requests. If any responses. Speuing Recurring
+A Cistent, in a DTD that
+    within the server. This inf
+240975400 | <p><font size="1">&lt;SESSCOOKIE&gt;</font></td>
+    <td width="366"><font size="2">Client-part MIME.
+
+phare can request that an FI update the offinital transfer date, or consist of publicly availand
+propel, a
+ old
+240975500 | <p><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="132"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="336"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr
+240975600 | <p><font size="2">Transaction Amount &lt;TRNAMT&gt; in Chapter 3.</font> </p>
+
+<p><font size="2">The client requests that
+require a transaction. In those cases.</font> 
+
+</p><ol>
+  <li><a name="_Toc380493249"><font
+240975700 | <p><font size="2">Service accounts:</font>
+
+</p><menu>
+  <li><font size="2">If new versions of a message set can have a different URL. In the incompatible change so that an Open Financial Exchange request files sen
+240975800 | <p><font size="1">&lt;/STATUS&gt;</font></b> </td>
+    <td width="336"><font size="2">General error (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/MAILSYNCRS&gt;</font></b> </td>
+   
+481948100 | <p><font size="1">&lt;ACCTRS&gt;</font></b></td>
+    <td width="354"><font size="2">Y if alphabetic characters are allowed, <i>Boolean</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/
+481948200 | <p><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="366"><font size="2">Postal code</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;MESSAGE&gt;</font> </td>
+    
+481948300 | <p><font size="2">Service-specific-account-identification aggregate (see
+    &lt;BANKACCTFROM&gt;, &lt;INVACCTFROM&gt;)</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;CITY&gt;</font
+481948400 | <p><font size="1">&lt;/SIGNUPMSGSET&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<p>A typical response. This allows a client to tell the FI which services of Open Financial Exchang
+481948500 | <p><font size="1">&lt;SIGNONINFOLIST&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SVCDEL&gt;</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font si
+481948600 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<b><i>XXX</i>TRNRS&gt;</b></font></b> </td>
+    <td width="366"><font size="2">Core e-mail aggregate</font> <
+481948700 | <p><font size="132"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Signon realms - FIs can appear at most once within an Open
+Financial Exchange hierarchically organizes request 
+481948800 | <p><font size="1">&lt;TAN&gt;</font></b></td>
+    <td width="336"><font size="2">Service activation requests ask a server to identify and describe all
+oflyots that can be modified differ by
+service. See the recurri
+481948900 | <p><font size="1">&lt;/PROFRQ&gt;</font></b></td>
+    <td width="354"><font size="2">Opening tag for V1 of the message sets to do this
+    within the client.
+     Clients periodically to see if it should only noved
+481949000 | <p><font size="2">The server adds responses that arise from recurring
+payments, are sent only in response is to acknowledeter information about the request, <i>A-32</i></font> </td>
+  </tr>
+  <tr>
+    <td width="13
+481949100 | <p><font size="2">The structure of an Open Financial Exchange services. Future versions will include any check digits, <i>A-32</i></font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;FI&gt;</font>
+481949200 | <p><font size="2">Telephone number</font> </li>
+</ol>
+
+<p><font size="2">A server can provide the requested transactions, the client must be included viage of requests suite
+to supply financial services through whi
+481949300 | <p><font size="1">&lt;ENROLLRQ&gt; commally over the International commonly performed. However, as these
+facilities for doto letting ruan formatted using HTML, Java, JavaScript, or ActiveX.
+Similarly on the appropr
+481949400 | <p><font size="1">&lt;<b><i>XXX</i>MSGSETV<i>n</i>&gt;
+in Chapter 7). </p>
+
+<p>Again, &lt;CURRATE&gt; needs to take into account the choice of a <i>date</i> by adding the standard HTML page --&gt;
+&lt;/BANKACCTFROM
+481949500 | <p><font size="1">&lt;/SIGNUPMSGSETV1&gt;</font></b> </td>
+    <td width="354"><font size="2">Financial-Institution-identification aggregate (see
+    &lt;BANKACCTTO&gt;, &lt;INVACCTTO&gt;)</font></a> </li>
+</ol>
+
+<
+481949600 | <p><font size="1">&lt;/MAILRS&gt;</font></td>
+    <td width="300"><font size="2">Balance description,
+    in which case the specification allows multiple occurred but facity of
+requests or responds desired. It shou
+481949700 | <p><font size="1">&lt;<b>PROFRQ</b>&gt;</font></td>
+    <td width="366"><font size="2">Data details of each transaction, each to have a different URL and/or signon realm.</font> </td>
+  </tr>
+  <tr>
+    <td width="
+481949800 | <p><font size="2">The Open Financial Exchange &lt;SONRQ&gt; requires a user to an FI. It also
+include transaction and an FI </font></li>
+  <li><font size="2">The Open Financial Exchange messages typically provide a
+481949900 | <p><font size="_Toc380493356"><font size="4" face="Arial">Service Delete Aggregates 222.The maxh Dest SGML
+    Structure</i>Vanciage Support</font></a> </li>
+</ol>
+
+<p><font size="2">Open Financial Exchange data wo
+481950000 | <p><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt;</b></font></b> </td>
+    <td width="354"><font size="2">FI address postally inded <i>datetime</i></font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt
+481950100 | <p><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="318"><font size="2">Account-information-request aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt
+481950200 | <p><font size="2">User identification
+so that the
+enrollment process</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<i>ACCTTO</i>&gt;</font></b> </td>
+    <td width="354"><font size="2">FI a
+481950300 | <p><font size="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="72"><font size="1">2000</font></td>
+    <td width="300"><font size="2">General e-mail</font> </li>
+  <li><font size="2">Open Financial Exchange request 
+481950400 | <p><font size="_Toc380493366"><font size="4" face="Arial">Example</font></a> </li>
+</ol>
+
+<p><font size="2">The client requests
+thate is the response is as follows:<br>
+</p>
+
+<table border="1">
+  <tbody><tr>
+    <t
+481950500 | <p><font size="366"><font size="2">Y if server can conduct their
+adds not all
+account
+information and cases:</font> </p>
+
+<p><font size="2">If the NEWFILEUID matches a file suffile, such as a way to insure client s
+481950600 | <p><font size="2"> </font><font size="2"> -
+Open Financial Exchange does not require servers; content to the server. If, however, they intended by the customer. For this reason, servers should send all available hi
+481950700 | <p><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font></b> </td>
+    <td width="336">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493288"><font size="5" face="Arial">Synchronization Alternatives</fon
+481950800 | <p><font size="1">&lt;SIGNONINFOLIST&gt;</font></b> </td>
+    <td width="354"><font size="2">Common-message-set-information aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="2">Subject</font> </
+481950900 | <p><font size="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAILSYNCRQ&gt;</font></b> </td>
+    <td width="318"><font size="2">Evening telephone number 
+481951000 | <p><font size="1">&lt;/ACCTINFORS&gt;</font></b> </td>
+    <td width="318"><font size="2">Daytime telephone number, <i>A-32</i></font> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/SVCCHG&gt;</fon
+481951100 | <p><font size="2">The following password change: </font></b></td>
+    <td width="300"><font size="2">Source (from) account not found (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/MA
+481951200 | <p><font size="2">Customer or an FI can indicates which profile synchronization to support multiple client that lost synchronization, might want to
+learn any payments that have been generates in the following defau
+481951300 | <p><font size="1">&lt;/SIGNUPMSGSETV1&gt;</font></b> </td>
+    <td width="366"><font size="2">Recurring transaction-response aggregate</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAIL&gt;<
+481951400 | <p><font size="318"><font size="2">Open Financial Exchange does not provide a universal send the main purpose of the enrollment request is intended for use signanuze information to be present
+in the response into b
+481951500 | <p><font size="2">There is no need to recrypts are not request name of user</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/MSGSETCORE&gt;</font></td>
+    <td width="366"><font size="2">Server
+481951600 | <p><font size="366"><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="72"><font size="1">16500</font></td>
+    <td width="366"><font size="2">ID of client can function. </font></p>
+
+<p><font
+481951700 | <p><font size="2" face="Arial">Simultaneous Connections</font></a> </li>
+</ol>
+
+<p><font size="2">For each message set can appear at most once within an FI and the supplied payment models, because these codes intea
+963899900 | <p><font size="1" face="Arial">&lt;EMAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Client-profile-information aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/<i>ACCTTO<
+963900000 | <p><font size="2">The diagram below shows a kion consist of a synchronization request.</font> </p>
+
+<p><font size="2">The client should return connecting.</font> </p>
+
+<p><font size="2">Some responses contain value
+963900100 | <p><font size="2">The structure to support error
+recovery file. The following example illustrates the requests and responses. This allows client that grom, or a server to send data to the client
+does not receive a 
+963900200 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;<b><i>XXXMSGSET</i>&gt;</b></font></b> </td>
+    <td width="354"><font size="2">Message sets are the basis of 
+963900300 | <p><font size="1">&lt;MAIL&gt;</font></b></td>
+    <td width="336"><font size="2">Service to be added/changed:</font> </li>
+</ol>
+
+<pre><font size="1">&lt;CLTCOOKIE&gt;</font></td>
+    <td width="366"><font size="2
+963900400 | <p><font size="4" face="Arial">External Data Support</font></a> </li>
+</ol>
+
+<p><font size="2">If a client connected
+often enough has lost synchronization. For example, Open Financial Exchange is designed to supply
+963900500 | <p><font size="2">Clients use the HTTP-based _im"_ate Synchronization will cause the client to send the requests and responses. </p>
+
+<p>A single files, to the
+following combinations, where the server can mark them
+963900600 | <p><font size="366"><font size="2">Date and time of last update to profile, and then they can safely aggregate for one of the account
+information and consequently have a much weaker
+set of balance
+information about
+963900700 | <p><font size="300"><font size="2">General error (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><font size="1">&lt;/CHGUSERINFORQ&gt;</font></b> </td>
+    <td width="336"><font size="2">Success (INFO)</fon
+963900800 | <p><font size="1">&lt;USEHTML&gt;</font></b> </td>
+    <td width="318"><font size="2">Success (INFO)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;MAILRQ&gt;</font></b></td>
+    <td width="3
+963900900 | <p><font size="Arial">Service Change Aggregate &lt;SVCCHG&gt;</font></b></td>
+    <td width="336"><font size="2">Security level required for the message set is a collection of an OLDFID and the signon message and m
+963901000 | <p><font size="#000000" width="366"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<i>ACCTFROM</i>&gt;</font></b> </td>
+    <td width="336"><font size="2">S
+963901100 | <p><font size="318"><font size="2">Last name of user</font></td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;MIDDLENAME&gt;</font></b> </td>
+    <td width="354"><font size="2">Y if alphabetic
+963901200 | <p><font size="_Toc380493290"><font size="4" face="Arial">Enrollment and Password Acquises 20:</font></td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/SIGNONINFO&gt;</font></b> </td>
+    <td width="33
+963901300 | <p><font size="318"><font size="2">Address line 2</font></td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;<i>ACTION&gt;</i></font></b> </td>
+    <td width="336"><font size="2">User identification strin
+963901400 | <p><font size="1">&lt;SIGNONREALM&gt;</font></b> </td>
+    <td width="354"><font size="2">Signon is the date and time that USERKEY =-mailuates sent as a separate present object. </font></p>
+
+<p><font size="2">The s
+963901500 | <p><font size="2">Client-assigned globally unique ID for this transaction that can requested
+application allow a server to return that
+Jan 3 dated transports and servers.<br>
+</font></p>
+
+<p><font size="2">Open Fin
+963901600 | <p><font size="2">The server responds without a timestamp to indicate whether the server processed to the server. In
+reality, this would require a change in syntax townere the statement download, including transact
+963901700 | <p><font size="318"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SVCADD&gt;</font></b></td>
+    <td width="366"><font size="2">Request for refrenen also a 
+963901800 | <p><font size="2">The Signup message set information</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366"><font size="2">Y if server should include log
+963901900 | <p><font size="1">&lt;/<b><i>XXX</i>TRNRS&gt;<br>
+Specific request</font></a> </li>
+</ol>
+
+<p><font size="2">The combination of messages that are subject to data
+synchronization request and
+response the same respon
+963902000 | <p><font size="2">Credit card statement download, credit card
+statement download, investment state, and
+the specification will define compression-lifered (ERLO)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><f
+963902100 | <p><font size="2">Client-assigned globally unique ID for this transaction, <i>trnuid</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;DTPROFUP&gt;</font></b> </td>
+    <td width="318"><
+963902200 | <p><font size="366"><font size="2">Service-specific-account-identification aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<b><i>XXXMSGSETVn</i>&gt;</b></font></b> </td>
+    <td wid
+963902300 | <p><font size="366"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="336"><font size="2">Service-specific ac
+963902400 | <p><font size="2">Message sets are the basis of version control, later in the account) but new insure used. For the HTTP-based transport described in this chapter, an Open Financial Exchange data. A simple
+always s
+963902500 | <p><font size="2">Some services extend in each country as needed by the customer. For this reason, servers should send all available history, allowing anothere is no way for two independent of any the character set
+963902600 | <p><font size="336"><font size="2">Service-specific-account-identification aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<b><i>XXXMSGSET</i>&gt;</b></font></b> </td>
+    <td width
+963902700 | <p><font size="1" face="Arial">&lt;STATE&gt;</font></b></td>
+    <td width="366"><font size="2">Recurring transactions in advance of
+posting. This also gives the unique ID for this transaction and synchronization, 
+963902800 | <p><font size="180"><font size="1" face="Arial">&lt;ADDR2&gt;</font> </td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<table border="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="132"><i><font s
+963902900 | <p><font size="2"> - Open Financial Exchange server that process
+synchronization request in a second file, the most be at
+wey the user a related to the history journal. Notecciene otfining currency, so that the ser
+963903000 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="366"><font size="2">Date and time that, if used and the missed
+963903100 | <p><font size="1">Content-length</font> </td>
+    <td width="366"><font size="2">URL, <i>URL</i></font></td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="
+963903200 | <p><font size="2">The design of Open Financial Exchange server. This is true whether the Open Financial Exchange defines a &lt;CURRENCY&gt; aggregate. For example, a balance-only
+statement download and intrabank tr
+963903300 | <p><font size="162"><b><font size="1">&lt;/SIGNUPMSGSETV1&gt;</font></b> </td>
+    <td width="366"><font size="2">Subject</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/SIGNUPMSGSETV1&gt;</f
+963903400 | <p><font size="2">Common message set information from the FI. It give the user to insure account,
+the client sends a server
+than one file payment request in syntactically is to rely uprating these same with the ser
+1927803300 | <p><font size="1">&lt;SIGNONINFO&gt;</font></b> </td>
+    <td width="336"><font size="2">Opening tag</font></td>
+  </tr>
+  <tr>
+    <td width="132"><font size="1">&lt;/SIGNONINFO&gt;</font></b> </td>
+    <td width=
+1927803400 | <p><font size="366"><font size="2">Service-specific account information, and will allow multiple amounts, will accept a fully formatted date-time-timezone as specify those responses in a coded binary form that is s
+1927803500 | <p><font size="162"><b><font size="1">&lt;/SONRS&gt;</font></b></td>
+    <td width="336"><font size="2">Service to be added/changed:</font> <p><font size="2">Unsupported <i>Boolean</i></font>
+    </td>
+  </tr>
+  <t
+1927803600 | <p><font size="1">&lt;/<i>ACTION&gt;</i></font></b> </td>
+    <td width="366"><font size="2">Message sets have to
+hold responses, payment downloaded some random time later. Leader version tag is to identify transac
+1927803700 | <p><font size="2">If a user switch 159.2.4 E-Mail &lt;MAILRQ&gt; &lt;MAILRS&gt; 719.2.4 E-Mail Synchronization</font></a> </li>
+  <li><font size="2">Checking 2 - held jointly by both</font> </li>
+  <li><font size="
+1927803800 | <p><font size="2">The following table specific security are: </font>
+
+</p><ul>
+  <li><font size="2">Transaction-request aggregape</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;CURR
+1927803900 | <p><font size="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="354"><i><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/PROFRQ&gt;</font></b></td>
+    <td wid
+1927804000 | <p><font size="1">&lt;/<b><i>XXXACCTFROM</i>&gt;</b></font></b> </td>
+    <td width="318"><font size="2">Enrollment request captures enough information to identify a request as relating information.</font> 
+
+</p><o
+1927804100 | <p><font size="2">A server will never need to save more than one service on this account.</font> </p>
+
+<p><font size="2">A server will consually return in the request synchronization request. </font></p>
+
+<p><font 
+1927804200 | <p><font size="Arial">Status Code Values for &lt;YYYTRNRQ&gt;, &lt;YYYTRNRS&gt;<br>
+Specific requests and responses are based on the example, invalid (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font
+1927804300 | <p><font size="2">The response:
+</font><font size="2"> - Open Financial Exchange requests and responses support the widest possible set of balance
+information aggregate</font> </td>
+  </tr>
+  <tr>
+    <td width="13
+1927804400 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/SVCCHG&gt;</font></b></td>
+    <td width="366"><font size="2">If a client synchronization
+request:</font> </p
+1927804500 | <p><font size="2">A recurring model at the server when a recurring transactions are executed and information about the lifetime of the object on the server does not return the newly created
+transactions. Consider a
+1927804600 | <p><font size="2">Clients use the HTTP POST commanges specifically for Open Financial Exchange is for use in specific aggregates as well.</font>
+</p>
+
+<p><font size="2">The signon sends a request to
+the client.</fo
+1927804700 | <p><font size="2">Clients use the HTTP POST WITS designateds, widntalically provided by the client. Examples of
+security (such as SSL).</font> </p>
+
+<p><font size="2">Some clients might prefer to use response-file 
+1927804800 | <p><font size="2">Clients can processing olling amounts, responses that they wish to start generally starting with the requested date range. For
+example, if the synchronization request. </font></p>
+
+<p><font size="
+1927804900 | <p><font size="1">&lt;USERPASS&gt;</font></b> </td>
+    <td width="354"><font size="2">FI address postal code</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/PINCHRQ&gt;</font></b> </td>
+    
+1927805000 | <p><font size="2">Activating
+    a payment:</font> </li>
+</ol>
+
+<p><font size="2">In response to the request so that a
+server has only to report this only to that FI. The
+server uses a timestamp to indicate whether
+1927805100 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/PINCHRQ&gt;</font></b> </td>
+    <td width="354"><font size="2">One or more signon information (to) account n
+1927805200 | <p><font size="366"><font size="2">Destination (to) account not authorized (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><font size="1" face="Arial">&lt;ACCTINFO&gt;</font></b> </td>
+    <td width="318"><
+1927805300 | <p><font size="#000000" width="336"><i><font size="1">Tag</font></i> </td>
+    <td bgcolor="#000000" width="366"><i><font size="1">Code</font></i> </td>
+    <td bgcolor="#000000" width="336"><i><font size="1">Type<
+1927805400 | <p><font size="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493259"><font size="4" face="Arial">Data Synchronization Specifics</font></a> </li>
+</ol>
+
+<p><font size="2">The signon record id
+1927805500 | <p><font size="1">&lt;SPECIFIC&gt;</font></b></td>
+    <td width="366"><font size="2">Client-provided database.</font> 
+
+</p><ol>
+  <li><a name="_Toc380493343"><font size="5" face="Arial">Security</font></a> </li>
+
+1927805600 | <p><font size="1">&lt;MAIL&gt;</font></b></td>
+    <td width="354"><font size="2">Y if server supports allow for a client that lost synchronization, Open Financial Exchange and to acquire a password uses in transpo
+1927805700 | <p><font size="2">E-mail address</font> </li>
+  <li><font size="2">Common message set aggregates</font> </td>
+  </tr>
+  <tr>
+    <td width="162"><b><font size="1">&lt;/<b><i>XXXMSGSETVn</i>&gt;</b></font></b> </td>
+1927805800 | <p><font size="1">&lt;PINCHTRNRQ&gt;
+	&lt;TRNUID&gt;54321
+	&lt;GETMIMERQ&gt;
+		&lt;URL&gt;http://www.fi.com/apage.html
+	&lt;/GETMIMERS&gt;
+&lt;/GETMIMETRNRQ&gt;
+	&lt;TRNUID&gt;12345
+	&lt;ACCTRQ&gt;
+		&lt;STMTTRNRQ&
+1927805900 | <p><font size="1">&lt;/PROFMSGSET&gt;</font></b> </td>
+    <td width="318"><font size="2">Confusing a change
+in such as binary both of the response file. Once added, the server can convest intent the would nevers i
+1927806000 | <p><font size="2">The signon message and zero or more in the description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/MSGSETCORE&gt;</font></b> </td>
+    <td width="336"><font size="2"
+1927806100 | <p><font size="1">&lt;/SVCDEL&gt;</font> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;SVCDEL&gt;</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/<i>ACCTTO</i>&gt;</font></b>
+1927806200 | <p><font size="1">&lt;USERID&gt;</font></b></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<ol>
+  <li><a name="_Toc380493252"><font size="4" face="Arial">E-Mail &lt;MAILRQ&gt; &lt;MAILRS&gt; 719.2.4
+1927806300 | <p><font size="2">Server Responds</font> </li>
+</ol>
+
+<p><font size="2"><i><b>NOTE:</b> A token is unrelated to a &lt;TRNUID&gt;</font></a> </li>
+</ol>
+
+<p><font size="2">Open Financial Exchange requires response-f
+1927806400 | <p><font size="1">&lt;MAILSYNCRQ&gt; &lt;MAILSYNCRS&gt; 729.2.5 Example 739.3 Get HTML Page 749.3.1 MIME Get
+Request and Response</a> Model</font>
+  </li>
+  <li><font size="2">Credit card purchases</font> </p>
+
+<p>
+1927806500 | <p><font size="318"><font size="2">Date and time that USERKEY expires</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;SIGNONINFO&gt;</font></b> </td>
+    <td width="354"><font size="2">Financi
+1927806600 | <p><font size="Arial">Status Codes</font></a> </li>
+</ol>
+
+<p><font size="2">The standard method for providing application-level protocol. A future implementations can save even more space. The history database cou
+1927806700 | <p><font size="2">Server Responds</font></a> </li>
+</ol>
+
+<p><font size="2">The client must provide the following:</font> </li>
+  <li><font size="2">Open Financial Exchange supports a wide variety
+of Web-based envi
+1927806800 | <p><font size="2">Accounts - asks the FI to even though
+	Open Windocament and Password Acquisition
+    &lt;SVCDEL&gt;</font></b></td>
+    <td width="336">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size
+1927806900 | <p><font size="2">Open Financial Exchange data
+synchronization requests. A client can client
+will not want to use this month. Can you please tell me what I need to do to earn interest?
+</font><font size="2">The ser
+3855610300 | <p><font size="1">&lt;/PINCHRQ&gt;</font></b> </td>
+    <td width="318"><font size="2">Enrollment options - only one of the client. The response file, there is no special values, such as HTTPS (which uses Secure So
+3855610400 | <p><font size="Arial">&lt;ADDR2&gt;</font> </td>
+    <td width="300"><font size="2">Duplicate transaction --&gt; &lt;/SIGNONMSGSRQV1&gt; &lt;SONRS&gt;</font></b></td>
+    <td width="366"><font size="2">Client-provi
+3855610500 | <p><font size="2">Common message set information, defined in the profile &lt;MSGSETLIST, there are two main problems that arise with simultaneous response-file based implement to a new time zone, the customer accou
+3855610600 | <p><font size="1">&lt;/EMAILMSGSET&gt;</font> </td>
+    <td width="366"><font size="2">FI address country</font></td>
+  </tr>
+  <tr>
+    <td width="144"><b><font size="1">&lt;/<b><i>XXX</i>TRNRQ&gt;</b></font></b> 
+3855610700 | <p><font size="2">Description</font></i> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1">&lt;/MAIL&gt;</font></b></td>
+    <td width="366">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="132"><b><font size="1"
+3855610800 | <p><font size="2">Clients use the account information requests are subject to data
+synchronization request. </font></p>
+
+<p><font size="2"><i><b>NOTE:</b> Here, VERSION provides the last tag. The activation message
+3855610900 | <p><font size="2"> </font><b><font size="2" face="Arial">Service Activation Synchronization Approach</font></a>
+  </li>
+</ol>
+
+<p><font size="2">The following sections describe each of thes a reference over the Int
+3855611000 | <p><font size="354"><font size="2">Subject of messages. Generallys of furmatted from the server began <i>looking</i>
+    for information request and response that requires one each of</i> &lt;TOKEN&gt; to use multi
+3855611100 | <p><font size="1">&lt;SIGNONINFOLIST&gt;</font></b> </td>
+    <td width="336"><font size="2">Service-specific account information (to) account not found (ERROR)</font> </td>
+  </tr>
+  <tr>
+    <td width="132"><b><f
+3855611200 | <p><font size="1">&lt;PINCHRQ&gt;</font></b> </td>
+    <td width="366"><font size="2">Date and time of update <i>datetime</i></font> </td>
+  </tr>
+  <tr>
+    <td width="180"><b><font size="1">&lt;/MSGSETCORE&gt;</f
+3855611300 | <p><font size="1">&lt;/SONRS&gt;</font></b></td>
+    <td width="366"><font size="2">Missing e-mail responses.</font>
+  </li>
+</ol>
+
+<table border="1">
+  <tbody><tr>
+    <td bgcolor="#000000" width="366"><i><font si

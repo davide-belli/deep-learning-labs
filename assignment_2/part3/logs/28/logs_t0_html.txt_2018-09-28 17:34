@@ -1,0 +1,1101 @@
+100 | .                              
+200 | ="2"><font size="1">&lt;ACNNR&g
+300 | : </td>
+  </tr>
+  <tr>
+    <td 
+400 | ENRRQ&gt;</font></b> </td>
+    
+500 | vers and and and and and and an
+600 | x and the server server server 
+700 | INRQ&gt;</font></b> </td>
+    <
+800 | Z the servers the servers the s
+900 | [ and the server the servers th
+1000 | XXXXXMESGSET&gt;</font></b> </t
+1100 | 2"><b><font size="1">&lt;/MAIL&
+1200 | - </td>
+    <td width="366"><fo
+1300 | BANKACCTFROM&gt;</font></b></td
+1400 | s the client can account inform
+1500 | % and and a server sends the cl
+1600 | nt size="2">Service-specific ac
+1700 | s the client can change and a s
+1800 | 1">&lt;/PINCHRQ&gt;</font></b> 
+1900 | 6"><font size="2">Description</
+2000 | ze="2">Service send the server 
+2100 | p><font size="2">Open Financial
+2200 | "><font size="2">A server shoul
+2300 | 932"><font size="5" face="Arial
+2400 | Q&gt;
+		&lt;USERID&gt;12345
+		&
+2500 | </font></i> </td>
+  </tr>
+  <tr
+2600 | Jate as a server should be cont
+2700 | response file service sends the
+2800 | e server can requests and respo
+2900 | RS&gt;</font></b> </td>
+    <td
+3000 | 2"><b><font size="1">&lt;/<b><i
+3100 | - </td>
+  </tr>
+  <tr>
+    <td 
+3200 | vers are supported in the serve
+3300 | PINCHRS&gt;
+&lt;/PMTTRNRS&gt;
+	
+3400 | quests and response file error 
+3500 | ?&gt;</font></b> </td>
+    <td 
+3600 | nt size="2">The response file e
+3700 | ' </font></li>
+</ul>
+
+<p><font 
+3800 | Open Financial Exchange request
+3900 | ?&gt;</font></b></td>
+    <td w
+4000 | : </font></p>
+
+<p><font size="2
+4100 | ing any server should be a serv
+4200 | 93297"><font size="5" face="Ari
+4300 | ]&gt;, &lt;INVACCTFROM&gt;, &lt
+4400 | size="2">Service activation req
+4500 | Jan 2 and the server sends the 
+4600 | . It is the status codes as the
+4700 | gt;</font></b> </td>
+    <td wi
+4800 | The client will send the connec
+4900 | size="2">The signon request and
+5000 | &lt;MAILTRNRS&gt;
+		&lt;TRNUID&
+5100 | Y&gt; is a server are available
+5200 | 
+    <td width="180"><font size
+5300 | ze="2">Some or more information
+5400 | ID&gt;123456789
+		&lt;ACCTTYPE&
+5500 | #000000" width="162"><i><font s
+5600 | , the client will not connectio
+5700 | ID&gt;123456789
+		&lt;ACCTID&gt
+5800 | :</b> <i>A-10</i></font> </p>
+
+
+5900 | ject to send a response aggrega
+6000 | Q&gt;
+	&lt;TRNUID&gt;12345
+		&l
+6100 | VERITY&gt;INFO
+	&lt;/STATUS&gt;
+6200 | YNCRS&gt;
+	&lt;TOKEN&gt;123
+	&l
+6300 | !-- Introduction. This connecti
+6400 | BANKACCTFROM&gt;
+			&lt;BANKID&
+6500 | me of the client or server of t
+6600 | ze="2">The response file that i
+6700 | the client application services
+6800 | requests and responses to the c
+6900 | USERINFORQ&gt;</font></b> </td>
+7000 | _Toc380493261"><font size="4" f
+7100 | t size="2">The server sends its
+7200 | 00000" width="366"><i><font siz
+7300 |     <td width="132"><b><font si
+11100 | )</font> </td>
+  </tr>
+  <tr>
+ 
+11200 | @imal payment response allows a
+11300 | p><font size="2">The response f
+11400 | th="132"><b><font size="1">&lt;
+11500 | MTRQ&gt;
+	&lt;TRNUID&gt;1234567
+11600 | y the server should include a s
+11700 | t size="2">The response to the 
+11800 | chronization request and respon
+11900 | . The following a synchronizati
+12000 | width="366"><font size="2">Comm
+12100 | HTML page with images_files/sta
+12200 | $1 Code</font></a> </li>
+</ol>
+
+12300 | USERID&gt;123456789
+		&lt;ACCTT
+12400 | USERID&gt;123456789
+		&lt;DTCRE
+12500 | &lt;SIGNONINFO&gt;</font></b> <
+12600 | font></b></td>
+    <td width="3
+12700 | Financial Exchange does not req
+12800 | lt;/SIGNONINFO&gt;</font></b> <
+12900 | . The server sends it is <b>REC
+13000 | Z&gt;, &lt;SVCDEL&gt;</font></b
+13100 | ge in the profile information o
+13200 | ;</font></b> </td>
+    <td widt
+13300 | ?
+		&lt;/MAIL&gt;
+			&lt;BANKAC
+13400 | 80"><font size="1" face="Arial"
+13500 | ="1">&lt;/MAIL&gt;</font></b></
+13600 | #000000" width="366"><i><font s
+13700 | p><font size="2">The client mon
+13800 | 
+  </tr>
+  <tr>
+    <td width="
+13900 | "><b><font size="1">&lt;/<i>ACC
+14000 | d width="366"><font size="2">De
+14100 | [ Subject to synchronization re
+14200 | HTML&gt;
+	&lt;/MAILTRNRS&gt;
+	&
+14300 | + &lt;FITID&gt; to use with Ope
+14400 | The client will not have any ch
+14500 | The client between the informat
+14600 | ject to do this only to return 
+14700 | Wingdings">l</font><font size="
+25800 | k a server to return a list of 
+25900 | responses to the history marker
+26000 | contents of an example of the c
+26100 | L in a client devices, it has n
+26200 | font size="2">Service-specific-
+26300 | 36">&nbsp;</td>
+  </tr>
+</tbody
+26400 | ont></b></td>
+    <td width="35
+26500 | /font></b> </td>
+    <td width=
+26600 | GSET&gt;</font></b> </td>
+    <
+26700 | _Toc380493333"><font size="4" f
+26800 | Zers to application strong chan
+26900 | . The server should return a cl
+27000 | ize="2">Description</font></i> 
+27100 | me of the client will not conne
+27200 | lt;/SIGNUPMSGSETV1&gt;</font></
+27300 | the client will have defines th
+27400 | ?
+		&lt;STATUS&gt;
+			&lt;CODE&
+27500 | Arial">&lt;CITY&gt;</font> </td
+27600 | chronization request and respon
+27700 | 4"><font size="2">Server error 
+27800 | d width="132"><b><font size="1"
+27900 | HTML page with images_files/sta
+28000 | RQ&gt;
+		&lt;URL&gt;http://www.
+28100 | . The actual response, it will 
+28200 | Jan 5, and CHANPErres    RNARS 
+28300 | ject to a mate the client sends
+28400 | ><font size="2">The server can 
+28500 | r the user is actually doing a 
+28600 | s a response is to earn interes
+28700 | /font></b> </td>
+    <td width=
+28800 | gt;</font></b> </td>
+    <td wi
+28900 | ="2">Service-add aggregate</fon
+29000 | 72"><font size="1">&lt;SIGNONIN
+29100 | When the security level authori
+29200 | d width="366"><font size="2">Cl
+29300 | !-- Statement download, investm
+29400 |   <td width="318"><font size="2
+55200 | YNCRQ&gt;</font></b> </td>
+    
+55300 | ont size="2">Service-specific a
+55400 | s to communicate by means of Op
+55500 | 5"><font size="2">Success (INFO
+55600 | chronization with response-file
+55700 | :</font> 
+
+</p><ul>
+  <li><font
+55800 | #000000" width="354"><i><font s
+55900 | :</font> </p>
+
+<pre><font size=
+56000 | USERINFORQ&gt;
+618.5.2 Response
+56100 | 4"><font size="2">Service-speci
+56200 | Zers that would not expect the 
+56300 | D&gt; and &lt;CURRENCY&gt; aggr
+56400 | :</font> </p>
+
+<pre><font size=
+56500 | Open Financial Exchange require
+56600 | HTML page with images_files/sta
+56700 | --&gt; &lt;ACCTTYPE&gt;CHECKING
+56800 | )</font> </td>
+  </tr>
+  <tr>
+ 
+56900 | :</font> </p>
+
+<pre><font size=
+57000 | CCTTO&gt;, &lt;INVACCTTO&gt;)</
+57100 | b><font size="1">&lt;/<b><i>XXX
+57200 | e sets. Its version advances wh
+57300 | VERITY&gt;INFO
+	&lt;/STATUS&gt;
+57400 | 000000" width="132"><i><font si
+57500 | regates is the response is as f
+57600 | © The Signon Message Set Profil
+57700 | L does not require servers to s
+57800 | L described in this chapter han
+57900 | © 1997 CheckFree Corp. Open Fin
+58000 | 		&lt;ACCTTYPE&gt;CHECKING
+		&l
+58100 | quests and responses that are c
+58200 | . The format of the data and in
+58300 | PMTSYNCRQ&gt;
+	&lt;TOKEN&gt;123
+58400 | $100000<//t></td>
+    <td width
+58500 | /font></a> </li>
+</ol>
+
+<p><fon
+58600 | p><font size="2">A client that 
+58700 | ment and server should include 
+58800 | k security in
+the FI profile, o
+114000 | ;</font></td>
+    <td width="36
+114100 | font></b> </td>
+    <td width="
+114200 | &gt;</font></b> </td>
+    <td w
+114300 | Wingdings">l</font><font size="
+114400 | ken. The diagram below shows a 
+114500 | Y&gt;</font></b> </td>
+    <td 
+114600 | s to the client. The approach i
+114700 | version control. Over time ther
+114800 | 4"><font size="5" face="Arial">
+114900 | ge set to careful hold between 
+115000 | pen Financial Exchange server t
+115100 | When it has not their own accou
+115200 | and the same response-file erro
+115300 | use the old and
+new session of
+
+115400 | ange responses to the user befo
+115500 | xchange request in a second fil
+115600 | BANKACCTFROM&gt;
+					&lt;BANKI
+115700 | quest aggregate</font> </td>
+  
+115800 | $100000</font></td>
+    <td wid
+115900 | #000000" width="132"><i><font s
+116000 | 000000" width="366"><i><font si
+116100 | D&gt;123456789
+		&lt;ACCTTYPE&g
+116200 | d width="366"><font size="2">Cl
+116300 | y and holidays. BIWEEKLY will o
+116400 | >
+    <td width="366"><font siz
+116500 | Exchange does not require serve
+116600 | 72"><font size="1">2000</font><
+116700 | 6"><font size="2">Service-speci
+116800 | PMTRQ&gt;
+		&lt;RECSRVRTID&gt;3
+116900 | KID&gt;1234567789
+				&lt;ACCTI
+117000 | Financial Exchange is a relativ
+117100 | :</font> </p>
+
+<p><font size="2
+117200 | y and designed to allow the FI 
+117300 | @import users and responses to 
+117400 | he server can provide a user to
+117500 | [ CDATA [&lt;HTML&gt;&lt;BODY&g
+117600 | )</font> </td>
+  </tr>
+  <tr>
+ 
+231700 | 72"><font size="1">2000</font><
+231800 | D&gt;123456789
+		&lt;ACCTTYPE&g
+231900 | 70" height="70" alt="stadyn_ima
+232000 | ont size="2">The server also ca
+232100 | Wingdings">l</font><font size="
+232200 | Q&gt;
+	&lt;TRNUID&gt;12345
+	&lt
+232300 | Wingdings">l</font><font size="
+232400 | D&gt;123456789
+	&lt;/PINCHRS&gt
+232500 | . The client can
+is the same ac
+232600 | chronization, and then the secu
+232700 | contents of an existing server.
+232800 | Y&gt;</font></b></td>
+    <td w
+232900 | 5"><font size="2">Server Respon
+233000 | quests in this file and of the 
+233100 | "><font size="2">Signon realm i
+233200 | Q&gt; and the synchronization r
+233300 | Jan 5 (that can be referenced o
+233400 | @importanually</font> </td>
+  <
+233500 | $100000</i></font> </td>
+  </tr
+233600 | s to combine information and ac
+233700 | When a customer has payments or
+233800 | /font></td>
+    <td width="300"
+233900 | 	&lt;/BANKACCTFROM&gt;
+			&lt;B
+234000 | %" bgcolor="#000000" width="132
+234100 | -- new requests. </p>
+
+<table b
+234200 | . The server should include log
+234300 | RQ&gt;</b></font></b> </td>
+   
+234400 | KID&gt;1234567789
+				&lt;ACCTI
+234500 | ken is user-ID, which as a phon
+234600 | ange data allow the entire user
+234700 | 54"><font size="2">First name o
+234800 | Open Financial Exchange service
+234900 | ="132"><b><font size="1">&lt;/<
+235000 | USERINFORQ&gt;</font></b> </td>
+235100 | + &lt;ORG&gt;NCH &lt;!-- Name o
+235200 | 000000" width="366"><i><font si
+235300 | Zere countries
+    with synchro
+467000 | ver time of the content in atha
+467100 | b><font size="1">&lt;/<i>ACTION
+467200 | GSETV1&gt;</font></b> </td>
+   
+467300 | Exchange request files senters 
+467400 | 		&lt;/STMTTRNRQ&gt;
+		&lt;STMT
+467500 | 80493297"><font size="4" face="
+467600 | Jan 5 would be resent. If
+they 
+467700 | p><font size="2">The server sen
+467800 | 	&lt;/PMTSYNCRQ&gt;
+	&lt;TOKEN&
+467900 | Jan 5 1.0 or more requests and
+
+468000 | 4" face="Arial">Examples</font>
+468100 | width="162"><b><font size="1">&
+468200 | $1000 a sictetion contain but n
+468300 | CTID&gt;123456789
+		&lt;ACCTTYP
+468400 | #000000" width="162"><i><font s
+468500 | Financial Exchange requests or 
+468600 | an alphanumeric or not the onli
+468700 | pen Financial Exchange servers 
+468800 | ation request in a second fate.
+468900 | users have correctly set the da
+469000 | /font></td>
+    <td width="300"
+469100 | ke some message set.</font> </p
+469200 | $10000</i></font> </td>
+  </tr>
+469300 | KING
+		&lt;/BANKACCTFROM&gt;
+		
+469400 | ont> </td>
+  </tr>
+  <tr>
+    <
+469500 | &gt;</font></b> </td>
+    <td w
+469600 | Jan 5, and a
+complete the serve
+469700 | -- Another or other clients and
+469800 | -- And transactions in advance 
+469900 | %" bgcolor="#000000" width="366
+470000 | p><font size="2">An aggregate d
+470100 | "><font size="2">The response t
+470200 | . The maximum value accepted de
+470300 | 1">&lt;/MAILSYNCRQ&gt;</font></
+470400 | e the server cancels the model 
+470500 | 72"><font size="1">2000</font><
+470600 | ing the records by or canceled.
+937700 | ce conflict detection and resol
+937800 | . The server can mark them as d
+937900 | nt size="2">Service-specific ac
+938000 | 6"><font size="2">Service-speci
+938100 | BANKID&gt;121000248
+		&lt;ACCTI
+938200 | ]&gt;. See the service provider
+938300 | 2"><font size="2">Tag</font></i
+938400 | Open Financial Exchange require
+938500 | Arial">Message Sets</font></a> 
+938600 | USERINFORS&gt;</font></a>
+  </l
+938700 | 1">&lt;/SIGNUPMSGSET&gt;</font>
+938800 | $100000 bytes)"><br>
+stadyn_ima
+938900 | 	&lt;/PMTTRNRS&gt;
+	&lt;/PMTSYN
+939000 | KEN&gt; tag. The server can pro
+939100 | RS&gt;
+	&lt;TOKEN&gt;123
+	&lt;B
+939200 | e server will send the requests
+939300 | ken is a <i>token</i></font> </
+939400 | MAILTRNRS&gt;</font>
+</pre>
+
+<p
+939500 | ="1">&lt;/MAIL&gt;</font></b></
+939600 | When a model is modified,
+all t
+939700 | CTINFO&gt;</font></b> </td>
+   
+939800 | gt;</font></b> </td>
+    <td wi
+939900 | Exchange does not require serve
+940000 | ]&gt;. Sections 426.1 Signon &l
+940100 | message set defines the request
+940200 | gt;</font></b> </td>
+    <td wi
+940300 | #000000" width="366"><i><font s
+940400 | 's two through to complete the 
+940500 | 's time it the response is to e
+940600 | Jan 5 with the requested &lt;DT
+940700 | -- A client can request the &lt
+940800 | Arial">&lt;COUNTRY&gt;</font></
+940900 | user IDs that the user whether 
+941000 | font></b> </td>
+    <td width="
+941100 | "><font size="2">Common message
+941200 | 
+  </tr>
+  <tr>
+    <td width="
+941300 | gt;</font></b> </td>
+    <td wi
+1879000 | 5" face="Arial">Server-Assigned
+1879100 | NCRS&gt;</font></a> </li>
+</ol>
+1879200 | VRTID&gt; is not processed. Cli
+1879300 | :</font> </p>
+
+<table border="1
+1879400 | xchange using the example the f
+1879500 | ;</font></b> </td>
+    <td widt
+1879600 | user ID and password in the res
+1879700 | font size="2">The response form
+1879800 | Toc380493298"><font size="5" fa
+1879900 | b><font size="1">&lt;SIGNONINFO
+1880000 | 			&lt;BANKACCTINFO&gt;
+				&lt
+1880100 | ize="2">Service-specific-accoun
+1880200 | 00000" width="300"><i><font siz
+1880300 | response aggregate</font> </td>
+1880400 | . The client must be able to sy
+1880500 | 366"><font size="2">Clients use
+1880600 | ation request inside the respon
+1880700 | 366"><font size="2">Date of bir
+1880800 | )</font> </td>
+  </tr>
+  <tr>
+ 
+1880900 | (ERROR)</font> </td>
+  </tr>
+  
+1881000 | Z&gt;, or &lt;USERKEY&gt;MINE  
+1881100 | VERSION:100
+SECURITY: 
+ENCODING
+1881200 | NFORS&gt; 678.7.1 &lt;CHGUSERIN
+1881300 | VERITY&gt;INFO
+	&lt;/STATUS&gt;
+1881400 | ze="2">The server responds with
+1881500 | ject to retrieve the HTTP 1.0 s
+1881600 | Y&gt;</font> </td>
+    <td widt
+1881700 | ]&gt;. Enrols:</font> 
+
+</p><ul
+1881800 | ]&gt;</font></b> </td>
+    <td 
+1881900 | request aggregate</font> </td>
+
+1882000 | #000000" width="132"><i><font s
+1882100 | user ID and
+password authentica
+1882200 | 		&lt;/PMTCANCRS&gt;
+		&lt;RECS
+1882300 | contain the naming scheme will 
+1882400 | lt;CURRENCY&gt; aggregates as p
+1882500 | BANKID&gt;555432180
+			&lt;ACCT
+1882600 | me and Response</a> Model</font
+3761600 | lt;MAIL&gt; aggregate
+identifie
+3761700 | 
+    <td width="366"><font size
+3761800 | lt;SIGNON&gt;, and so forth.Cli
+3761900 | ]&gt;. See the example. 
+
+</p><
+3762000 | XXX</i><b>TRNRQ</b>&gt; and &lt
+3762100 | %" bgcolor="#000000" width="132
+3762200 | ked describes each of these sam
+3762300 | quests and responses include a 
+3762400 | D&gt;</font></b></td>
+    <td w
+3762500 | ment detail means that the
+unit
+3762600 | ange HTTP get against the suppl
+3762700 | XXX[-0500:EST]: Fully qualified
+3762800 | width="366"><font size="2">Serv
+3762900 | © 1997 CheckFree Coule;5
+	&lt;/
+3763000 | Jan 5,
+by out any new requests.
+3763100 | NFO&gt;</font></b> </td>
+    <t
+3763200 | @import as SML blank lists the 
+3763300 | ERID&gt;</font></b></td>
+    <t
+3763400 | ]&gt;. The one such as account 
+3763500 | </td>
+    <td width="366"><font
+3763600 | d width="366"><font size="2">Se
+3763700 | nt size="2">The server is unava
+3763800 | S&gt;
+	&lt;TOKEN&gt;123
+	&lt;ST
+3763900 | ject to synchronization request
+3764000 | 	&lt;/STATUS&gt;
+	&lt;GETMIMERS
+3764100 | requests and responses in a cod
+3764200 | quests and responses in a coded
+3764300 | XX</i>TRNRQ&gt;. This example u
+3764400 | . The server can dead for the s
+3764500 | Java aggregate to the history d
+3764600 | y and server should ignore that
+3764700 | 's two through to complete the 
+3764800 | Y&gt;</font></b> </td>
+    <td 
+3764900 | font size="2">The client must b
+3765000 | 80493340"><font size="5" face="
+3765100 | RS&gt;</font></b></td>
+    <td 
+3765200 | MTRQ&gt;
+		&lt;STMTTRNRQ&gt;		&
+7526900 | ONRS&gt;</font></b> </td>
+    <
+7527000 | /font></b> </td>
+    <td width=
+7527100 | b><font size="1">&lt;/SIGNUPMSG
+7527200 | $1000 in this chapter discusses
+7527300 | nt size="2">Service-specific-ac
+7527400 | </font></b></td>
+    <td width=
+7527500 | y the customers are in a statem
+7527600 | lt;/<b><i>XXXACCTINFO</i>&gt;</
+7527700 | NCRS&gt;</font></b> </td>
+    <
+7527800 | ken is the same account.</font>
+7527900 | #000000" width="132"><i><font s
+7528000 | s the client will not save the 
+7528100 | 2">The following table lists th
+7528200 | [ CDATE [ access the same aggre
+7528300 | _Toc380493260"><font size="5" f
+7528400 | D&gt; is absent, the client wil
+7528500 | d width="366"><font size="2">Se
+7528600 | the same real-world account mig
+7528700 | /font></td>
+    <td width="300"
+7528800 | 		&lt;/PMTCANCRS&gt;
+		&lt;RECS
+7528900 | PMTSYNCRQ&gt; aggregates will i
+7529000 | _Toc380493333"><font size="5" f
+7529100 | 54"><font size="2">Common-messa
+7529200 | ME&gt;</font></b> </td>
+    <td
+7529300 | ze="1">&lt;/<b><i>XXX</i>MSGSET
+7529400 | PMTSYNCRQ&gt;
+	&lt;TOKEN&gt;123
+7529500 | 	&lt;/ACCTRS&gt;	
+&lt;/ACCTTRNR
+7529600 | request in a second file, there
+7529700 | quests and responses include a 
+7529800 | The response includes a synchro
+7529900 | he server can dealtment or do e
+7530000 | /tr>
+  <tr>
+    <td width="132"
+7530100 | CCTFROM&gt;</i></font> </td>
+  
+7530200 | ver to use the first try.</font
+7530300 | size="2">The server sends in re
+7530400 | 2"><font size="1">&lt;/<b><i>XX
+15057400 | users to automate transactions 
+15057500 | KACCTTO&gt;
+				&lt;BANKID&gt;1
+15057600 | @import and Payments chapters f
+15057700 | ont></b> </td>
+    <td width="3
+15057800 | D&gt;123456789
+		&lt;ACCTTYPE&g
+15057900 | the client expect the same info
+15058000 | USERID&gt;</font></b></td>
+    
+15058100 | width="180"><font size="1" face
+15058200 | _image7.gif (1702 bytes)"><br>
+
+15058300 | 93298"><font size="4" face="Ari
+15058400 | RECURRINST&gt;</font></b> </td>
+15058500 | Y&gt;</font></b> </td>
+    <td 
+15058600 | gt;</font></b> </td>
+    <td wi
+15058700 | HTML&gt;
+]]&gt;&lt;/MSGBODY&gt;
+15058800 | d width="336"><font size="2">Se
+15058900 | S&gt;</font></b> </td>
+    <td 
+15059000 | S&gt;
+	&lt;TOKEN&gt;102
+	&lt;MA
+15059100 | ><font size="2">The definition 
+15059200 | he server sends in response to 
+15059300 | When a model is created, it has
+15059400 | quest inside the bank message s
+15059500 | RQ&gt;</font></b> </td>
+    <td
+15059600 | Financial Exchange presumes tha
+15059700 | lt;/PMTTRNRQ&gt;
+&lt;/PMTSYNCRQ
+15059800 | ?&lt;/BODY&gt;&lt;![ CDATA [&lt
+15059900 | 54"><font size="2">Signon-infor
+15060000 | 	&lt;/PMTTRNRS&gt;
+		&lt;STATUS
+15060100 | 32"><b><font size="1">&lt;/MAIL
+15060200 | Financial Exchange defines a po
+15060300 | The client
+    is also problems
+15060400 | , and any tags
+that the DTD doe
+15060500 | he response contains the respon
+15060600 | e set up the first requests and
+15060700 | ?&lt;/BODY&gt;&lt;/HTML&gt;
+]]&
+15060800 | $1000 a sical security number,
+
+15060900 | ver to return a USERKEY for fut
+30118400 | Y&gt;</font></b> </td>
+    <td 
+30118500 | gt;</font></b> </td>
+    <td wi
+30118600 | width="366"><font size="2">Serv
+30118700 |   <td width="318"><font size="2
+30118800 | Financial Exchange requests or 
+30118900 | d width="132"><b><font size="1"
+30119000 | e server cannot recognize an er
+30119100 | PINCHRS&gt;</font></a>
+  </li>
+
+30119200 | "><font size="2">Success (INFO)
+30119300 | The client will not completely 
+30119400 | nt></b> </td>
+    <td width="33
+30119500 | BANKACCTFROM&gt;
+		&lt;BANKID&g
+30119600 | 1">Tag</font></i> </td>
+    <td
+30119700 | &gt;</font></b></td>
+    <td wi
+30119800 | 6"><font size="2">Service-speci
+30119900 | 1">&lt;/<b><i>XXXMSGSET</i>&gt;
+30120000 | </font></b> </td>
+    <td width
+30120100 | D&gt;123456789
+		&lt;ACCTTYPE&g
+30120200 | XXXX</i>MSGSV<i>n</i>&gt;
+in Ch
+30120300 | /font> </p>
+
+<p><font size="2">
+30120400 | © 1997 CheckFree Corptreate Syn
+30120500 | and the same response is to ack
+30120600 | &lt;PMTTRNRQ&gt;
+		&lt;TRNUID&g
+30120700 | SETVn</i>&gt;</b></font></b> </
+30120800 | --&gt;
+		...
+		&lt;/INTRATRNRQ&
+30120900 | @imp; &lt;USERPASS&gt;, or &lt;
+30121000 | RNRQ&gt;
+	&lt;/BANKMSGSRQV1&gt;
+30121100 | Exchange response along with co
+30121200 | d width="366"><font size="2">Cl
+30121300 | HTTP result code on
+the first l
+30121400 | -- list of server applications 
+30121500 | Z&gt;, it is possible to client
+30121600 | quests in a single &lt;OFX&gt;
+
+30121700 | contents on these steps can var
+30121800 | he server cancels the model imm
+30121900 | &gt;</font></b> </td>
+    <td w
+60240300 | b></td>
+    <td width="336">&nb
+60240400 | ING&gt;</font></b> </td>
+    <t
+60240500 | 6"><font size="2">Customer acco
+60240600 | 's account number is required a
+60240700 | Arial">&lt;ADDR3&gt;</font> </t
+60240800 | ge set includes two messages: g
+60240900 | D&gt;123456789
+		&lt;ACCTTYPE&g
+60241000 | When the FI identify the server
+60241100 | &lt;/<i>ACTION&gt;</i></font></
+60241200 | MTCANCRQ&gt;
+	&lt;PMTSYNCRS&gt;
+60241300 | 6"><font size="2">Service-speci
+60241400 | _Toc380493333"><font size="5" f
+60241500 | nt size="2">The server also can
+60241600 | S&gt;
+	&lt;TOKEN&gt;126
+	&lt;LO
+60241700 | 's account has only use these r
+60241800 | Arial">Status Code Values for t
+60241900 | 1">&lt;/<b><i>XXXMSGSET</i>&gt;
+60242000 | re a server at a financial
+inst
+60242100 | Toc380493240"><font size="5" fa
+60242200 | d width="366"><font size="2">De
+60242300 | Open Financial Exchange require
+60242400 | Jan 5 that clients might need t
+60242500 | 54"><font size="2">Service-spec
+60242600 | y additional information is cor
+60242700 | 6"><font size="2">Common messag
+60242800 | 		&lt;STATUS&gt;
+		&lt;CODE&gt;
+60242900 | PMTTRNRQ&gt;
+	&lt;TRNUID&gt;123
+60243000 | Jan 5 -->
+
+</hed
+datableble, so
+60243100 | font></td>
+    <td width="366">
+60243200 | Banking</font> 
+
+</p><ol>
+  <li
+60243300 | + 15 days. Secure holdince and 
+60243400 | HTML&gt;</font></b> </td>
+    <
+60243500 | he server does not have to
+hold
+60243600 | 		&lt;STATE&gt;TX
+		&lt;POSTALC
+60243700 | HTML page with images_files/sta
+60243800 | . This chapter specific to this
+60243900 | CTFROM&gt;
+		&lt;TRNAMT&gt;395.
+120484300 | b></td>
+    <td width="354"><fo
+120484400 | &lt;/BANKACCTFROM&gt;
+		&lt;BAN
+120484500 | </font></i> </td>
+    <td bgcol
+120484600 | 's account on Jan 5, and a
+clie
+120484700 | , and so forth. A server respon
+120484800 | KID&gt;123456789
+		&lt;ACCTTYPE
+120484900 | quests and
+responses they are c
+120485000 | (ERROR)</font> </td>
+  </tr>
+  
+120485100 | Y&gt;</font></b> </td>
+    <td 
+120485200 | ?&lt;/BODY&gt;&lt;/HTML&gt;
+]]&
+120485300 | request and response that was s
+120485400 | 32"><font size="1">&lt;/MSGSETL
+120485500 | 4"><font size="4" face="Arial">
+120485600 | user for specific account
+numbe
+120485700 | 
+  </tr>
+  <tr>
+    <td width="
+120485800 | d width="132"><b><font size="1"
+120485900 | XX</i>MSGSV<i>n</i>&gt;. (Compa
+120486000 | [ CDATA [&lt;HTML&gt;&lt;BODY&g
+120486100 | 36"><font size="2">Service-spec
+120486200 | NFORS&gt;</font></b></td>
+    <
+120486300 | 93291">Using Application-level 
+120486400 | CCTTYPE&gt;CHECKING &lt;!--
+Acc
+120486500 |     <td width="132"><b><font si
+120486600 | 
+  <tr>
+    <td width="132"><b>
+120486700 | X</i>TRNRQ&gt;</b></font></b> <
+120486800 | users to contain at least the
+f
+120486900 | font size="2">Service-specific-
+120487000 | . The server sends in response,
+120487100 | RS&gt;</font></a>
+  </li>
+</ol>
+120487200 | [ CDATA [&lt;HTML&gt;&lt;BODY&g
+120487300 | Jan 5, and a
+client can request
+120487400 | 1">&lt;/MSGSETLIST&gt;</font></
+120487500 | !-- Intra-bank transfer message
+120487600 | &gt;</font></b> </td>
+    <td w
+120487700 | RQ&gt;
+&lt;/ENROLLTRNRS&gt;</fo
+120487800 | b><font size="1">&lt;/<b><i>XXX
+120487900 | y the other spouse</font> </li>
+240972200 | Q&gt; transaction returns the c
+240972300 | ]&gt;&lt;/MSGBODY&gt;
+			&lt;IN
+240972400 | NFORQ&gt; &lt;CHGUSERINFORS&gt;
+240972500 | e servers to skip over the unre
+240972600 | Wingdings">n</font><font size="
+240972700 | message set includes two messag
+240972800 | 4"><font size="2">Customer acco
+240972900 | Arial">&lt;ADDR1&gt;</font></b>
+240973000 | an all account information requ
+240973100 | [ CDATA ["and
+suffixed with"]]&
+240973200 | )</font></td>
+    <td width="31
+240973300 | Exchange defines a style betwee
+240973400 | $1000 as defined by the
+mullipt
+240973500 | ><font size="2">The signon send
+240973600 | Open Financial Exchange request
+240973700 | ]&gt;&lt;/MSGBODY&gt;
+			&lt;BA
+240973800 | Q&gt;
+&lt;/PMTSYNCRQ&gt;</font>
+240973900 | ont></b> </td>
+    <td width="3
+240974000 | When the security requirement e
+240974100 | ing the user the options in a c
+240974200 | &lt;/MAILRS&gt;</font></b></td>
+240974300 | message set includes the signon
+240974400 | 93270"><font size="5" face="Ari
+240974500 | NRQ&gt; &lt;!-- End of first re
+240974600 | ID &lt;FI&gt; &lt;!-- End of si
+240974700 | 's customer as way. The client 
+240974800 | inancial Exchange does not requ
+240974900 | 00000" width="366"><i><font siz
+240975000 | XX</i>TRNRQ&gt;. This provides 
+240975100 | $1000 in that are code purphy. 
+240975200 | Arial">E-Mail Message Set Profi
+240975300 | VRTID&gt; is not appropriate as
+240975400 | pen Financial Exchange server. 
+240975500 | 's account to as well, or a cli
+240975600 | 000000" width="132"><i><font si
+240975700 | 80493309"><font size="4" face="
+240975800 | 366"><font size="2">Client can 
+481948100 | © 1997 CheckFree Corp., Intuit 
+481948200 | 
+  </tr>
+  <tr>
+    <td width="
+481948300 | ze="2">The OFXHEADER value shou
+481948400 | "><b><font size="1">&lt;/PROFMS
+481948500 | XXX</i><b>TRNRQ</b>&gt; and &lt
+481948600 | xchange request or response
+tha
+481948700 | ked section to protect the HTML
+481948800 | L description, in which case th
+481948900 | KEN&gt; that is unique across F
+481949000 | 2"><font size="1">&lt;/SVCCHG&g
+481949100 | 
+  </tr>
+  <tr>
+    <td width="
+481949200 | ments for security and how Secu
+481949300 | 6"><font size="2">URL to start 
+481949400 | ="2">The design of Open Financi
+481949500 | k statement download, including
+481949600 | D&gt;12345
+	&lt;ACCTINFORS&gt;
+
+481949700 | pen Financial Exchange services
+481949800 | 493293"><font size="5" face="Ar
+481949900 | ?&lt;/BODY&gt;&lt;/HTML&gt;
+]]&
+481950000 | BANKACCTFROM&gt;
+		&lt;BANKID&g
+481950100 | JECTIFMISSING&gt;. The tag tell
+481950200 | change services. For example, t
+481950300 | ont> </li>
+</ul>
+
+<p><font size
+481950400 | ;</font></b> </td>
+    <td widt
+481950500 | gt;</font></b> </td>
+    <td wi
+481950600 | BANKACCTFROM&gt;
+		&lt;TRNUID&g
+481950700 | 54"><font size="2">FI address c
+481950800 | p>
+
+<p><font size="2">The follo
+481950900 | Financial Exchange reserves a &
+481951000 | change is syntactically similar
+481951100 | "><font size="2">Success (INFO)
+481951200 | RS&gt;
+		&lt;URL&gt;http://www.
+481951300 | ject to recurring model it to n
+481951400 | ce="Arial">&lt;URL&gt;</font></
+481951500 | Jan 5, and a
+client connects on
+481951600 | RS&gt;
+	&lt;TOKEN&gt;125
+	&lt;B
+481951700 | HTTP definity Synchronization S
+963899900 | 2"><b><font size="1">&lt;/<i>AC
+963900000 | &lt;/BANKACCTINFO&gt;	
+		&lt;/A
+963900100 | ment status.<br>
+</font>
+
+</p><
+963900200 | Exchange data. A simple
+file th
+963900300 | /font> </td>
+  </tr>
+  <tr>
+   
+963900400 | e server can forget
+them.</font
+963900500 | vers to start the only addition
+963900600 | USERID&gt;123456789
+			&lt;DTCR
+963900700 | ing transactions to generate</f
+963900800 | $1000 in the details or multipl
+963900900 | </font> </td>
+  </tr>
+  <tr>
+  
+963901000 | ID and password that can be mod
+963901100 | , and so forth. This signon rea
+963901200 | $1000 if the following rules ap
+963901300 | Open Financial Exchange server 
+963901400 | request is return an error and 
+963901500 | ?&lt;/BODY&gt;&lt;/HTML&gt;
+]]&
+963901600 | Meaning</font></i> </td>
+  </tr
+963901700 | [ CDATA [&lt;HTML&gt;&lt;BODY&g
+963901800 | _Toc380493333"><font size="4" f
+963901900 | (ERROR)</font> </td>
+  </tr>
+  
+963902000 | Boolean</i></font> </td>
+  </tr
+963902100 | ont></td>
+  </tr>
+  <tr>
+    <t
+963902200 | + 15 days for the second </li>
+
+963902300 | S&gt;</font></b> </td>
+    <td 
+963902400 | Z&gt;, and security level requi
+963902500 | ge set information</font> </td>
+963902600 | b></td>
+    <td width="366"><fo
+963902700 | MAILSYNCRS&gt;</font></b> </td>
+963902800 | © 1997 Cirred process and the a
+963902900 | BANKACCTFROM&gt;
+		&lt;BANKID&g
+963903000 | ]&gt;</font></b> </td>
+    <td 
+963903100 | </font></b> </td>
+    <td width
+963903200 | 366"><font size="2">Date and ti
+963903300 | HTML),
+featuring tags to identi
+963903400 | :</font> 
+
+</p><ul>
+  <li><font
+1927803300 | !-- Integr tag. The actual elem
+1927803400 | ONE&gt;</font></b> </td>
+    <t
+1927803500 | . This chapter specifies them i
+1927803600 | + &lt;FITID&gt; as a unique key
+1927803700 | ation from the server for a rea
+1927803800 | Q&gt;
+		&lt;STMTTYPHSSSN&gt;</f
+1927803900 | ><font size="2">The server send
+1927804000 | t size="2">The definition of <i
+1927804100 | p><font size="2">If a client da
+1927804200 | L page with images_files/stadyn
+1927804300 | 
+    <td width="180"><b><font s
+1927804400 | Zero or more accounts or servic
+1927804500 | KEN&gt; tag. Server description
+1927804600 | Open Financial Exchange is for 
+1927804700 | d width="366"><font size="2">Cl
+1927804800 | 2"><font size="1">&lt;/MAIL&gt;
+1927804900 | use the appropriate PKCS#7 mess
+1927805000 | 4" face="Arial">&lt;CITY&gt;</f
+1927805100 | Z&gt;,
+the server sends the ser
+1927805200 | xchange request inside the sign
+1927805300 | Y&gt; aggregate appear in thul 
+1927805400 | 2"><b><font size="1">&lt;/<i>AC
+1927805500 | 32"><b><font size="1">&lt;/SIGN
+1927805600 | © 1997 CheckEFD if prividual ca
+1927805700 | d width="132"><b><font size="1"
+1927805800 | Arial">&lt;CHGUSERINFORQ&gt;</f
+1927805900 | ject to return both. The enroll
+1927806000 | "><font size="2">Customer accou
+1927806100 | ></b> </td>
+    <td width="318"
+1927806200 | lt;ACCTINFORS&gt;</font></b> </
+1927806300 | 	&lt;/PMTTRNRS&gt;
+&lt;/PMTSYNC
+1927806400 | ;</font></b> </td>
+    <td widt
+1927806500 | %" bgcolor="#F2F2FF">
+  <tbody>
+1927806600 | #000000" width="336"><i><font s
+1927806700 | p><font size="2">The client mus
+1927806800 | KING
+		&lt;/BANKACCTFROM&gt;
+		
+1927806900 | nt size="2">The design of Open 
+3855610300 | y and some types of client to t
+3855610400 | GML block 2
+---boundentifier, <
+3855610500 | The response can contain a temp
+3855610600 | d width="366"><font size="2">Da
+3855610700 | size="2">First name of user</fo
+3855610800 | 70" alt="stadyn_image10.gif (42
+3855610900 | b><font size="1">&lt;/SIGNONINF
+3855611000 | 2"><b><font size="1">&lt;/<b><i
+3855611100 | 's customer and when a customer
+3855611200 | ject to interest rates, and so 
+3855611300 | vers should created, it is do i

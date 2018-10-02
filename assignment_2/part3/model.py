@@ -24,13 +24,16 @@ import torch
 class TextGenerationModel(nn.Module):
 
     def __init__(self, batch_size, seq_length, vocabulary_size,
-                 lstm_num_hidden=256, lstm_num_layers=2, device='cuda:0'):
+                 lstm_num_hidden=256, lstm_num_layers=2, device='cuda:0', input_size=1):
 
         super(TextGenerationModel, self).__init__()
         
+        self.emb_size = 64
+        
         self.device = device
-        self.emb = nn.Embedding(batch_size * seq_length, 64)
-        self.lstm = nn.LSTM(64, lstm_num_hidden, num_layers=lstm_num_layers, dropout=0.3)
+        # self.emb = nn.Embedding(batch_size * seq_length, 64)
+        # self.lstm = nn.LSTM(64, lstm_num_hidden, num_layers=lstm_num_layers, dropout=0)
+        self.lstm = nn.LSTM(input_size, lstm_num_hidden, num_layers=lstm_num_layers, dropout=0)
         self.linear = nn.Linear(lstm_num_hidden, vocabulary_size)
         self.h = None
 
@@ -39,15 +42,17 @@ class TextGenerationModel(nn.Module):
         # Reset hidden layer for Training
         if self.training:
             self.h = None
-                
-        # Implementation here...
-        x = self.emb(x.squeeze(-1).type(torch.LongTensor).to(self.device))
-        out, h = self.lstm(x, self.h)
+            
+        # x = self.emb(x.squeeze(-1).type(torch.LongTensor).to(self.device))
+        
+        out, h = self.lstm(x.transpose(0, 1), self.h)
         out = self.linear(out)
 
         # Handle hidden layer for Inference
         if not self.training:
             self.h = h
         
-        
         return out
+    
+    def reset_hidden(self):
+        self.h = None

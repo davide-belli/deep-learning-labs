@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #PBS -qgpu
-#PBS -lwalltime=00:10:00
+#PBS -lwalltime=04:00:00
 #PBS -S /bin/bash
 #PBS -lnodes=1:ppn=12
 #PBS -lmem=250G
