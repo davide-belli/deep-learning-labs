@@ -103,26 +103,28 @@ class VAE(nn.Module):
         (from bernoulli) and the means for these bernoullis (as these are
         used to plot the data manifold).
         """
-        mu = torch.randn(n_samples, 20).to(device)
-        std = torch.randn(n_samples, 20).to(device)
+        mu = torch.randn(n_samples, self.z_dim).to(device)
+        std = torch.randn(n_samples, self.z_dim).to(device)
         z = self.reparameterize(mu, std)
         y = self.decoder(z)
         
         sampled_ims, im_means = torch.sigmoid(y.view(n_samples, 28, 28)), mu
         return sampled_ims, im_means
     
-    def sample_manifold(self, n_samples):
+    def sample_manifold(self, step):
         """
         Sample n_samples from the model. Return both the sampled images
         (from bernoulli) and the means for these bernoullis (as these are
         used to plot the data manifold).
         """
-        mu = torch.randn(n_samples, 20).to(device)  # TODO uniform
-        std = torch.randn(n_samples, 20).to(device)  # TODO zeros
+        range = torch.linspace(-2, 2, step)
+        mesh = torch.meshgrid((range, range))
+        mu = torch.stack(mesh, dim=-1).to(device)
+        std = torch.zeros_like(mu)
         z = self.reparameterize(mu, std)
         y = self.decoder(z)
 
-        sampled_ims, im_means = y.view(n_samples, 28, 28), mu
+        sampled_ims, im_means = y.view(step**2, 28, 28), mu
         return sampled_ims, im_means
 
 
@@ -180,12 +182,20 @@ def save_elbo_plot(train_curve, val_curve, filename):
 def main():
     if not os.path.exists("samples"):
         os.makedirs("samples")
+
+    if not os.path.exists("manifolds"):
+        os.makedirs("manifolds")
         
     data = bmnist(batch_size=ARGS.batch_size)[:2]  # ignore test split
     model = VAE(z_dim=ARGS.zdim)
     model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=ARGS.lr_rate)
 
+    # Pre-training samples
+    samples, samples_mu = model.sample(64)
+    grid = make_grid(samples.unsqueeze(1))
+    save_image(grid, f"samples/0.png")
+    
     train_curve, val_curve = [], []
     for epoch in range(ARGS.epochs):
         elbos = run_epoch(model, data, optimizer)
@@ -198,9 +208,15 @@ def main():
         #  Add functionality to plot samples from model during training.
         #  You can use the make_grid functioanlity that is already imported.
         # --------------------------------------------------------------------
-        samples, samples_mu = model.sample(64)
-        grid = make_grid(samples.unsqueeze(1))
-        save_image(grid, f"samples/{epoch}.png")
+        # samples, samples_mu = model.sample(64)
+        # grid = make_grid(samples.unsqueeze(1))
+        # save_image(grid, f"samples/{epoch+1}.png")
+
+        samples, samples_mu = model.sample_manifold(20)
+        grid = make_grid(samples.unsqueeze(1), nrow=20)
+        save_image(grid, f"manifolds/{epoch+1}.png")
+        
+        manifold = model.sample_manifold(20)
         kkkk = 0
 
     # --------------------------------------------------------------------
@@ -216,7 +232,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--epochs', default=40, type=int,
                         help='max number of epochs')
-    parser.add_argument('--zdim', default=20, type=int,
+    parser.add_argument('--zdim', default=2, type=int,
                         help='dimensionality of latent space')
     parser.add_argument('--batch_size', default=128, type=int,
                         help='size of each batch')
