@@ -216,8 +216,6 @@ def main():
         grid = make_grid(samples.unsqueeze(1), nrow=20)
         save_image(grid, f"manifolds/{epoch+1}.png")
         
-        manifold = model.sample_manifold(20)
-        kkkk = 0
 
     # --------------------------------------------------------------------
     #  Add functionality to plot plot the learned data manifold after
