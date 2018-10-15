@@ -80,7 +80,7 @@ class VAE(nn.Module):
         return z
     
     def compute_elbo(self, input, output, mu, logvar):
-        bce = F.binary_cross_entropy_with_logits(output, input, reduction='elementwise_sum')
+        bce = F.binary_cross_entropy_with_logits(output, input, reduction='sum')
         kl = -0.5 * torch.sum(1 + logvar - mu.pow(2) - logvar.exp())
         return (bce + kl) / input.shape[0]
 
@@ -103,19 +103,18 @@ class VAE(nn.Module):
         (from bernoulli) and the means for these bernoullis (as these are
         used to plot the data manifold).
         """
-        mu = torch.randn(n_samples, self.z_dim).to(device)
-        std = torch.randn(n_samples, self.z_dim).to(device)
-        z = self.reparameterize(mu, std)
+        # mu = torch.randn(n_samples, self.z_dim).to(device)
+        # std = torch.randn(n_samples, self.z_dim).to(device)
+        # z = self.reparameterize(mu, std)
+        z = torch.randn(n_samples, self.z_dim).to(device)
         y = self.decoder(z)
         
-        sampled_ims, im_means = torch.sigmoid(y.view(n_samples, 28, 28)), mu
-        return sampled_ims, im_means
+        means = torch.sigmoid(y.view(n_samples, 28, 28))
+        return torch.bernoulli(means), means
     
     def sample_manifold(self, step):
         """
-        Sample n_samples from the model. Return both the sampled images
-        (from bernoulli) and the means for these bernoullis (as these are
-        used to plot the data manifold).
+        Sample a manifold
         """
         range = torch.linspace(-2, 2, step)
         mesh = torch.meshgrid((range, range))
@@ -180,11 +179,11 @@ def save_elbo_plot(train_curve, val_curve, filename):
 
 
 def main():
-    if not os.path.exists("samples"):
-        os.makedirs("samples")
+    if not os.path.exists("samples_vae"):
+        os.makedirs("samples_vae")
 
-    if not os.path.exists("manifolds"):
-        os.makedirs("manifolds")
+    if not os.path.exists("manifolds_vae"):
+        os.makedirs("manifolds_vae")
         
     data = bmnist(batch_size=ARGS.batch_size)[:2]  # ignore test split
     model = VAE(z_dim=ARGS.zdim)
@@ -194,7 +193,7 @@ def main():
     # Pre-training samples
     samples, samples_mu = model.sample(64)
     grid = make_grid(samples.unsqueeze(1))
-    save_image(grid, f"samples/0.png")
+    save_image(grid, f"samples_vae/0.png")
     
     train_curve, val_curve = [], []
     for epoch in range(ARGS.epochs):
@@ -208,13 +207,14 @@ def main():
         #  Add functionality to plot samples from model during training.
         #  You can use the make_grid functioanlity that is already imported.
         # --------------------------------------------------------------------
-        # samples, samples_mu = model.sample(64)
-        # grid = make_grid(samples.unsqueeze(1))
-        # save_image(grid, f"samples/{epoch+1}.png")
+        samples, samples_mu = model.sample(64)
+        grid = make_grid(samples.unsqueeze(1))
+        save_image(grid, f"samples_vae/{epoch+1}.png")
 
-        samples, samples_mu = model.sample_manifold(20)
-        grid = make_grid(samples.unsqueeze(1), nrow=20)
-        save_image(grid, f"manifolds/{epoch+1}.png")
+        if ARGS.zdim == 2:
+            samples, samples_mu = model.sample_manifold(20)
+            grid = make_grid(samples.unsqueeze(1), nrow=20)
+            save_image(grid, f"manifolds_vae/{epoch+1}.png")
         
 
     # --------------------------------------------------------------------
@@ -222,6 +222,7 @@ def main():
     #  if required (i.e., if zdim == 2). You can use the make_grid
     #  functionality that is already imported.
     # --------------------------------------------------------------------
+    # I do this in every epoch, to see how the manifold evolves with the training
 
     save_elbo_plot(train_curve, val_curve, 'elbo.pdf')
 

@@ -9,7 +9,6 @@ from torchvision.utils import save_image
 from torchvision import datasets
 import numpy as np
 
-
 class Generator(nn.Module):
     def __init__(self):
         super(Generator, self).__init__()
@@ -91,28 +90,27 @@ class Discriminator(nn.Module):
         out = self.sigmoid(out)
         
         return out
-    
-    
-def plot_interpolations(generator, batches_done):
-    z1 = torch.FloatTensor(np.random.normal(0, 1, (args.latent_dim))).to(args.device)
-    z2 = torch.FloatTensor(np.random.normal(0, 1, (args.latent_dim))).to(args.device)
-    z = torch.empty(args.latent_dim, 9).to(args.device)
-    
-    for i in range(args.latent_dim):
-        r = torch.linspace(z1[i], z2[i], 9)
-        z[i] = r
-    z.transpose_(0, 1)
-    imgs = generator(z)
-    save_image(imgs.unsqueeze(1),
-               'interpolations/{}.png'.format(batches_done),
-               nrow=9, normalize=True)
-    
-    
-    return
+
+
+def interpolations(n_samples=20):
+    samples = []
+    for _ in range(n_samples):
+        z1 = torch.FloatTensor(np.random.normal(0, 1, (args.latent_dim))).to(args.device)
+        z2 = torch.FloatTensor(np.random.normal(0, 1, (args.latent_dim))).to(args.device)
+        z = torch.empty(args.latent_dim, 9).to(args.device)
+        
+        for i in range(args.latent_dim):
+            r = torch.linspace(z1[i], z2[i], 9)
+            z[i] = r
+        z.transpose_(0, 1)
+        samples.append(z)
+        
+    return samples
 
 
 def train(dataloader, discriminator, generator, optimizer_G, optimizer_D):
     criterion = torch.nn.BCELoss()
+    interpolation_samples = interpolations(n_samples=100)
     
     for epoch in range(args.n_epochs):
         for i, (imgs, _) in enumerate(dataloader):
@@ -151,26 +149,33 @@ def train(dataloader, discriminator, generator, optimizer_G, optimizer_D):
             batches_done = epoch * len(dataloader) + i
             
             if batches_done % 100 == 0:
-                print("Epoch: {}/{} | Batch: {}/{} | G_Loss: {:.4f} | D_Loss(real/fake) {:.4f}/{:.4f}".format(
-                    epoch, args.n_epochs, i, len(dataloader), d_loss, d_loss_real, d_loss_fake))
+                print("Epoch: {}/{} | Batch: {}/{} | G_Loss: {:.4f} | "
+                      "D_Loss {:.4f} | D(x): {:.2f} | D(G(z)): {:.2f}|".format(
+                    epoch, args.n_epochs, i, len(dataloader), g_loss, d_loss,
+                    real_scores.data.mean(), fake_scores.data.mean()))
             
             if batches_done % args.save_interval == 0:
                 # You can use the function save_image(Tensor (shape Bx1x28x28),
                 # filename, number of rows, normalize) to save the generated
                 # images, e.g.:
                 save_image(fake_imgs.unsqueeze(1)[:25],
-                           'images/{}.png'.format(batches_done),
+                           'samples_gan/{}.png'.format(batches_done),
                            nrow=5, normalize=True)
-                
-                plot_interpolations(generator, batches_done)
-                
+
+        if epoch % 10 == 0:
+            for i in range(len(interpolation_samples)):
+                z = interpolation_samples[i]
+                imgs = generator(z)
+                save_image(imgs.unsqueeze(1),
+                           'interpolations_gan/epoch{}_n{}.png'.format(epoch, i),
+                           nrow=9, normalize=True)
                 
 
 
 def main():
     # Create output image directory
-    os.makedirs('images', exist_ok=True)
-    os.makedirs('interpolations', exist_ok=True)
+    os.makedirs('samples_gan', exist_ok=True)
+    os.makedirs('interpolations_gan', exist_ok=True)
     
     # load data
     dataloader = torch.utils.data.DataLoader(
@@ -187,6 +192,9 @@ def main():
     generator, discriminator = generator.to(args.device), discriminator.to(args.device)
     optimizer_G = torch.optim.Adam(generator.parameters(), lr=args.lr)
     optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=args.lr)
+
+    checkpoint = torch.load("mnist_generator1.pt")
+    generator.load_state_dict(checkpoint)
     
     # Start training
     train(dataloader, discriminator, generator, optimizer_G, optimizer_D)
