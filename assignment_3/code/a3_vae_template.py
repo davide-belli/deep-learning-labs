@@ -207,6 +207,7 @@ def main():
         #  Add functionality to plot samples from model during training.
         #  You can use the make_grid functioanlity that is already imported.
         # --------------------------------------------------------------------
+        # We are still in model.eval()
         samples, samples_mu = model.sample(64)
         grid = make_grid(samples.unsqueeze(1))
         save_image(grid, f"samples_vae/{epoch+1}.png")

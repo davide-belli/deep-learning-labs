@@ -163,12 +163,14 @@ def train(dataloader, discriminator, generator, optimizer_G, optimizer_D):
                            nrow=5, normalize=True)
 
         if epoch % 10 == 0:
+            generator.eval()
             for i in range(len(interpolation_samples)):
                 z = interpolation_samples[i]
                 imgs = generator(z)
                 save_image(imgs.unsqueeze(1),
                            'interpolations_gan/epoch{}_n{}.png'.format(epoch, i),
                            nrow=9, normalize=True)
+            generator.train()
                 
 
 
